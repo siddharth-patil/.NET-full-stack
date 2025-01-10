@@ -30,9 +30,9 @@ select last_name, hire_date, trunc((sysdate - hire_date)/30) as duration
 from employees
 order by duration;
 -------------------------------------------------------------------------
---select last_name, lpad(salary, length(salary),'*')
---from employees
---order by salary;
+select last_name,salary, lpad(' ',trunc((salary/1000)+1),'*')
+from employees
+order by salary;
 ------------------------------------------------------------------------
 select last_name, trunc((sysdate-hire_date)/7) as "Weeks Worked"
 from employees 
