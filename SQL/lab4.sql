@@ -49,7 +49,7 @@ select last_name from employees
 where last_name like '__a%';
 ----
 select last_name from employees
-where last_name like '%a%' or last_name like '%i%';
+where last_name like '%a%' and last_name like '%i%';
 -----------------------------------------------------
 --Extra
 select last_name, job_id, salary from employees
