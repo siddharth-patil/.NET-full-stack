@@ -1,5 +1,5 @@
 --lab4 chapter 3 - ordering and sorting
-
+select * from  employees;
 select last_name, salary
 from employees where salary>12000;
 -----
@@ -51,8 +51,13 @@ where last_name like '__a%';
 select last_name from employees
 where last_name like '%a%' or last_name like '%i%';
 -----------------------------------------------------
-
-
+--Extra
+select last_name, job_id, salary from employees
+where job_id in('SA_REP','ST_CLERK') and salary not in (2500, 3500, 7000);
+----------------
+select concat(last_name, concat(' - ',job_id)) as "Employee-Job"
+from employees
+where department_id=10;
 
 
 
