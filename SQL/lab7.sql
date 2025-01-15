@@ -75,10 +75,34 @@ FROM
     
     
 --Extra 2
-select department_id, avg(salary)
+select round(max(avg(salary)))
 from employees
 group by department_id;
 
+--Extra 3
+
+--select d.department_id, d.department_name, count (e.employee_id)
+--from departments d
+--join employees e
+--on d.department_id = e.department_id
+--group by department_id, d.department_name;
+
+
+SELECT 
+    d.department_id,
+    d.department_name,
+    COUNT(e.employee_id) AS number_of_employees
+FROM 
+    departments d
+LEFT JOIN 
+    employees e
+ON 
+    d.department_id = e.department_id
+GROUP BY 
+    d.department_id, 
+    d.department_name
+ORDER BY 
+    d.department_id;
 
 
 
