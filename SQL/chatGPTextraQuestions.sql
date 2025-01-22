@@ -35,6 +35,80 @@ from employees e1
 join employees e2
 on e1.manager_id = e2.employee_id;
 
+--5. Find all employees who work in the location with the city "Seattle."
+--   - Tables: `employees`, `departments`, `locations`
+
+select e.employee_id, e.last_name, e.department_id, l.city
+from employees e
+join departments d on e.department_id = d.department_id
+join locations l on d.location_id = l.location_id;
+
+--6. Display the name of the employee, their job title, and the department name.
+--   - Tables: `employees`, `jobs`, `departments`
+
+select e.last_name, j.job_title, d.department_name
+from employees e
+join jobs j
+on e.job_id = j.job_id
+join departments d
+on e.department_id = d.department_id;
+
+--7. Retrieve the details of employees along with their country names.
+--   - Tables: `employees`, `departments`, `locations`, `countries`
+
+select e.employee_id, e.last_name, c.country_name
+from employees e
+join departments d
+on e.department_id = d.department_id
+join locations l
+on d.location_id = l.location_id
+join countries c
+on l.country_id = c.country_id;
+
+--8. Show the department names that have employees earning more than $10,000.
+--   - Tables: `employees`, `departments`
+
+select distinct(department_name)
+from departments 
+join employees
+using (department_id)
+where salary>10000;
+
+
+--9. List all departments that do not have any employees.
+--   - Tables: `departments`, `employees` (use OUTER JOIN)
+select * from departments;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
