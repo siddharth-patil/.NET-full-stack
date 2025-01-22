@@ -79,7 +79,16 @@ where salary>10000;
 --   - Tables: `departments`, `employees` (use OUTER JOIN)
 select * from departments;
 
+--select d.department_name 
+--from departments d
+--where d.department_id not in (select distinct(department_id)
+--                                    from employees);
 
+select d.department_name
+from departments d
+left join employees e
+on e.department_id = d.department_id
+where e.employee_id is null;
 
 
 
