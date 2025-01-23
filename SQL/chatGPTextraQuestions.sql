@@ -90,10 +90,21 @@ left join employees e
 on e.department_id = d.department_id
 where e.employee_id is null;
 
+--10. Retrieve the names of employees who have the same job as their manager.
+--    - Tables: `employees` (self-join)
 
+select e1.employee_id
+from employees e1
+join employees m
+on e1.manager_id = m.employee_id
+where e1.job_id = m.job_id;
 
-
-
+SELECT e.employee_id, e.first_name AS employee_name, e.job_id AS employee_job,
+       m.employee_id AS manager_id, m.first_name AS manager_name, m.job_id AS manager_job
+FROM employees e
+JOIN employees m
+ON e.manager_id = m.employee_id
+WHERE e.job_id = m.job_id;
 
 
 
