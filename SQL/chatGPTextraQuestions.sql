@@ -106,15 +106,66 @@ JOIN employees m
 ON e.manager_id = m.employee_id
 WHERE e.job_id = m.job_id;
 
+--11 Display the total salary paid to employees in each country.
+--    - Tables: `employees`, `departments`, `locations`, `countries`
+select country_name, sum(salary)
+from countries
+join locations using (country_id)
+join departments using (location_id)
+join employees using (department_id)
+group by country_name;
+            --OR--
+SELECT c.country_id, c.country_name, SUM(e.salary) AS total_salary
+FROM employees e
+JOIN departments d ON e.department_id = d.department_id
+JOIN locations l ON d.location_id = l.location_id
+JOIN countries c ON l.country_id = c.country_id
+GROUP BY c.country_id, c.country_name
+ORDER BY total_salary DESC;
 
+--12. List all jobs that do not have any employees assigned to them.
+--    - Tables: `jobs`, `employees` (use OUTER JOIN)
 
+select j.job_id
+from jobs j
+left join employees e
+on e.job_id = j.job_id
+where e.employee_id is null;
 
+SELECT j.job_id, j.job_title
+FROM jobs j
+LEFT JOIN employees e
+ON j.job_id = e.job_id
+WHERE e.employee_id IS NULL;
 
+select distinct job_id from jobs;
+select distinct job_id from employees;
 
+--### **Challenge JOIN Questions**
 
+--13. Write a query to retrieve the employees who work in the same department as "Steven King."
+--    - Tables: `employees`, `departments`
 
+select e.employee_id, d.department_name
+from employees e
+join departments d
+on e.department_id = d.department_id
+where department_name = (select distinct(department_name) from departments d
+                          join employees e on e.department_id = d.department_id
+                          where e.last_name = 'King' and e.first_name = 'Steven')
+                          and e.last_name <> 'King' and e.first_name <> 'Steven';
+                          
+                          --OR--
 
+SELECT e.employee_id, e.first_name AS employee_name, e.department_id
+FROM employees e
+JOIN employees s
+ON e.department_id = s.department_id
+WHERE s.first_name = 'Steven' AND s.last_name = 'King'
+  AND e.employee_id != s.employee_id;
 
+--14. Retrieve the department name, city, and the average salary of employees in each department.
+--    - Tables: `employees`, `departments`, `locations`
 
 
 
