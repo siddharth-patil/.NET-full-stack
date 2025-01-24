@@ -166,15 +166,56 @@ WHERE s.first_name = 'Steven' AND s.last_name = 'King'
 
 --14. Retrieve the department name, city, and the average salary of employees in each department.
 --    - Tables: `employees`, `departments`, `locations`
+select d.department_name, l.city, round(avg(e.salary))
+from employees e
+join departments d
+on e.department_id = d.department_id
+join locations l
+on d.location_id = l.location_id
+group by d.department_name, l.city;
 
+--15. Show the names of countries where no employees are currently working.
+--    - Tables: `countries`, `locations`, `departments`, `employees` (use OUTER JOIN)
 
+select distinct(c.country_name)
+from countries c
+left join locations l
+on c.country_id = l.country_id
+left join departments d 
+on l.location_id = d.location_id
+left join employees e
+on d.department_id = e.department_id
+where e.employee_id is null
+order by c.country_name;
 
+SELECT c.country_id, c.country_name
+FROM countries c
+LEFT JOIN locations l ON c.country_id = l.country_id
+LEFT JOIN departments d ON l.location_id = d.location_id
+LEFT JOIN employees e ON d.department_id = e.department_id
+WHERE e.employee_id IS NULL
+group by c.country_id, c.country_name
+order by c.country_name;
 
+--16. Find the employees who are earning less than the average salary of their department.
+--    - Tables: `employees`, `departments`
 
+select employee_id
+from employees
+join (select department_id, avg(salary)as avg_sal from employees
+           group by department_id ) avg_tbl
+on employees.department_id = avg_tbl.department_id
+where employees.salary < avg_tbl.avg_sal;
 
-
-
-
+SELECT e.employee_id, e.first_name, e.last_name, e.salary, e.department_id
+FROM employees e
+JOIN (
+    SELECT department_id, AVG(salary) AS avg_salary
+    FROM employees
+    GROUP BY department_id
+) dept_avg
+ON e.department_id = dept_avg.department_id
+WHERE e.salary < dept_avg.avg_salary;
 
 
 
