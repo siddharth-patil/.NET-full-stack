@@ -54,6 +54,13 @@ where department_id = (select department_id from employees
                                 where last_name = 'Higgins')
 and last_name <> 'Higgins';
 
+--9
+select e.last_name, e.salary, m.last_name, m.salary
+from employees e
+join employees m
+on e.manager_id = m.employee_id
+where e.salary > m.salary;
+
 
 
 
