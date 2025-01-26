@@ -137,19 +137,67 @@ where e.employee_id is null;
 
 --26. Write a query to display the total salary for each country.
 --    - Tables: `employees`, `departments`, `locations`, `countries`
+select distinct(country_name) from countries;
 
+select c.country_name, sum(e.salary) "Total Country Salary"
+from employees e
+join departments d
+on e.department_id = d.department_id
+join locations l
+on d.location_id = l.location_id
+join countries c
+on l.country_id = c.country_id
+group by c.country_name;
 
+--27. Find all employees who are earning less than the highest-paid employee in the "IT" department.
+--    - Tables: `employees`, `departments`
+select e.employee_id, e.department_id, d.department_name, e.salary
+from employees e
+left join departments d
+on e.department_id = d.department_id
+where salary < (select max(salary) from employees e1 
+                    join departments d1 on e1.department_id = d1.department_id
+                    where d1.department_name = 'IT')
+order by e.employee_id;
+                --OR--
+SELECT e.employee_id, e.first_name, e.last_name, e.salary, e.department_id
+FROM employees e
+WHERE e.salary < (
+    SELECT MAX(e2.salary)
+    FROM employees e2
+    JOIN departments d ON e2.department_id = d.department_id
+    WHERE d.department_name = 'IT'
+)
+order by e.employee_id;
 
+--28. Show the department name and the average salary of employees, sorted by the average salary in descending order.
+--    - Tables: `employees`, `departments`
+select d.department_name, round(avg(e.salary))
+from departments d
+join employees e
+on d.department_id = e.department_id
+group by d.department_name
+order by round(avg(e.salary));
 
+--29. Retrieve the employees whose hire date is the earliest in their department.
+--    - Tables: `employees`, `departments`
+select e.employee_id, e.hire_date
+from employees e
+where e.hire_date = (select min(hire_date) from employees e1
+                        where e.department_id = e1.department_id );
 
+           --OR--
+SELECT e.employee_id, e.first_name, e.last_name, e.hire_date, d.department_name
+FROM employees e
+JOIN departments d ON e.department_id = d.department_id
+WHERE e.hire_date = (
+    SELECT MIN(e2.hire_date)
+    FROM employees e2
+    WHERE e2.department_id = e.department_id
+);
 
-
-
-
-
-
-
-
+--30. Find the names of employees who have been with the company for more than 10 years.
+--    - Table: `employees`
 
 
 
