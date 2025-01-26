@@ -198,8 +198,13 @@ WHERE e.hire_date = (
 
 --30. Find the names of employees who have been with the company for more than 10 years.
 --    - Table: `employees`
-
-
+select last_name, hire_date
+from employees
+where (sysdate-hire_date)>10;
+            --OR--
+SELECT employee_id, first_name, last_name, hire_date
+FROM employees
+WHERE ADD_MONTHS(hire_date, 120) <= SYSDATE;
 
 
 
