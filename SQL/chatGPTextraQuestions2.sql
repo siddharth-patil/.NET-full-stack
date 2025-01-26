@@ -44,32 +44,99 @@ where c.country_name = (select c.country_name
                         on l.country_id = c.country_id
                         where last_name = 'King' and first_name='Steven');
 
+--10. Retrieve the job title and the total salary paid for each job.
+--    - Tables: `employees`, `jobs`
+select * from jobs;
 
+select job_title, sum(salary)
+from jobs j
+join employees e
+on e.job_id = j.job_id
+group by job_title;
 
+--11. Display the department ID and the total salary for each department.
+--    - Tables: `employees`
+select department_id, sum(salary)
+from employees 
+group by department_id;
 
+--13. Retrieve the department name and the number of employees in each department.
+--    - Tables: `employees`, `departments`
 
+select d.department_name, count(e.employee_id) --count(*) also works
+from departments d
+join employees e
+on d.department_id = e.department_id
+group by d.department_name;
 
+--14. Find the city where the highest-paid employee works.
+--    - Tables: `employees`, `departments`, `locations`
+select e.last_name, e.salary, l.city
+from employees e
+join departments d
+on e.department_id = d.department_id
+join locations l
+on d.location_id = l.location_id
+where e.salary = (select max(salary) from employees);
 
+--15. List the department names that have more than 5 employees.
+--    - Tables: `employees`, `departments`
+select d.department_name, count(e.employee_id) as noOfEmp
+from departments d
+join employees e
+on d.department_id = e.department_id
+group by d.department_name
+having  count(e.employee_id) > 5;
 
+--16. Retrieve the employees who earn more than the average salary of their department.
+--    - Table: `employees`
+select e1.employee_id, e1.department_id, e1.salary
+from employees e1 
+where salary > (select avg(salary) 
+                    from employees e2
+                    where e2.department_id = e1.department_id);
 
+--17. Find the name and job title of the highest-paid employee in each department.
+--    - Tables: `employees`, `jobs`, `departments`
+select e.last_name, j.job_title
+from employees e
+join jobs j
+on e.job_id = j.job_id
+where e.salary = (select max(salary) 
+                    from employees e2
+                    where e2.department_id = e.department_id
+                    );
 
+--18. Display the employee details of those who work in the same department as "Neena Kochhar."
+--    - Tables: `employees`, `departments`
+select first_name, last_name, employee_id, department_id
+from employees 
+where department_id = (select department_id from employees where last_name ='Kochhar' and first_name = 'Neena')
+and (last_name <>'Kochhar' and first_name <> 'Neena');
 
+--19. Show the job title and department name of the employee earning the highest salary.
+--    - Tables: `employees`, `jobs`, `departments`
+select e.employee_id, e.last_name, j.job_title, d.department_name
+from employees e
+join jobs j on e.job_id = j.job_id
+join departments d on e.department_id = d.department_id
+where e.salary = (select max(salary) from employees);
 
+--20. List the employees whose salary is higher than the average salary of all employees.
+--    - Table: `employees`
+ select employee_id , last_name
+ from employees 
+ where salary > (select avg(salary) from employees);
+ 
+--25. List all departments that do not have any employees.
+--    - Tables: `departments`, `employees`
+select d.department_name, e.employee_id from departments d
+left join employees e
+on d.department_id = e.department_id
+where e.employee_id is null;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--26. Write a query to display the total salary for each country.
+--    - Tables: `employees`, `departments`, `locations`, `countries`
 
 
 
