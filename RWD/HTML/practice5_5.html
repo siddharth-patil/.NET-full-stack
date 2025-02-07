@@ -5,6 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        input,
+        select,textarea {
+            width: 80%;
+            margin: 5px;
+        }
+
+        form {
+            width: 50%;
+            height: auto;
+            text-align: left;
+            background: rgb(244, 236, 224);
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .abc {
+            display: flex;
+            align-content: space-between;
+        }
+    </style>
 </head>
 
 <body>
@@ -17,8 +40,12 @@
         <div>
             <label for="gender">Gender : </label>
             <br>
-            <input type="radio" name="gender">Male
-            <input type="radio" name="gender">Female
+            <div class="abc">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender">
+            </div>
         </div>
 
         <div>
@@ -26,17 +53,22 @@
             <input type="number"><br>
         </div>
         <div>
-            <label>Address</label>
+            <label>Address: </label><br>
             <textarea></textarea><br>
         </div>
         <div>
             <label for="city">City : </label>
             <br>
-            <input type="radio" name="city">Pune
-            <input type="radio" name="city">Satara
+            <div class="abc">
+                <label for="city">Pune</label>
+                <input type="radio" name="city">
+                <label for="city">Satara</label>
+                <input type="radio" name="city">
+            </div>
         </div>
         <div>
             <label for="country">Country:</label>
+            <br>
             <select id="country" name="country" required>
                 <option value="">Select Country</option>
                 <option value="USA">USA</option>
@@ -44,7 +76,9 @@
                 <option value="UK">UK</option>
                 <option value="India">India</option>
             </select>
-            <input type="submit" id="country" name="country">
+            <br>
+            <br>
+            <button type="button">Submit</button>
         </div>
     </form>
 </body>
