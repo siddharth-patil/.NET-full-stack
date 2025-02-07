@@ -1,0 +1,19 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: whitesmoke;
+    background: #000;
+    text-align: center;
+}
+
+.heading2{
+    color: yellow;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
