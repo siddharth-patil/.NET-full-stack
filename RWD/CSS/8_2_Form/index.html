@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#">
+        <h2>Student Details</h2>
+        <div class="label-input-group">
+            <label for="first-name">First Name: </label>
+            <input id="input-box-width" type="text" name="first-name" required>
+        </div>
+        <div class="label-input-group">
+            <label for="last-name">Last Name: </label>
+            <input id="input-box-width" type="text" name="last-name" required>
+        </div>
+
+        <div class="label-input-group">
+            <label for="email">Email: </label>
+            <input placeholder="example@gmail.com" id="input-box-width" type="email" name="email" required>
+        </div>
+
+        <div class="gender-group">
+            <div><label for="gender">Gender: </label></div>
+            <div class="label-input-group">
+                <input type="radio" name="gender">
+                <label id="font-weight-options" for="gender" required>Male </label>
+
+                <input type="radio" name="gender">
+                <label id="font-weight-options" for="gender">Female </label>
+
+                <input type="radio" name="gender">
+                <label id="font-weight-options" for="gender">Other </label>
+            </div>
+        </div>
+
+        <div class="label-input-group">
+            <label for="age">Age: </label>
+            <input id="input-box-width" type="number" name="age" required>
+        </div>
+
+        <div class="label-input-group">
+            <div>
+                <label for="joining-date">Joining Date: </label>
+            </div>
+            <div class="jDateBox">
+                <input type="date" name="joining-date" required>
+            </div>
+        </div>
+
+        <div class="gender-group">
+            <div class="cclabel">
+                <label for="course-completed">Course Completed: </label>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" name="course-completed">
+                <label id="font-weight-options" for="course-completed">C Programming </label>
+                <input type="checkbox" name="course-completed">
+                <label id="font-weight-options" for="course-completed">SQL </label>
+                <input type="checkbox" name="course-completed">
+                <label id="font-weight-options" for="course-completed">MongoDB </label>
+                <input type="checkbox" name="course-completed">
+                <label id="font-weight-options" for="course-completed">RWD </label>
+                <input type="checkbox" name="course-completed">
+                <label id="font-weight-options" for="course-completed">.NET Core</label>
+            </div>
+        </div>
+
+        <div class="label-input-group">
+            <label for="address">Address: </label>
+            <textarea id="input-box-width" name="address" required></textarea>
+        </div>
+
+        <div class="label-input-group">
+            <label for="branch">Branch: </label>
+            <select name="branch" required>
+                <option value="">Select Option</option>
+                <option value="ME">Mechanical</option>
+                <option value="CSE">Computer Science</option>
+                <option value="CE">Civil</option>
+            </select>
+        </div>
+
+        <div class="buttons">
+            <button type="reset" class="reset">Reset</button>
+            <button type="submit" class="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

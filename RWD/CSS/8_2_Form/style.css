@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #f8f5a59d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    height: 85vh;
+}
+
+h2{
+    text-align: center;
+}
+.gender-group{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+
+.label-input-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1.7rem;
+}
+/* .radio-buttons{
+    display: flex;
+    gap: 20px;
+} */
+.jDateBox{
+    display: flex;
+    justify-content: flex-start;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+#input-box-width{
+    width:300px;
+}
+input, textarea{
+    border: 1px solid rgb(244, 149, 222);
+}
+
+#font-weight-options{
+    font-weight: 400;
+}
+
+.checkbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-items: flex-end; */
+    margin-left: 24x;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+}
+button:hover{
+    background: rgb(29, 144, 29);
+    cursor: pointer;
+}
+.reset {
+    background: #666;
+    color: white;
+}
+.submit {
+    background: #45ce65;
+    color: white;
+}
+.cclabel{
+    margin-right: 73px;
+}
