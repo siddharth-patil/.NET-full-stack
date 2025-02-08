@@ -1,0 +1,68 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    justify-content: center;
+    background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+    /* height: 100vh; */
+}
+h2{
+    text-align: center;
+    color:brown ;
+    text-decoration: underline rgb(33, 197, 33);
+}
+fieldset{
+    background: #EEF5FF;
+    box-shadow: 1px 1.5px 5px 5px rgba(64, 63, 63, 0.588);
+    border: 1.5px dotted red;
+}
+legend{
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #164863e4;
+    color: whitesmoke;
+    letter-spacing: 0.17em;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    justify-content: center;
+    align-self: center;
+    width: 50vw;
+}
+
+/* ol,ul{
+    color: red;
+} */
+
+li::marker {
+    color: red; /* Sets color for ordered list numbers */
+    font-weight: bold;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 5em;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+}
+
+a:hover{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 0, 0);
+    font-weight: 900;
+}
+
+/* #heading{
+    transition: 1s ease;
+} */
+
+
