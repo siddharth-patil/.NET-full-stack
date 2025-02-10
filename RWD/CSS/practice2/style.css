@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #191825;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 64px;
+    position: relative;
+}
+
+h1::before{
+    color:goldenrod;
+    content: "Siddharth...";
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    overflow:hidden;
+    border-right: 2px solid goldenrod;
+
+    animation: textreveal 2s linear infinite;
+}
+
+@keyframes textreveal {
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 100%;
+    }
+}

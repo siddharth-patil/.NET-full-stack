@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            /* align-content: center; */
+            justify-content: center;
+            align-items: center;
+        }
+        .rotate{
+            width: 300px;
+            aspect-ratio: 1;
+            background-color: blueviolet;
+            transition: transform 0.5s ease;
+        }
+
+        .rotate:hover{
+            transform: rotate(45deg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="rotate">
+
+    </div>
+</body>
+</html>

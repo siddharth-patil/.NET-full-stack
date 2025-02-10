@@ -1,0 +1,66 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.rectangle {
+    width: 50%;
+    height: 35%;
+
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 50%, #4866d6 100%);
+
+    position: relative;
+    border: 3.5px solid black;
+
+    box-shadow: 7px 10px 15px rgb(83, 71, 71);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        color: cadetblue;
+        /* font-size: 2em; */
+        font-weight: 900;
+        transform: translate(70%);
+        transition-duration: 2s;
+    }
+}
+
+.institute {
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%); */
+
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    background: whitesmoke;
+    /* margin: auto; */
+    padding: 4em 4.8em;
+}
+
+.circle {
+    width: 15em;
+    height: 15em;
+    border: 3.5px solid black;
+    border-radius: 50%;
+
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+
+    &:hover {
+        background-color: #FFE53B;
+        background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 37%, #5156c6 100%);
+        border-color: rgb(93, 231, 78);
+        transition-duration: 2s;
+    }
+
+}
