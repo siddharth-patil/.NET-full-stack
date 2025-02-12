@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        body {
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+            margin: 2em;
+            background-color: rgba(51, 40, 40, 0.479);
+        }
+
+        .container {
+            /* position: relative; */
+            display: flex;
+            width: 100%;
+            height: 90vh;
+            background-color: rgb(52, 51, 50);
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0.4em 0.4em 0.4em rgba(88, 64, 64, 0.63);
+            border-radius: 0.4em;
+            overflow: hidden;
+        }
+
+        .left {
+            position: relative;
+            /* background-image: url(../images/desktop.png); */
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* padding: 1em; */
+        }
+
+        .left img {
+            border-radius: 1em;
+        }
+
+        .right {
+            width: 50%;
+            height: 100%;
+            /* background-color: rgb(71, 80, 77); */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            position: absolute;
+            right: 2em;
+            top: 2.6em;
+        }
+
+        /* form */
+        .form-title {
+            color: white;
+            font-size: 2em;
+        }
+
+        .accountPresent {
+            color: whitesmoke;
+            font-size: 0.7em;
+            margin-top: 2em;
+        }
+
+        .right form .row {
+            height: 3em;
+            width: 100%;
+            margin-bottom: 0.6em;
+        }
+        div.accountPresent{
+            margin-bottom: 3em;
+        }
+        .accountPresent a{
+            color: whitesmoke;
+        }
+
+        .name{
+            display: flex;
+            gap: 1em;
+            justify-content: space-between;
+        }
+        .right form input{
+            height: 1.8em;
+        }
+        .em-pass{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="../images/desktop.png" alt="" height="90%" width="95%">
+            <button>Back to Website</button>
+        </div>
+
+        <div class="right">
+            <div class="form-title">Create an account</div>
+            <div class="accountPresent">Already have an account? <a href="">Log in</a></div>
+            <div>
+                <form action="">
+                    <div class="name row">
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="row">
+                        <input class="em-pass" type="email" placeholder="Email">
+                    </div>
+                    <div class="row">
+                        <input class="em-pass" type="password" placeholder="Enter your password">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
