@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function upperCase(){
+            const x = document.getElementById('name');
+            x.value = x.value.toUpperCase();
+        }
+        function myFunc(obj){
+            obj.style.background = "#DCD7C9";
+        }
+    </script>
+</head>
+<body>
+    <h2>The onchange event</h2>
+
+    Enter your name: <input type="text" id="name" onchange="upperCase()" onfocus="myFunc(this)">
+</body>
+</html>

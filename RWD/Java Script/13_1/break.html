@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>A loop with break statement.</p>
+    <p id="demo"></p>
+    <script>
+        let txt="";
+        for(let i=0; i<10; i++){
+            if(i==3)
+                break;
+            
+            txt += "The number is " + i + "<br>";
+        }
+
+        document.getElementById("demo").innerHTML = txt;
+    </script>
+</body>
+</html>

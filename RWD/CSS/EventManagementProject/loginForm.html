@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in</title>
     <style>
+        *{
+            box-sizing: border-box;
+        }
         body {
             /* display: flex;
             align-items: center;
@@ -35,7 +38,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            /* padding: 1em; */
+            /* margin: 1em; */
+            padding: 0.2em;
         }
 
         .left img {
@@ -45,14 +49,14 @@
         .right {
             width: 50%;
             height: 100%;
-            /* background-color: rgb(71, 80, 77); */
+            background-color: rgb(71, 80, 77);
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
         }
 
-        button {
+        .left button {
             position: absolute;
             right: 2em;
             top: 2.6em;
@@ -63,7 +67,11 @@
             color: white;
             font-size: 2em;
         }
-
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
         .accountPresent {
             color: whitesmoke;
             font-size: 0.7em;
@@ -71,7 +79,7 @@
         }
 
         .right form .row {
-            height: 3em;
+            height: 1.8em;
             width: 100%;
             margin-bottom: 0.6em;
         }
@@ -85,14 +93,47 @@
         .name{
             display: flex;
             gap: 1em;
+            margin-right: -0.45em;
             justify-content: space-between;
         }
         .right form input{
-            height: 1.8em;
+            height: 100%;
         }
         .em-pass{
             width: 100%;
         }
+
+        .checkbox{
+            display: flex;
+            width: 100%;
+            /* justify-content: flex-start; */
+            align-items: center;
+            /* padding-left: 28em; */
+            /* margin-left: 28em; */
+            color: whitesmoke;
+            font-size: 0.8em;
+            /* display:block; */
+
+            /* position: relative; */
+            left: 14em;
+        }
+        .checkbox input{
+            /* position: absolute; */
+            width: 0.8em;
+            aspect-ratio: 1;
+        }
+        .checkbox a{
+            /* position: absolute; */
+            color: whitesmoke;
+            font-size: 0.8em;
+            left: 2.5em;
+            margin: 0.35em 0 0;
+        }
+        .create-account input{
+            /* display: block; */
+            width: 100%;
+        }
+
     </style>
 </head>
 
@@ -120,6 +161,13 @@
                     </div>
                 </form>
             </div>
+
+            <div>
+                <label class="checkbox">
+                    <input type="checkbox"> <p>I agree to the <a href="#">Terms & Conditions</a></p>
+                </label>
+            </div>
+                <button type="button" class="create-account">Create account</button>
         </div>
     </div>
 </body>

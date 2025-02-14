@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="num1">
+                Enter 1st number: <input id="n1" type="text">
+            </div>
+            <div class="num2">
+                Enter 2nd number: <input id="n2" type="text">
+            </div>
+            <div class="ans">
+                Answer: <input id="ans" type="text">
+            </div>
+            <div class="btns">
+                <input type="button" value="Clear" onclick="clearAll()" id="clear"> 
+                <input type="button" value="Add" onclick="add()" id="add"> 
+                <input type="button" value="Subtract" onclick="subtract()" id="subtract">
+                <input type="button" value="Multiply" onclick="multiply()" id="multiply"> 
+                <input type="button" value="Divide" onclick="divide()" id="divide">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
