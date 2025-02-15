@@ -7,7 +7,7 @@ form.addEventListener("submit",function(event){
 
     for(let i=0; i<inps.length; i++){
 
-        if(inps[i].value === ''){
+        if(inps[i].value.trim() === ''){
             h3.textContent = "some fields are blank...can't proceed!";
             h3.style.color = "red";
             break;
