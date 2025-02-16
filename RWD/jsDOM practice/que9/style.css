@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 30px;
+}
+
+textarea{
+    width: 300px;
+    height: 125px;
+    font-size: 1.2em;
+    padding: 0.8em;
+    resize: none;
+    border: 2px solid #dadada;
+    outline-color: rosybrown;
+}
