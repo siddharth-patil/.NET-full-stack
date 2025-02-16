@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-left: 2em; */
+    /* margin-right: 5em; */
+    background-color: rgba(25, 25, 65, 0.825);
+    color: whitesmoke;
+    height: 2em;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 5em;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+main{
+    margin: 0 4em;
+}
+
+p{
+    display: none;
+    margin-top: 2em;
+    text-align: justify;
+    /* width: 50%; */
+}
