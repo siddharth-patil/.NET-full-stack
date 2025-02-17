@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email validation</title>
+    <style>
+        input {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Registration</h2>
+
+    <form onsubmit="return validateForm()">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+        <br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" onmouseover="changeColor(this)" onmouseout="resetColor(this)">
+        <br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <script>
+        function validateForm() {
+            var fname = document.getElementById("fname").value.trim();
+            var lname = document.getElementById("lname").value.trim();
+            var email = document.getElementById("email").value.trim();
+            var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            if (fname === "") {
+                alert("First Name cannot be empty!");
+                return false;
+            }
+
+            if (lname === "") {
+                alert("Last Name cannot be empty!");
+                return false;
+            }
+
+            if (!emailPattern.test(email)) {
+                alert("Please enter a valid email address!");
+                return false;
+            }
+
+            alert("Registration Successful!");
+            return true;
+        }
+
+        function changeColor(inputField) {
+            inputField.style.backgroundColor = "#dadada"; // Light blue
+        }
+
+        function resetColor(inputField) {
+            inputField.style.backgroundColor = ""; // Reset to default
+        }
+    </script>
+</body>
+</html>
