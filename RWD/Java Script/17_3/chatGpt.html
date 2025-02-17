@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+
+    <h3>Student Registration</h3>
+    <form id="studentForm">
+        <label>First Name: <input type="text" id="firstName"></label><br>
+        <label>Last Name: <input type="text" id="lastName"></label><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br>
+
+        <label>Course:</label>
+        <select id="course">
+            <option value="Java Full Stack">Java Full Stack</option>
+            <option value="C Programming">C Programming</option>
+        </select>
+        <br>
+
+        <label>Modules Done:</label>
+        <input type="checkbox" value="C Prog"> C Prog
+        <input type="checkbox" value="SQL"> SQL
+        <input type="checkbox" value="MongoDB"> MongoDB
+        <input type="checkbox" value="Core Java"> Core Java
+        <br>
+
+        <label>Center:</label>
+        <select id="center">
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+        <br>
+
+        <label>Percentage %: <input type="number" id="percentage" min="0" max="100"></label><br>
+
+        <button type="button" onclick="displayDetails()">Submit</button>
+    </form>
+
+    <h3>Student Details:</h3>
+    <p id="output"></p>
+
+    <script>
+        function displayDetails() {
+            // Get values from the form
+            var firstName = document.getElementById("firstName").value;
+            var lastName = document.getElementById("lastName").value;
+
+            var gender = document.querySelector('input[name="gender"]:checked');
+            var genderText = gender ? (gender.value === "Female" ? "She" : "He") : "They";
+
+            var course = document.getElementById("course").value;
+
+            var modules = [];
+            document.querySelectorAll('input[type="checkbox"]:checked').forEach(checkbox => {
+                modules.push(checkbox.value);
+            });
+
+            var center = document.getElementById("center").value;
+            var percentage = document.getElementById("percentage").value;
+
+            // Determine grade based on percentage
+            let grade;
+            if (percentage >= 90) grade = "A";
+            else if (percentage >= 70) grade = "B";
+            else if (percentage >= 50) grade = "C";
+            else if (percentage >= 35) grade = "Pass Grade";
+            else grade = "Fail";
+
+            // Generate output text
+            var outputText = `
+                Student Name is ${firstName} ${lastName}.<br>
+                ${genderText} has enrolled in the ${course} course.<br>
+                ${modules.length > 0 ? genderText + " already completed these modules: " + modules.join(", ") + "." : genderText + " has not completed any modules."} <br>
+                ${genderText} has taken admission at the ${center} branch.<br>
+                ${genderText} has scored ${percentage}% and received grade ${grade}.
+            `;
+
+            // Display output
+            document.getElementById("output").innerHTML = outputText;
+        }
+    </script>
+
+</body>
+</html>

@@ -10,26 +10,26 @@
 
 <body>
     <form action="">
-        <div class="gap"><label for="">First Name: </label><input type="text" placeholder="FIRST NAME"></div>
+        <div class="gap"><label for="">First Name: </label><input id="fname" type="text" placeholder="FIRST NAME"></div>
 
-        <div class="gap"><label for="">Last Name: </label><input type="text" placeholder="Last Name"></div>
+        <div class="gap"><label for="">Last Name: </label><input id="lname" type="text" placeholder="Last Name"></div>
 
         <div class="gender">
             <label for="gender">Gender: </label>
             <dvi class="radio">
-                <label for="gender">Male</label>
-                <input type="radio" name="gender" id="">
-                <label for="gender">Female</label>
-                <input type="radio" name="gender" id="">
+                <label for="gender">Male<input type="radio" name="gender" id="male" onclick="getGender(this)"></label>
+                
+                <label for="gender">Female<input type="radio" name="gender" id="female" onclick="getGender(this)"></label>
+                
             </dvi>
         </div>
 
         <div class="course">
             <label for="course">Course: </label>
-            <select name="course" id="">
-                <option value="">Select a Course</option>
-                <option value="dotNet">.NET</option>
-                <option value="java">Java</option>
+            <select onclick="getCourse(this)" name="course" id="">
+                <option value="" >Select a Course</option>
+                <option id="course" value=".NET">.NET</option>
+                <option id="course" value="Java">Java</option>
             </select>
         </div>
 
@@ -37,35 +37,36 @@
             <label for="modules">Modules done:</label>
             <div>
                 <div class="chckbx">
-                    <input type="checkbox" name="cprog" id=""> <label for="cprog">C Prog</label>
+                    <input type="checkbox" name="C Prog" id="modules" onclick="getModule(this)"> <label for="cprog">C Prog</label>
                 </div>
                 <div class="chckbx">
-                    <input type="checkbox" name="sql" id=""> <label for="sql">SQL</label>
+                    <input type="checkbox" name="SQL" id="modules" onclick="getModule(this)"> <label for="sql">SQL</label>
                 </div>
                 <div class="chckbx">
-                    <input type="checkbox" name="mongodb" id=""> <label for="mongodb">Mongo Db</label>
+                    <input type="checkbox" name="Mongo Db" id="modules" onclick="getModule(this)"> <label for="mongodb">Mongo Db</label>
                 </div>
                 <div class="chckbx">
-                    <input type="checkbox" name="java" id=""> <label for="java">Core Java</label>
+                    <input type="checkbox" name="Core Java" id="modules" onclick="getModule(this)"> <label for="java">Core Java</label>
                 </div>
             </div>
         </div>
 
         <div class="center">
             <label for="center">Center: </label>
-            <select name="center" id="">
+            <select onclick="getCenter(this)" name="center" id="">
                 <option value="">Select a Center</option>
-                <option value="pune1">Pune 1</option>
-                <option value="pune2">Pune 2</option>
+                <option id="center" value="pune1">Pune 1</option>
+                <option id="center" value="pune2">Pune 2</option>
             </select>
         </div>
 
         <div class="gap">
-            <label for="pct">Percentage %: </label><input type="text" name="pct" id="">
+            <label for="pct">Percentage %: </label><input type="text" name="pct" id="pct">
         </div>
 
-        <button type="submit">Submit</button>
+        <button type="submit" onclick="printData()">Submit</button>
 
+        <p></p>
     </form>
 
     <script src="script.js"></script>
