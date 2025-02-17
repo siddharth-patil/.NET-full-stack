@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+
+    width: 20em;
+    border: 2px solid black;
+    padding: 3px;
+}
+
+.gap, .gender{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 5em; */
+}
+
+.radio{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 1em;
+    justify-content: flex-start;
+    
+}
+
+.center, .course{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    padding-right: 3.5em;
+}
+.modules{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    padding-right: 4.4em;
+}
+
+.chckbx{
+    display: flex;
+    gap: 1em;
+    /* flex-direction: column; */
+}

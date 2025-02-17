@@ -1,0 +1,32 @@
+<html>
+
+<body>
+
+  <h2>JavaScript Validation</h2>
+
+  <form action="">
+    <input id="inp" type="text" name="fname" required>
+    <input type="submit" value="Submit" onclick="submitFunc()">
+  </form>
+
+  <p id="result">If you click submit, without filling out the text field,
+    your browser will display an error message.</p>
+
+
+  <script>
+    
+    function submitFunc() {
+      var x = parseInt(document.getElementById("inp").value, 10);
+      var p = document.getElementById("result");
+      if (x>0 && x<101) {
+        p.textContent = "Valid input :" + x;
+      }
+      else{
+        alert("input is not between range 1 to 100");
+      }
+    }
+
+  </script>
+</body>
+
+</html>

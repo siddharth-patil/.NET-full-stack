@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="gap"><label for="">First Name: </label><input type="text" placeholder="FIRST NAME"></div>
+
+        <div class="gap"><label for="">Last Name: </label><input type="text" placeholder="Last Name"></div>
+
+        <div class="gender">
+            <label for="gender">Gender: </label>
+            <dvi class="radio">
+                <label for="gender">Male</label>
+                <input type="radio" name="gender" id="">
+                <label for="gender">Female</label>
+                <input type="radio" name="gender" id="">
+            </dvi>
+        </div>
+
+        <div class="course">
+            <label for="course">Course: </label>
+            <select name="course" id="">
+                <option value="">Select a Course</option>
+                <option value="dotNet">.NET</option>
+                <option value="java">Java</option>
+            </select>
+        </div>
+
+        <div class="modules">
+            <label for="modules">Modules done:</label>
+            <div>
+                <div class="chckbx">
+                    <input type="checkbox" name="cprog" id=""> <label for="cprog">C Prog</label>
+                </div>
+                <div class="chckbx">
+                    <input type="checkbox" name="sql" id=""> <label for="sql">SQL</label>
+                </div>
+                <div class="chckbx">
+                    <input type="checkbox" name="mongodb" id=""> <label for="mongodb">Mongo Db</label>
+                </div>
+                <div class="chckbx">
+                    <input type="checkbox" name="java" id=""> <label for="java">Core Java</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="center">
+            <label for="center">Center: </label>
+            <select name="center" id="">
+                <option value="">Select a Center</option>
+                <option value="pune1">Pune 1</option>
+                <option value="pune2">Pune 2</option>
+            </select>
+        </div>
+
+        <div class="gap">
+            <label for="pct">Percentage %: </label><input type="text" name="pct" id="">
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
