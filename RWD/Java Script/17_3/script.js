@@ -1,6 +1,7 @@
 let pronoun = "He";
 let courseName = '';
-let module_ = ';'
+let module_ = "";
+let centerName = '';
 function getGender(elem){
     // console.log(elem)
     if(elem.id === "female"){
@@ -14,7 +15,7 @@ function getCourse(elem){
     courseName = elem.value;
 }
 function getCenter(elem){
-    console.log(elem.value)
+    // console.log(elem.value)
     centerName = elem.value;
 }
 
@@ -25,7 +26,7 @@ function getModule(elem){
 
 function printData() {
 
-    var p = document.querySelector('p');
+    var p = document.querySelector('#output');
 
     var fname = document.querySelector('#fname');
     var lname = document.querySelector('#lname');
@@ -36,13 +37,13 @@ function printData() {
     var pct = document.querySelectorAll('#pct');
 
     let grade;
-    if(parseInt(pct.value) > 90){
+    if(parseInt(pct[0].value) > 90){
         grade = 'A';
-    }else if ((parseInt(pct.value) < 90) && (parseInt(pct.value) > 70)){
+    }else if (parseInt(pct[0].value) > 70){
         grade = 'B';
-    }else if ((parseInt(pct.value) < 70) && (parseInt(pct.value) > 50)){
+    }else if (parseInt(pct[0].value) > 50){
         grade = 'C';
-    }else if ((parseInt(pct.value) < 50) && (parseInt(pct.value) > 35)){
+    }else if (parseInt(pct[0].value) > 35){
         grade = 'pass grade';
     }else{
         grade = 'fail';
