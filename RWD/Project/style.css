@@ -69,7 +69,17 @@ li{
     grid-template-columns: repeat(2,1fr);
 }
 
+.grid-three--cols{
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+}
+
 /* module/ reusable */
+
+.section-common--title{
+    font-size: 2rem;
+    margin: 2.4rem 0 1.2rem 0;
+}
 
 .btn{
     display: inline-block;
@@ -79,6 +89,15 @@ li{
     border-radius: 0.6rem;
 }
 
+.section-common-heading{
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.section-common-subheading{
+    color: var(--heading-color);
+}
 
 /* states */
 
@@ -211,3 +230,27 @@ main{
 
 
 /* Hero section End */
+
+
+/* About section start */
+
+.section-about .about-div{
+    text-align: center;
+}
+
+.section-about img{
+    padding: 2.4rem;
+    background-color: var(--supporting-color);
+    width: 15rem;
+    height: auto;
+    border-radius: 50%;
+    transition: all 0.3s linear;
+}
+
+
+.icon:hover > img{
+    transform: rotate(360deg);
+   background: linear-gradient(to right, #0575e6, #021b79);
+}
+
+/* About section End */
