@@ -74,6 +74,11 @@ li{
     gap: 5rem;
 }
 
+
+.grid-four--cols{
+    grid-template-columns: repeat(4, 1fr);
+}
+
 /* module/ reusable */
 
 .section-common--title{
@@ -97,6 +102,15 @@ li{
 
 .section-common-subheading{
     color: var(--heading-color);
+}
+
+
+.fa-solid, .fa-brands{
+    padding: 2rem;
+    background-color: rgba(7, 16, 45, 0.87);
+    font-size: 2.3rem;
+    border-radius: 50%;
+    color: rgb(231, 228, 28);
 }
 
 /* states */
@@ -253,4 +267,73 @@ main{
    background: linear-gradient(to right, #0575e6, #021b79);
 }
 
-/* About section End */
+/* About section End */  
+
+
+/* Course section Start */
+
+.section-course .grid{
+    gap: 3.2rem;
+}
+
+.section-course .course-div{
+    padding: 3.2rem;
+}
+
+.section-course .course-div:hover{
+    box-shadow: var(--btn-box-shadow);
+}
+
+.course-div:nth-child(2) .icon .fa-solid{
+    color: #68bf9b;
+    background-color: #e7f6ef;
+}
+
+.course-div:nth-child(3) .icon .fa-brands{
+    color: #941698;
+    background-color: #efd9f5;
+}
+
+.course-div:nth-child(4) .icon .fa-brands{
+    color: #d05d0a;
+    background-color: #f8dbad;
+}
+.course-div:nth-child(5) .icon .fa-brands{
+    color: #941698;
+    background-color: #efd9f5;
+}
+.course-div:nth-child(6) .icon .fa-brands{
+    color: #68bf9b;
+    background-color: #e7f6ef;
+}
+/* Course section End */  
+
+
+/* start why choose section */
+
+.section-why--choose{
+
+}
+
+.section-why--choose .why-choose--div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.common-text--highlight{
+    width: 6rem;
+    aspect-ratio: 1;
+    background-color: var(--supporting-color);
+    color: var(--main-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border-radius: 50%;
+}
+/* Endwhy choose section */
