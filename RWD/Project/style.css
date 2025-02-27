@@ -315,12 +315,20 @@ main{
 
 }
 
-.section-why--choose .why-choose--div{
+.section-why--choose .text-align--right .why-choose--div{
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: flex-end;
     text-align: right;
+}
+
+.section-why--choose .text-align--left .why-choose--div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
 }
 
 .common-text--highlight{
@@ -335,5 +343,17 @@ main{
     font-size: 2.4rem;
     font-weight: 700;
     border-radius: 50%;
+}
+
+
+.choose-center--div img{
+    margin-top: 5rem;
+    width: 90%;
+    height: 60rem;
+    border-radius: 3rem;
+}
+
+.why-choose--div{
+    margin-top: 3.2rem;
 }
 /* Endwhy choose section */
