@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\functions\bin\Debug\net8.0\functions.exe
+E:\FullStack dotNET dev Seed\.NET Core\functions\bin\Debug\net8.0\functions.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\functions\bin\Debug\net8.0\functions.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\functions\bin\Debug\net8.0\functions.dll
+E:\FullStack dotNET dev Seed\.NET Core\functions\bin\Debug\net8.0\functions.pdb
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\functions.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\functions.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\functions.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\functions.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\functions.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\functions.dll
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\refint\functions.dll
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\functions.pdb
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\functions.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\functions\obj\Debug\net8.0\ref\functions.dll
