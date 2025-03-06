@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body bgcolor="aqua" text="blue" background="">
+        <h2>client side image mapping</h2>
+   
+        <a href="table2.html">Home</a>
+        <a href="table3.html"><img src="/images/bulbOn.webp" height="100" width="100"></a>
+        <br>
+   
+   <h2>Server side image mapping</h2>
+   
+       <img src="/images/bulbOn.webp" usemap="#sid">
+   
+   
+       <map name="sid">
+          <area shape="rect" coords="34,44,270,350" href="table2.html">
+           <area shape="circle" coords="337,300,44" href="table3.html">
+       </map>
+   
+
+</body>
+</html>
