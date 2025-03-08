@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2{
+            color: rgb(104, 27, 213);
+            text-decoration: underline;
+        }
+
+        .form {
+            /* margin-top: 0.5em; */
+            padding: 2em;
+            background-color: rgb(104, 27, 213);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        
+
+        .flex {
+            display: flex;
+            /* gap: 3em; */
+        }
+
+        .fname {
+            gap: 7.8em;
+            /* width: 900px; */
+        }
+
+        .lname {
+            gap: 8.2em;
+        }
+
+        .dob {
+            gap: 6.3em;
+        }
+
+        .email {
+            gap: 9.6em;
+        }
+
+        .mob-number {
+            gap: 5.5em;
+        }
+
+        .gender {
+            gap: 9.67em;
+        }
+
+        .address,
+        .pincode,
+        .country {
+            gap: 9.18em;
+        }
+
+        .city {
+            gap: 11.79em;
+        }
+
+        .state {
+            gap: 11em;
+        }
+
+        .hobbies {
+            gap: 9.6em;
+        }
+
+        .qualification {
+            gap: 6.2em;
+        }
+
+        .courses {
+            gap: 2.4em;
+        }
+
+        .div-radio{
+                display: flex;
+                gap: 2em;
+            }
+
+        .btn {
+            gap: 2em;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <div class="form">
+        
+        <form action="" method="post">
+            <!-- <fieldset>
+                <legend>Student Registration Form</legend> -->
+            
+            <div class="fname flex">
+                <label for="firstName">FIRST NAME </label>
+                <input type="text" name="firstName" id="">
+            </div>
+            <!-- <br> -->
+            <div class="lname flex">
+                <label for="lastName">LAST NAME </label>
+                <input type="text" name="lastName" id="">
+            </div>
+
+            <div class="dob flex">
+                <label for="DOB">DATE OF BIRTH </label>
+                <input type="date">
+            </div>
+
+            <div class="email flex">
+                <label for="email">EMAIL ID </label>
+                <input type="email">
+            </div>
+
+            <div class="mob-number flex">
+                <label for="mobileNum">MOBILE NUMBER </label>
+                <input type="number" name="mobileNum" id="">
+            </div>
+
+            <div class="gender flex">
+                <label for="gender">GENDER </label>
+                <div>
+                    Male<input type="radio" name="gender" id=""> Female<input type="radio" name="gender" id="">
+                </div>
+            </div>
+
+            <div class="address flex">
+                <label for="address">ADDRESS</label>
+                <textarea name="address" cols="40" rows="5" id=""></textarea>
+            </div>
+
+            <div class="city flex">
+                <label for="city">CITY </label>
+                <input type="text" name="city" id="">
+            </div>
+
+            <div class="pincode flex">
+                <label for="pinCode">PIN CODE </label>
+                <input type="number" name="pinCode" id="">
+            </div>
+
+            <div class="state flex">
+                <label for="state">STATE </label>
+                <input type="text" name="state" id="">
+            </div>
+
+            <div class="country flex">
+                <label for="country">COUNTRY</label>
+                <input type="text" readonly value="INDIA">
+            </div>
+
+            <div class="hobbies flex">
+                <label for="hobbies">HOBBIES</label>
+                <div>
+                    Drawing<input type="checkbox" name="Drawing" id="">
+                    Singing<input type="checkbox" name="Singing" id="">
+                    Dancing<input type="checkbox" name="Dancing" id="">
+                    Sketching<input type="checkbox" name="Sketching" id="">
+                    <br>
+                    Others<input type="checkbox" name="drawing" id=""><input type="text">
+                </div>
+            </div>
+
+            <div class="qualification flex">
+                <label for="qualification">QUALIFICATION</label>
+                <table>
+                    <tr>
+                        <th>SI.No.</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+
+                    <tr>
+                        <td>1</td>
+                        <td>Class x</td>
+                        <td><input type="text"></td>
+                        <td><input type="number" name="" id=""></td>
+                        <td><input type="number" name="" id=""></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Class xII</td>
+                        <td><input type="text"></td>
+                        <td><input type="number" name="" id=""></td>
+                        <td><input type="number" name="" id=""></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text"></td>
+                        <td><input type="number" name="" id=""></td>
+                        <td><input type="number" name="" id=""></td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text"></td>
+                        <td><input type="number" name="" id=""></td>
+                        <td><input type="number" name="" id=""></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="courses flex">
+                <label for="course">COURSES APPLIED FOR</label>
+                <div class="div-radio">
+                    <span>
+                    BCA<input type="radio" name="course" id=""></span>
+                    <span> B.Com<input type="radio" name="course" id=""></span>
+                    <span>B.Sc<input type="radio" name="course" id=""></span>
+                    <span> B.A <input type="radio" name="course" id=""></span>
+                </div>
+            </div>
+
+
+            <div class="btn flex">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+            <!-- </fieldset> -->
+        </form>
+    </div>
+</body>
+
+</html>
