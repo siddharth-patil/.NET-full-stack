@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+    <style>
+        form {
+            width: 50vw;
+            background-color:rgb(58, 234, 216);
+            padding: 2em;
+            border-radius: 5px;
+        }
+
+        .common {
+            display: flex;
+            /* gap: 2em; */
+            justify-content: space-between;
+        }
+        .cv{
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            width: 24vw;
+            padding: 5px;
+        }
+
+        select {
+            width: 24vw;
+            padding: 5px;
+        }
+
+        textarea {
+            width: 98.7%;
+        }
+
+        span{
+            border: 1px solid black;
+            padding: 5px;
+            width: 24vw;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <form action="" method="post">
+        <h2>Job Application Form</h2>
+        <div class="common">
+            <div class="fname">
+                <label for="fname">First Name:</label>
+                <br>
+                <input type="text">
+            </div>
+            <div class="lname">
+                <label for="lname">Last Name:</label>
+                <br>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="common">
+            <div class="email">
+                <label for="email">Email:</label>
+                <br>
+                <input type="email">
+            </div>
+            <div class="job-role">
+                <label for="job-role">Job Role:</label>
+                <br>
+                <select name="job-role" id="">
+                    <option value="">Select Your Job Role</option>
+                    <option value="SDE-1">SDE-1</option>
+                    <option value="SDE-2">SDE-2</option>
+                    <option value="SDE-3">SDE-3</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="address">
+            <label for="address">
+                Address <br><textarea name="address" cols="30" rows="3" id=""></textarea>
+            </label>
+        </div>
+
+        <div class="common">
+            <div class="fname">
+                <label for="fname">First Name:</label>
+                <br>
+                <input type="text">
+            </div>
+            <div class="lname">
+                <label for="lname">Last Name:</label>
+                <br>
+                <input type="text">
+            </div>
+        </div>
+
+        <div class="common">
+            <div class="email">
+                <label for="email">Email:</label>
+                <br>
+                <input type="email">
+            </div>
+            <div class="cv common">
+                <label for="job-role">Upload your CV:</label>
+                <br>
+                <span><input type="file" name="cv" id=""></span>
+
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
