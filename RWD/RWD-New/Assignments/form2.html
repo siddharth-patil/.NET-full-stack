@@ -10,37 +10,57 @@
             width: 50vw;
             background-color:rgb(58, 234, 216);
             padding: 2em;
-            border-radius: 5px;
+            border-radius: 8px;
+            box-shadow: 6px 6px 3px rgb(185, 223, 223)
         }
 
         .common {
             display: flex;
             /* gap: 2em; */
             justify-content: space-between;
+            margin-bottom: 1em;
         }
         .cv{
             display: flex;
             flex-direction: column;
+            
         }
 
         input {
-            width: 24vw;
+            width: 23vw;
             padding: 5px;
+            border-radius: 3px;
         }
 
         select {
             width: 24vw;
             padding: 5px;
+            border-radius: 3px;
         }
 
         textarea {
             width: 98.7%;
+            margin-bottom: 1em;
+            border-radius: 3px;
         }
 
         span{
             border: 1px solid black;
-            padding: 5px;
-            width: 24vw;
+            padding: 0.1px 2px;
+            width: 23.6vw;
+            margin-top: -1.1em;
+            border-radius: 3px;
+        }
+        .btn{
+            display: flex;
+            justify-content: flex-end;
+
+            button{
+                border-radius: 3px;
+                background-color: rgb(98, 150, 132);
+                color: whitesmoke;
+                padding: 6px;
+            }
         }
     </style>
 </head>
@@ -53,12 +73,12 @@
             <div class="fname">
                 <label for="fname">First Name:</label>
                 <br>
-                <input type="text">
+                <input type="text" placeholder="Enter your first name">
             </div>
             <div class="lname">
                 <label for="lname">Last Name:</label>
                 <br>
-                <input type="text">
+                <input type="text" placeholder="Enter your last name">
             </div>
         </div>
 
@@ -66,7 +86,7 @@
             <div class="email">
                 <label for="email">Email:</label>
                 <br>
-                <input type="email">
+                <input type="email" placeholder="Enter your Email">
             </div>
             <div class="job-role">
                 <label for="job-role">Job Role:</label>
@@ -82,28 +102,28 @@
 
         <div class="address">
             <label for="address">
-                Address <br><textarea name="address" cols="30" rows="3" id=""></textarea>
+                Address <br><textarea name="address" cols="30" rows="3"  placeholder="Enter your Address"></textarea>
             </label>
         </div>
 
         <div class="common">
-            <div class="fname">
-                <label for="fname">First Name:</label>
+            <div class="city">
+                <label for="city">City:</label>
                 <br>
-                <input type="text">
+                <input type="text" placeholder="Enter your City name">
             </div>
-            <div class="lname">
-                <label for="lname">Last Name:</label>
+            <div class="pincode">
+                <label for="pincode">Pincode:</label>
                 <br>
-                <input type="text">
+                <input type="number"  placeholder="Enter pincode">
             </div>
         </div>
 
         <div class="common">
-            <div class="email">
-                <label for="email">Email:</label>
+            <div class="date">
+                <label for="date">Date:</label>
                 <br>
-                <input type="email">
+                <input type="date">
             </div>
             <div class="cv common">
                 <label for="job-role">Upload your CV:</label>
@@ -111,6 +131,10 @@
                 <span><input type="file" name="cv" id=""></span>
 
             </div>
+        </div>
+
+        <div class="btn">
+            <button>Apply Now</button>
         </div>
     </form>
 </body>
