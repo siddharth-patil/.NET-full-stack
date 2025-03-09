@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        h3{
+            margin: 1em auto;
+            color: red;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(184, 224, 81);
+            padding: 1em;
+            margin-top: 1em;
+        }
+        .btn{
+            margin: auto;
+        }
+        button{
+            display: flex;
+            align-items: center;
+            gap: 1em;
+            border-radius: 3px;
+            font-size: 1em;
+            color: white;
+            background-color: orange;
+        }
+
+        img{
+            width: 2em;
+            height: 2em;
+        }
+
+        /* textarea{
+            width: 25em;
+        } */
+    </style>
+</head>
+
+<body>
+    <form action="" method="post">
+        <h3>Personal Details</h3>
+
+        <label for="name">Name:
+            <input type="text" name="name" id="">
+        </label>
+        <br>
+
+        <label for="password">Password:
+            <input type="password" name="password" id="">
+        </label>
+        <br>
+
+        <label for="email">E-mail id:
+            <input type="email" name="email" id="">
+        </label>
+        <br>
+
+        <label for="gender">Gender:
+            <input type="radio" name="gender" id="">Male
+            <input type="radio" name="gender" id="">Female
+        </label>
+        <br>
+
+        <label for="contact">Contact#:
+            <input type="number" name="contact" id="">
+        </label>
+        <br>
+
+        <h3>Educational Qualification</h3>
+
+        <label for="degree">Degree:
+            <select name="degree" id="">
+                <option value="">Select Group</option>
+                <option value="BTech">BTech</option>
+                <option value="BSc">BSc</option>
+            </select>
+        </label>
+        <br>
+
+        <label for="degree">Engineering:
+            <select name="engineering" id="">
+                <option value="">Select Group</option>
+                <option value="BTech">ME</option>
+                <option value="BSc">CS</option>
+            </select>
+        </label>
+        <br>
+
+        <label for="hobbies">Hobbies:
+            <input type="checkbox" name="hobbies" id="">Playing Chess
+            <input type="checkbox" name="hobbies" id="">Reading Books
+        </label>
+        <br>
+
+        <h3>Address</h3>
+        <label for="address">
+            <textarea name="address" id="" cols="30" rows="3"></textarea>
+        </label>
+        <br>
+
+        <label for="resume">Attach Resume:
+            <input type="file" name="resume" id="">
+        </label>
+        <br>
+        <div class="btn">
+            <button type="submit">Submit <img src="right-arrow-svgrepo-com.svg" alt=""></button>
+        </div>
+    </form>
+</body>
+
+</html>
