@@ -45,6 +45,7 @@ html{
 
 .border{
     border: 1.5px solid transparent;
+    padding: 0.7rem;
 
     &:hover{
         border: 1.5px solid white;
