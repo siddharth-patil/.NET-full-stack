@@ -46,6 +46,7 @@ html{
 .border{
     border: 1.5px solid transparent;
     padding: 0.7rem;
+    cursor: pointer;
 
     &:hover{
         border: 1.5px solid white;
@@ -179,4 +180,94 @@ span b{
 .nav-cart i{
     font-size: 3rem;
 }
+
+/* Panel*/
+.panel{
+    height: 4rem;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 1rem;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+}
+
+.panel-all{
+    /* width: fit-content; */
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-weight: bold;
+
+    & i{
+        font-size: 2rem;
+    }
+}
+
+.panel-ops{
+    /* width: 100%; */
+}
+
+.panel-ops p{
+    display: inline;
+    margin: 0.75rem;
+    /* margin-right: 10rem; */
+
+    & a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/* hero section */
+
+.hero-section{
+    background-image: url(images/homeBg3.jpg);
+    height: 50rem;
+    background-size: cover;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 25rem;
+    width: 100vw;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+/* product cards */
+.box{
+    height: 43rem;
+    border: 1px solid black;
+    width: 23vw;
+    padding: 2rem 0.5rem;  
+    background-color: azure;    
+}
+
+.product-img{
+    padding: 1.5rem;
+}
+.prod-fig{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+
+    & div img{
+        height: 11rem;
+        width: 16rem;
+    }
+}
+
+
+
+
+
+
+
 
