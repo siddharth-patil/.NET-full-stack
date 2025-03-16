@@ -5,6 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: rgba(229, 229, 229, 0.971);
+}
+
 html {
     font-size: 10px;
 }
@@ -231,27 +235,56 @@ span b {
 /* hero section */
 
 .hero-section {
-    background-image: url(images/homeBg3.jpg);
+    /* background-image: url(images/homeBg3.jpg);
     height: 50rem;
     background-size: cover;
-    position: relative;
+    position: relative; */
 }
+
+.header-slider a{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 10vh 1.5vw;
+    background: #6765650d;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.control_next{
+    right: 0;
+}
+
+.header-slider ul{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.header-img{
+    max-width: 100%;   
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+/* .header-slider ul img{
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 50%);
+} */
 
 .container {
     position: absolute;
-    top: 25rem;
+    top: 35rem;
     width: 100vw;
 }
 
 .shop-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
 }
 
 /* product cards */
 .box {
     height: 43rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 23vw;
     padding: 2rem 0;
     background-color: white;
