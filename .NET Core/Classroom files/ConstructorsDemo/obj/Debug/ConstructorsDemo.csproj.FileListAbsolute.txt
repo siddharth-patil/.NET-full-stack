@@ -1,0 +1,14 @@
+C:\March 2024 Demos\Classes and Objects\ConstructorsDemo\bin\Debug\ConstructorsDemo.exe.config
+C:\March 2024 Demos\Classes and Objects\ConstructorsDemo\bin\Debug\ConstructorsDemo.exe
+C:\March 2024 Demos\Classes and Objects\ConstructorsDemo\bin\Debug\ConstructorsDemo.pdb
+C:\March 2024 Demos\Classes and Objects\ConstructorsDemo\obj\Debug\ConstructorsDemo.csproj.AssemblyReference.cache
+C:\March 2024 Demos\Classes and Objects\ConstructorsDemo\obj\Debug\ConstructorsDemo.csproj.CoreCompileInputs.cache
+C:\March 2024 Demos\Classes and Objects\ConstructorsDemo\obj\Debug\ConstructorsDemo.exe
+C:\March 2024 Demos\Classes and Objects\ConstructorsDemo\obj\Debug\ConstructorsDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\Classroom files\ConstructorsDemo\obj\Debug\ConstructorsDemo.csproj.AssemblyReference.cache
+E:\FullStack dotNET dev Seed\.NET Core\Classroom files\ConstructorsDemo\obj\Debug\ConstructorsDemo.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\Classroom files\ConstructorsDemo\obj\Debug\ConstructorsDemo.exe
+E:\FullStack dotNET dev Seed\.NET Core\Classroom files\ConstructorsDemo\obj\Debug\ConstructorsDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\Classroom files\ConstructorsDemo\bin\Debug\ConstructorsDemo.exe.config
+E:\FullStack dotNET dev Seed\.NET Core\Classroom files\ConstructorsDemo\bin\Debug\ConstructorsDemo.exe
+E:\FullStack dotNET dev Seed\.NET Core\Classroom files\ConstructorsDemo\bin\Debug\ConstructorsDemo.pdb

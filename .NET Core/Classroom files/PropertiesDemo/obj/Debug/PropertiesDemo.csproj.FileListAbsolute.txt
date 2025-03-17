@@ -1,0 +1,7 @@
+C:\March 2024 Demos\Classes and Objects\PropertiesDemo\bin\Debug\PropertiesDemo.exe.config
+C:\March 2024 Demos\Classes and Objects\PropertiesDemo\bin\Debug\PropertiesDemo.exe
+C:\March 2024 Demos\Classes and Objects\PropertiesDemo\bin\Debug\PropertiesDemo.pdb
+C:\March 2024 Demos\Classes and Objects\PropertiesDemo\obj\Debug\PropertiesDemo.csproj.AssemblyReference.cache
+C:\March 2024 Demos\Classes and Objects\PropertiesDemo\obj\Debug\PropertiesDemo.csproj.CoreCompileInputs.cache
+C:\March 2024 Demos\Classes and Objects\PropertiesDemo\obj\Debug\PropertiesDemo.exe
+C:\March 2024 Demos\Classes and Objects\PropertiesDemo\obj\Debug\PropertiesDemo.pdb
