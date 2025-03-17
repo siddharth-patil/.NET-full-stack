@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form action="">
+
+        <div class="calculator">
+            <label for="radius">
+                Enter Radius: <input type="text" name="radius" id="radius">
+            </label>
+            <br>
+            <label for="ans">
+                Answer: <input type="text" name="ans" id="ans">
+            </label>
+            <br>
+
+            <input type="button" value="Area" id="area" onclick="calAreaOfCircle()">
+            <input type="button" value="Circumference" id="circumference" onclick="calCircumOfCircle()">
+
+            Area<input type="radio" name="area" id="areaR" onclick="calAreaOfCircle()">
+            Circumference<input type="radio" name="area" id="CircumR" onclick="calCircumOfCircle()">
+        </div>
+
+    </form>
+</body>
+
+</html>

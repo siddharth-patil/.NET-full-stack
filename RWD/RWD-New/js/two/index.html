@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var dt =new Date();
+        if(dt.getHours()>12){
+            var amPm = "pm"; 
+        }
+        else{
+            var amPm = "am"; 
+        }
+
+        document.write("Current timing is " + dt.getHours()+" "+ amPm +"<br>");
+
+        if (dt.getHours() > 21){
+            document.write("Good Night");
+        }
+        else if(dt.getHours() > 16){
+            document.write("Good evening");
+        }
+        else if(dt.getHours() > 12){
+            document.write("Good afternoon");
+        }
+        else if(dt.getHours() > 4){
+            document.write("Good morning");
+        }
+
+
+        document.write("Current date is " + dt.getDate()+ "<br>");
+        document.write("Current day is " + dt.getDay()+ "<br>");
+        document.write("Current month is " + dt.getMonth()+ "<br>");
+        document.write("Current minute is " + dt.getMinutes()+ "<br>");
+        document.write("Current second is " + dt.getSeconds()+ "<br>");
+        document.write("Current full year is " + dt.getFullYear()+ "<br>");
+        document.write(new Date(dt.getTime())+"<br>");
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
