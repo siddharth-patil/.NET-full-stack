@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table (1 to 10)</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px auto; 
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        thead {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<h2 align="center">Tables 1 to 10</h2>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+            </tr>
+        </thead>
+        <tbody>
+            <script>
+                const colors = ["#f0f8ff", "#faebd7", "#00ffff", "#f0ffff", "#f5f5dc", "#ffe4c4", "#ffebcd", "#ff8c00", "#ffa07a", "#dc143c"]; // Array of colors
+
+                for (let i = 1; i <= 10; i++) {
+                    const colorIndex = i - 1; 
+                    const rowColor = colors[colorIndex]; 
+
+                    document.write("<tr style='background-color: " + rowColor + ";'><th>" + i + "</th>"); 
+                    for (let j = 1; j <= 10; j++) {
+                        document.write("<td>" + i * j + "</td>");
+                    }
+                    document.write("</tr>");
+                }
+            </script>
+        </tbody>
+    </table>
+
+</body>
+</html>

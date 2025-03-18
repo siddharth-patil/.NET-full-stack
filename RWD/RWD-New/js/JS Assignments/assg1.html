@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img img{
+            width: 500px;
+            height: 500px;
+            /* overflow: hidden; */
+        }
+    </style>
+
+    <script>
+        
+        function mOvr(){
+            const mOver = document.querySelector('#img1');
+            mOver.src = "cssLab1Q2.png";
+        }
+
+        function mOut(){
+            const mOver = document.querySelector('#img1');
+            mOver.src = "cssLab1Q1.png";
+        }
+    </script>
+</head>
+<body>
+    <div class="img">
+        <img src="../../Assignments/cssLab1Q1.png" id="img1" alt="">
+
+        <button id="btn"  onmouseover="mOvr()" onmouseout="mOut()">Change image</button>
+    </div>
+</body>
+</html>

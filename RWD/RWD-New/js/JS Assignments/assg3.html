@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        hr {
+            display: none;
+        }
+    </style>
+    <script>
+
+        function displayHr() {
+            const size = document.getElementById('optionSize');
+            const color = document.getElementById('optionClr');
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <select name="size" id="size">
+        <!-- <option value="" id="optionSize"></option> -->
+        <script>
+            var i = 1;
+            for (i = 1; i <= 10; i++) {
+                document.write("<option value=" + i + ">" + i + "</option>");
+            }
+
+        </script>
+    </select>
+
+    <select name="color" id="color">
+        <script>
+            let clrs = ["red", "bluevoilet", "aqua", "pink", "green", "yellow"];
+
+            var i = 0;
+            for (i = 0; i < clrs.length; i++) {
+                document.write("<option value=" + i + ">" + clrs[i] + "</option");
+            }
+        </script>
+    </select>
+
+    <select name="month" id="month">
+        <script>
+            var i;
+            var m = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sept", "oct", "nov", "dec"];
+            for (i = 0; i <= m.length; i++)
+                document.write("<option value=" + i + ">" + m[i] + "</option>");
+        </script>
+    </select>
+
+    <button id="Display" onclick="displayHr()">Display</button>
+
+    <hr id="hrTag" size="5">
+</body>
+
+</html>

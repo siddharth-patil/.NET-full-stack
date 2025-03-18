@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var namePwd = [{ name: "sid", pwd: "1234" }, { name: "ram", pwd: "999" }, { name: "krishna", pwd: "456" }];
+
+        function validate() {
+            const name = document.querySelector('#name');
+            const pwd = document.querySelector('#pwd');
+            let trigger = 0;
+            if (name.value === "" || pwd.value === "") {
+                document.write("Enter valid name and password");
+                return;
+            }
+
+
+            namePwd.forEach(e => {
+                if ((name.value == e.name) && (pwd.value == e.pwd)) {
+                    document.write("Welcome bro.....!");
+                    trigger = 1;
+                }
+            });
+
+            if (trigger == 0) {
+                document.write("wrong user name or password.");
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+    <form action="">
+        User Name: <input type="text" id="name">
+        <br>
+        Password: <input type="password" name="pwd" id="pwd"><br>
+
+        <button id="btn" onclick="validate()">Login</button>
+    </form>
+</body>
+
+</html>
