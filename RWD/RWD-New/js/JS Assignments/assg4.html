@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        Date<input type="number" name="date" id="date"><br>
+        Month<input type="number" name="month" id="month"><br>
+        Year<input type="number" name="year" id="year"><br>
+        <button id="btn" onclick="display()">Display dd-mm-yyyy format</button>
+    </form>
+
+    <script>
+
+        function display() {
+            const d = document.getElementById('date');
+            const m = document.getElementById('month');
+            const y = document.getElementById('year');
+            const h2 = document.getElementsByTagName('h2');
+
+            let month = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sept", "oct", "nov", "dec"];
+
+            for(let i=0; i< month.length;i++){
+                if(month[i] === month[m.value-1]){
+                    document.write("<h2>" + d.value + "-" + month[i] + "-"  + y.value +"</h2>");
+                    break;
+                }
+            }            
+        }
+    </script>
+</body>
+
+</html>

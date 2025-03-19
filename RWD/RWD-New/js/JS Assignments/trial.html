@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function displayHr() {
+            const size = document.getElementById('size');
+            const colors = document.getElementById('color');
+            const hrTag = document.getElementById('hrTag');
+
+            hrTag.size = size.value;  // Sets the size
+            hrTag.style.backgroundColor = colors.value;  
+            hrTag.style.borderColor = "brown"; 
+            // hrTag.style.height = size.value + "px"; 
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Size Dropdown -->
+    <select name="size" id="size">
+        <script>
+            for (let i = 1; i <= 10; i++) {
+                document.write("<option value=" + i + ">" + i + "</option>");
+            }
+        </script>
+    </select>
+
+    <!-- Color Dropdown -->
+    <select name="color" id="color">
+        <script>
+            let clrs = ["red", "blueviolet", "aqua", "pink", "green", "yellow"];
+            for (let j = 0; j < clrs.length; j++) {
+                document.write("<option value='" + clrs[j] + "'>" + clrs[j] + "</option>");
+            }
+        </script>
+    </select>
+
+    <button id="Display" onclick="displayHr()">Display</button>
+
+    <hr id="hrTag" size="5">
+</body>
+
+</html>
