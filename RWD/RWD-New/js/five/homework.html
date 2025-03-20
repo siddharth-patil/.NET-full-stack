@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <h5>Select any number from 0 to 9</h5>
+    <select name="num" id="num">
+        <!-- <option value=""></option> -->
+        <script>
+            for (let i = 1; i < 11; i++) {
+                document.write("<option value=" + i + ">" + i + "</Option>");
+            }
+        </script>
+    </select>
+    <div id="div"></div>
+    <button id="btn" onclick="showColor()">Show Color</button>
+
+
+    <script>
+
+        function showColor() {
+            let clrs = ["red", "pink", "green", "wheat", "black", "blue", "blueviolet", "yellow", "aqua", "brown"];
+
+            const select = document.getElementById('num');
+            const div = document.getElementById('div');
+
+            div.style.backgroundColor = clrs[select.value-1];
+        }
+
+        // let n;
+
+    </script>
+</body>
+
+</html>

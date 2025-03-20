@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 200px;
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <h5>Select any number from 0 to 9</h5>
+    <select name="num" id="num">
+        <!-- <option value=""></option> -->
+        <script>
+            for (let i = 1; i < 9; i++) {
+                document.write("<option value=" + i + ">" + i + "</Option>");
+            }
+        </script>
+    </select>
+
+    <button id="btn" onclick="showColor()">Show Color</button>
+
+    <script>
+        function showColor() {
+
+            const select = document.getElementById('num');
+            const div = document.getElementById('div');
+            let color;
+
+            switch (parseInt(select.value)) {
+                case 1:
+                    color = "red";
+                    break;
+
+                case 2:
+                    color = "pink";
+                    break;
+
+                case 3:
+                    color = "green";
+                    break;
+
+                case 4:
+                    color = "wheat";
+                    break;
+
+                case 5:
+                    color = "red";
+                    break;
+
+                case 6:
+                    color = "pink";
+                    break;
+
+                case 7:
+                    color = "green";
+                    break;
+
+                case 8:
+                    color = "wheat";
+                    break;
+            }
+
+            document.body.style.backgroundColor = color;
+        }
+
+    </script>
+
+</body>
+
+</html>
