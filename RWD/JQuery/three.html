@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            // $('#b1').click(function(){
+            //     $('.intro').toggle();
+            // });
+
+            $('#b1').click(function(){
+                $('p.intro:first').toggle();
+            });
+        })
+    </script>
+</head>
+<body>
+    <h2 class="intro">Welcome</h2>
+    <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, dolore in rerum cum aliquam nesciunt aperiam repellendus odio quae inventore quo ad aut at, soluta eius nihil reiciendis facilis. Fugit.</p>
+
+    <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, error!</p>
+    <p class="intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, Lorem ipsum dolor sit. error!</p>
+
+    <button id="b1">Hide and show first para</button>
+</body>
+</html>

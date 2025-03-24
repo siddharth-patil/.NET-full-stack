@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\bin\Debug\net8.0\LeetCode.exe
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\bin\Debug\net8.0\LeetCode.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\bin\Debug\net8.0\LeetCode.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\bin\Debug\net8.0\LeetCode.dll
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\bin\Debug\net8.0\LeetCode.pdb
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\LeetCode.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\LeetCode.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\LeetCode.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\LeetCode.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\LeetCode.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\LeetCode.dll
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\refint\LeetCode.dll
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\LeetCode.pdb
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\LeetCode.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\LeetCode\obj\Debug\net8.0\ref\LeetCode.dll

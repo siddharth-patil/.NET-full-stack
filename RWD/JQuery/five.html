@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#b1').click(function () {
+                $('#d1').fadeIn();
+                $('#d2').fadeIn('slow');
+                $('#d3').fadeIn(5000);
+            });
+
+            $('#b2').click(function () {
+                $('#d1').fadeOut();
+                $('#d2').fadeOut('slow');
+                $('#d3').fadeOut(5000);
+            })
+
+            $('#b3').click(function () {
+                $('#d1').fadeToggle();
+                $('#d2').fadeToggle('slow');
+                $('#d3').fadeToggle(5000);
+            })
+
+        })
+
+    </script>
+</head>
+
+<body>
+    <div id="d1" style="width: 80px;height: 80px;background-color: red;"></div>
+    <div id="d2" style="width: 80px;height: 80px;background-color: olivedrab;"></div>
+    <div id="d3" style="width: 80px;height: 80px;background-color: greenyellow;"></div>
+    <button type="button" id="b1">fade in</button>
+    <button type="button" id="b2">fade out</button>
+    <button type="button" id="b3">fade toggle</button>
+</body>
+
+</html>
