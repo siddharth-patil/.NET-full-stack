@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#b1').click(function () {
+                $('#p1').animate(
+                    {
+                        margin: '100px'
+                        // backgroundColor: green
+                    }
+                )
+            });
+
+            $("#b2").click(function () {
+
+                $("#p1").animate({
+                    margin: '0px'
+                });
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <p id="p1">Welcome to Lorem ipsum dolor sit amet.</p>
+
+    <button id="b1">Animate</button>
+    <button id="b2">Original</button>
+</body>
+
+</html>
