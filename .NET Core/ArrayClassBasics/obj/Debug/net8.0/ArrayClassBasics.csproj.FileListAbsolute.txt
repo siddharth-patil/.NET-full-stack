@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\bin\Debug\net8.0\ArrayClassBasics.exe
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\bin\Debug\net8.0\ArrayClassBasics.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\bin\Debug\net8.0\ArrayClassBasics.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\bin\Debug\net8.0\ArrayClassBasics.dll
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\bin\Debug\net8.0\ArrayClassBasics.pdb
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\ArrayClassBasics.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\ArrayClassBasics.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\ArrayClassBasics.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\ArrayClassBasics.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\ArrayClassBasics.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\ArrayClassBasics.dll
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\refint\ArrayClassBasics.dll
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\ArrayClassBasics.pdb
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\ArrayClassBasics.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\ArrayClassBasics\obj\Debug\net8.0\ref\ArrayClassBasics.dll
