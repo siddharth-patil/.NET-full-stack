@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\bin\Debug\net8.0\AutoImplementedProperties.exe
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\bin\Debug\net8.0\AutoImplementedProperties.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\bin\Debug\net8.0\AutoImplementedProperties.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\bin\Debug\net8.0\AutoImplementedProperties.dll
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\bin\Debug\net8.0\AutoImplementedProperties.pdb
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\AutoImplementedProperties.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\AutoImplementedProperties.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\AutoImplementedProperties.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\AutoImplementedProperties.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\AutoImplementedProperties.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\AutoImplementedProperties.dll
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\refint\AutoImplementedProperties.dll
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\AutoImplementedProperties.pdb
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\AutoImplementedProperties.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\ClassesObjectsProperties\AutoImplementedProperties\obj\Debug\net8.0\ref\AutoImplementedProperties.dll

@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\bin\Debug\net8.0\GenericsDemo_1.exe
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\bin\Debug\net8.0\GenericsDemo_1.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\bin\Debug\net8.0\GenericsDemo_1.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\bin\Debug\net8.0\GenericsDemo_1.dll
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\bin\Debug\net8.0\GenericsDemo_1.pdb
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\GenericsDemo_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\GenericsDemo_1.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\GenericsDemo_1.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\GenericsDemo_1.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\GenericsDemo_1.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\GenericsDemo_1.dll
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\refint\GenericsDemo_1.dll
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\GenericsDemo_1.pdb
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\GenericsDemo_1.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\GenericsDemo_1\obj\Debug\net8.0\ref\GenericsDemo_1.dll

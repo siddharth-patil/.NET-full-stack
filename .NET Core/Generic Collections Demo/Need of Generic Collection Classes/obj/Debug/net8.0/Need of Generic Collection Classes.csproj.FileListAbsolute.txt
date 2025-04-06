@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\bin\Debug\net8.0\Need of Generic Collection Classes.exe
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\bin\Debug\net8.0\Need of Generic Collection Classes.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\bin\Debug\net8.0\Need of Generic Collection Classes.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\bin\Debug\net8.0\Need of Generic Collection Classes.dll
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\bin\Debug\net8.0\Need of Generic Collection Classes.pdb
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\Need of Generic Collection Classes.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\Need of Generic Collection Classes.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\Need of Generic Collection Classes.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\Need of Generic Collection Classes.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\Need of Generic Collection Classes.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\Need of Generic Collection Classes.dll
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\refint\Need of Generic Collection Classes.dll
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\Need of Generic Collection Classes.pdb
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\Need of Generic Collection Classes.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\Generic Collections Demo\Need of Generic Collection Classes\obj\Debug\net8.0\ref\Need of Generic Collection Classes.dll
