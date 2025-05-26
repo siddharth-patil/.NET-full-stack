@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsDemo_1", "GenericsDemo_1\GenericsDemo_1.csproj", "{02FC199D-3C7E-4B31-8B2D-379FD42E40D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGenericClassDemo", "CustomGenericClassDemo\CustomGenericClassDemo.csproj", "{051E997D-7581-4789-BCAB-6CC26AB7594F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{02FC199D-3C7E-4B31-8B2D-379FD42E40D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02FC199D-3C7E-4B31-8B2D-379FD42E40D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02FC199D-3C7E-4B31-8B2D-379FD42E40D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051E997D-7581-4789-BCAB-6CC26AB7594F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051E997D-7581-4789-BCAB-6CC26AB7594F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051E997D-7581-4789-BCAB-6CC26AB7594F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051E997D-7581-4789-BCAB-6CC26AB7594F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

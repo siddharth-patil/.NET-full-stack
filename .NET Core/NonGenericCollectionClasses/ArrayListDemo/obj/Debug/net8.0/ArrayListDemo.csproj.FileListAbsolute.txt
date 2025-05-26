@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.exe
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\bin\Debug\net8.0\ArrayListDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\refint\ArrayListDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\ArrayListDemo.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\ArrayListDemo\obj\Debug\net8.0\ref\ArrayListDemo.dll

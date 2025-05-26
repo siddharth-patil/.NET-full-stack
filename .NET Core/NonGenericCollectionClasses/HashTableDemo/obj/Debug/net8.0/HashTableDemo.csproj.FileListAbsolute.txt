@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\bin\Debug\net8.0\HashTableDemo.exe
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\bin\Debug\net8.0\HashTableDemo.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\bin\Debug\net8.0\HashTableDemo.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\bin\Debug\net8.0\HashTableDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\bin\Debug\net8.0\HashTableDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\HashTableDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\HashTableDemo.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\HashTableDemo.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\HashTableDemo.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\HashTableDemo.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\HashTableDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\refint\HashTableDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\HashTableDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\HashTableDemo.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\HashTableDemo\obj\Debug\net8.0\ref\HashTableDemo.dll

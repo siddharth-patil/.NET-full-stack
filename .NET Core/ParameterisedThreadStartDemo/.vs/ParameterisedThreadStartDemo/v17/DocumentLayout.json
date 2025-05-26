@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\.NET Core\\ParameterisedThreadStartDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{700F08AF-B6FD-48F1-91A0-16C6C81B5960}|..\\JoinMethodDemo\\JoinMethodDemo.csproj|e:\\fullstack dotnet dev seed\\.net core\\joinmethoddemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700F08AF-B6FD-48F1-91A0-16C6C81B5960}|..\\JoinMethodDemo\\JoinMethodDemo.csproj|e:\\fullstack dotnet dev seed\\.net core\\joinmethoddemo\\dosomething.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoSomething.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.NET Core\\JoinMethodDemo\\DoSomething.cs",
+              "RelativeDocumentMoniker": "..\\JoinMethodDemo\\DoSomething.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\.NET Core\\JoinMethodDemo\\DoSomething.cs",
+              "RelativeToolTip": "..\\JoinMethodDemo\\DoSomething.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T02:55:05.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.NET Core\\JoinMethodDemo\\Program.cs",
+              "RelativeDocumentMoniker": "..\\JoinMethodDemo\\Program.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\.NET Core\\JoinMethodDemo\\Program.cs",
+              "RelativeToolTip": "..\\JoinMethodDemo\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA+wA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T02:54:26.387Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\bin\Debug\net8.0\CustomGenericClassDemo.exe
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\bin\Debug\net8.0\CustomGenericClassDemo.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\bin\Debug\net8.0\CustomGenericClassDemo.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\bin\Debug\net8.0\CustomGenericClassDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\bin\Debug\net8.0\CustomGenericClassDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\CustomGenericClassDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\CustomGenericClassDemo.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\CustomGenericClassDemo.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\CustomGenericClassDemo.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\CustomGenericClassDemo.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\CustomGenericClassDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\refint\CustomGenericClassDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\CustomGenericClassDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\CustomGenericClassDemo.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\GenericsDemo_1\CustomGenericClassDemo\obj\Debug\net8.0\ref\CustomGenericClassDemo.dll

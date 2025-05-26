@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ArrayClassBasics;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,32 +11,34 @@ namespace ArrayDemo
     {
         static void Main(string[] args)
         {
-            int[] Arr = new int[] { 1, 4, 6, 2, 5, 3, 9, 7, 0, 8 };
+            Practice_ArrayClass.print();
 
-            Console.WriteLine("Original array is:");
-            foreach (int item in Arr)
-            {
-                Console.Write($"\t{item}");
-            }
+            //int[] Arr = new int[] { 1, 4, 6, 2, 5, 3, 9, 7, 0, 8 };
 
-            //Sort the array
-            Array.Sort(Arr);
-            //Array.Sort(Arr, 0, 5);
+            //Console.WriteLine("Original array is:");
+            //foreach (int item in Arr)
+            //{
+            //    Console.Write($"\t{item}");
+            //}
 
-            Console.WriteLine("\nSorted array in ascending order is:");
-            foreach (int item in Arr)
-            {
-                Console.Write($"\t{item}");
-            }
+            ////Sort the array
+            //Array.Sort(Arr);
+            ////Array.Sort(Arr, 0, 5);
 
-            // Reverse the order of current Array Elements
+            //Console.WriteLine("\nSorted array in ascending order is:");
+            //foreach (int item in Arr)
+            //{
+            //    Console.Write($"\t{item}");
+            //}
 
-            Array.Reverse(Arr);
-            Console.WriteLine("\nSorted array in descending order is:");
-            foreach (int item in Arr)
-            {
-                Console.Write($"\t{item}");
-            }
+            //// Reverse the order of current Array Elements
+
+            //Array.Reverse(Arr);
+            //Console.WriteLine("\nSorted array in descending order is:");
+            //foreach (int item in Arr)
+            //{
+            //    Console.Write($"\t{item}");
+            //}
 
             // Copy Array elements into newly created array
 

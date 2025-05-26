@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\bin\Debug\net8.0\StackDemo.exe
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\bin\Debug\net8.0\StackDemo.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\bin\Debug\net8.0\StackDemo.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\bin\Debug\net8.0\StackDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\bin\Debug\net8.0\StackDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\StackDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\StackDemo.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\StackDemo.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\StackDemo.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\StackDemo.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\StackDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\refint\StackDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\StackDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\StackDemo.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\StackDemo\obj\Debug\net8.0\ref\StackDemo.dll

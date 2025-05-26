@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\bin\Debug\net8.0\QueueDemo.exe
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\bin\Debug\net8.0\QueueDemo.deps.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\bin\Debug\net8.0\QueueDemo.runtimeconfig.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\bin\Debug\net8.0\QueueDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\bin\Debug\net8.0\QueueDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\QueueDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\QueueDemo.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\QueueDemo.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\QueueDemo.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\QueueDemo.sourcelink.json
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\QueueDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\refint\QueueDemo.dll
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\QueueDemo.pdb
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\QueueDemo.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\.NET Core\NonGenericCollectionClasses\QueueDemo\obj\Debug\net8.0\ref\QueueDemo.dll

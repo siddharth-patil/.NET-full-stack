@@ -229,4 +229,145 @@ span b {
     }
 }
 
-/* hero section */
+/* main section */
+
+.header-slider ul{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.header-img{
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+}
+
+.header-slider a{
+    position: absolute;
+    top: 20%;
+    padding: 9vh 1vw;
+    z-index: 1;
+    background-color: #aeafaf0a;
+    /* box-shadow: 0 .5rem 1rem rgba(white, .15); */
+}
+
+.control_next{
+    right: 0;
+}
+
+/*main section Cards*/
+
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: space-around;
+    margin: 2rem 3rem;
+}
+
+.box-col{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    background: #fff;
+    min-width: 23.5%;
+    min-height: 20rem;
+    z-index: 1;
+    & a{
+        font-size: 1.3rem;
+        color: #009999;
+        font-weight:500;
+        text-decoration: none;
+    }
+}
+
+.header-box{
+    margin-top: -40vh;
+}
+
+/*Product slider*/
+
+.product-slider{
+    background: #fff;
+    margin: 0 3 rem;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+
+    & .products{
+        display: flex;
+        overflow-x: auto;
+        gap: 2rem;
+        margin-top: 1rem;
+
+        & img{
+            max-width: 20rem;
+            max-height: 20rem;
+        }
+    }
+}
+
+
+.product-slider .products::-webkit-scrollbar{
+    display: none;
+}
+
+.products-slider-with-price{
+    background: #fff;
+    margin: 0 4rem;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+
+    & .products{
+        display: flex;
+        overflow-x: auto;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+}
+.products-slider-with-price .products::-webkit-scrollbar{
+    display: none;
+}
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 21rem;
+    background: #fbfbfb;
+
+    & img{
+        width: 11rem;
+        margin: 0 5rem;
+    }
+
+    & h4{
+        color: #525252;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}
+
+.product-offer{
+    & p{
+        background: #be0b3b;
+        color: white;
+        display: inline-block;
+        padding: 2px 5px;
+        border-radius: 2px;
+        margin: 0.8rem 0;
+        font-size: 1.3rem;
+    }
+
+    & span{
+        color: #be0b3b;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+}
+
+.product-price{
+    color: gray;
+    font-size: 1.3rem;
+}

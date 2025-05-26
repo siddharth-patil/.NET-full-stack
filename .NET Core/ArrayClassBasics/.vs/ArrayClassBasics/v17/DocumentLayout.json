@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\.NET Core\\ArrayClassBasics\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0FA9F30-99DC-4AD0-B3B5-02F3264994A6}|ArrayClassBasics.csproj|e:\\fullstack dotnet dev seed\\.net core\\arrayclassbasics\\practice arrayclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0FA9F30-99DC-4AD0-B3B5-02F3264994A6}|ArrayClassBasics.csproj|solutionrelative:practice arrayclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0FA9F30-99DC-4AD0-B3B5-02F3264994A6}|ArrayClassBasics.csproj|e:\\fullstack dotnet dev seed\\.net core\\arrayclassbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0FA9F30-99DC-4AD0-B3B5-02F3264994A6}|ArrayClassBasics.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Practice ArrayClass.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.NET Core\\ArrayClassBasics\\Practice ArrayClass.cs",
+              "RelativeDocumentMoniker": "Practice ArrayClass.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\.NET Core\\ArrayClassBasics\\Practice ArrayClass.cs",
+              "RelativeToolTip": "Practice ArrayClass.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:47:11.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.NET Core\\ArrayClassBasics\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\.NET Core\\ArrayClassBasics\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T03:00:35.448Z",
               "EditorCaption": ""
