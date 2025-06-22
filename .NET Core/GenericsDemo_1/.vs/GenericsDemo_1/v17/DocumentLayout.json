@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\.NET Core\\GenericsDemo_1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{051E997D-7581-4789-BCAB-6CC26AB7594F}|CustomGenericClassDemo\\CustomGenericClassDemo.csproj|e:\\fullstack dotnet dev seed\\.net core\\genericsdemo_1\\customgenericclassdemo\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{051E997D-7581-4789-BCAB-6CC26AB7594F}|CustomGenericClassDemo\\CustomGenericClassDemo.csproj|solutionrelative:customgenericclassdemo\\genericclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{051E997D-7581-4789-BCAB-6CC26AB7594F}|CustomGenericClassDemo\\CustomGenericClassDemo.csproj|e:\\fullstack dotnet dev seed\\.net core\\genericsdemo_1\\customgenericclassdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{051E997D-7581-4789-BCAB-6CC26AB7594F}|CustomGenericClassDemo\\CustomGenericClassDemo.csproj|solutionrelative:customgenericclassdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.NET Core\\GenericsDemo_1\\CustomGenericClassDemo\\Program.cs",
+              "RelativeDocumentMoniker": "CustomGenericClassDemo\\Program.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\.NET Core\\GenericsDemo_1\\CustomGenericClassDemo\\Program.cs",
+              "RelativeToolTip": "CustomGenericClassDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:58:09.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenericClass.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.NET Core\\GenericsDemo_1\\CustomGenericClassDemo\\GenericClass.cs",
+              "RelativeDocumentMoniker": "CustomGenericClassDemo\\GenericClass.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\.NET Core\\GenericsDemo_1\\CustomGenericClassDemo\\GenericClass.cs",
+              "RelativeToolTip": "CustomGenericClassDemo\\GenericClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:56:57.644Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

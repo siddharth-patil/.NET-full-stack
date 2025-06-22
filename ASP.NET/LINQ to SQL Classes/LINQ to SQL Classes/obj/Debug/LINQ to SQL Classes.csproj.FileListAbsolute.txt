@@ -1,0 +1,59 @@
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\LINQ to SQL Classes.dll.config
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\LINQ to SQL Classes.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\LINQ to SQL Classes.pdb
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\csc.exe
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\csc.exe.config
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\csc.rsp
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\csi.exe
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\csi.exe.config
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\csi.rsp
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.Managed.Core.targets
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.AppContext.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Collections.Immutable.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Console.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Globalization.Calendars.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.IO.Compression.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.IO.FileSystem.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Net.Http.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Net.Sockets.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Reflection.Metadata.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.ValueTuple.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Xml.XmlDocument.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Xml.XPath.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\vbc.exe
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\vbc.exe.config
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\vbc.rsp
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\VBCSCompiler.exe
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\roslyn\VBCSCompiler.exe.config
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\obj\Debug\LINQ to SQL Classes.csproj.AssemblyReference.cache
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\obj\Debug\LINQ to SQL Classes.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\obj\Debug\LINQ to .5C657547.Up2Date
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\obj\Debug\LINQ to SQL Classes.dll
+E:\FullStack dotNET dev Seed\ASP.NET\LINQ to SQL Classes\LINQ to SQL Classes\obj\Debug\LINQ to SQL Classes.pdb

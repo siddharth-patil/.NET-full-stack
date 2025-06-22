@@ -1,0 +1,12 @@
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\bin\Debug\Data Access Using Winform.exe.config
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\bin\Debug\Data Access Using Winform.exe
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\bin\Debug\Data Access Using Winform.pdb
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\obj\Debug\Data Access Using Winform.csproj.AssemblyReference.cache
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\obj\Debug\Data_Access_Using_Winform.frm_EmpDataAccess.resources
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\obj\Debug\Data_Access_Using_Winform.Properties.Resources.resources
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\obj\Debug\Data Access Using Winform.csproj.GenerateResource.cache
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\obj\Debug\Data Access Using Winform.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\obj\Debug\Data Access Using Winform.exe
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\obj\Debug\Data Access Using Winform.pdb
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\obj\Debug\Data Access Using Winform.exe.config
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\Data Access Using Winform\obj\Debug\Data_Access_Using_Winform.CRUDoperationsWithSingleProcedure.resources

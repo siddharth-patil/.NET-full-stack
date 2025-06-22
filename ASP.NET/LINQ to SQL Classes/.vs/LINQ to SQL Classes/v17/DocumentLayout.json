@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQ to SQL Classes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{364B846C-8CC6-487B-AB44-CD47EB7BD2FE}|LINQ to SQL Classes\\LINQ to SQL Classes.csproj|e:\\fullstack dotnet dev seed\\asp.net\\linq to sql classes\\linq to sql classes\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{364B846C-8CC6-487B-AB44-CD47EB7BD2FE}|LINQ to SQL Classes\\LINQ to SQL Classes.csproj|solutionrelative:linq to sql classes\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{364B846C-8CC6-487B-AB44-CD47EB7BD2FE}|LINQ to SQL Classes\\LINQ to SQL Classes.csproj|e:\\fullstack dotnet dev seed\\asp.net\\linq to sql classes\\linq to sql classes\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{364B846C-8CC6-487B-AB44-CD47EB7BD2FE}|LINQ to SQL Classes\\LINQ to SQL Classes.csproj|solutionrelative:linq to sql classes\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{364B846C-8CC6-487B-AB44-CD47EB7BD2FE}|LINQ to SQL Classes\\LINQ to SQL Classes.csproj|e:\\fullstack dotnet dev seed\\asp.net\\linq to sql classes\\linq to sql classes\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{364B846C-8CC6-487B-AB44-CD47EB7BD2FE}|LINQ to SQL Classes\\LINQ to SQL Classes.csproj|solutionrelative:linq to sql classes\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{364B846C-8CC6-487B-AB44-CD47EB7BD2FE}|LINQ to SQL Classes\\LINQ to SQL Classes.csproj|e:\\fullstack dotnet dev seed\\asp.net\\linq to sql classes\\linq to sql classes\\data access\\employee.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{364B846C-8CC6-487B-AB44-CD47EB7BD2FE}|LINQ to SQL Classes\\LINQ to SQL Classes.csproj|solutionrelative:linq to sql classes\\data access\\employee.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.dbml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQ to SQL Classes\\LINQ to SQL Classes\\Data Access\\Employee.dbml",
+              "RelativeDocumentMoniker": "LINQ to SQL Classes\\Data Access\\Employee.dbml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQ to SQL Classes\\LINQ to SQL Classes\\Data Access\\Employee.dbml",
+              "RelativeToolTip": "LINQ to SQL Classes\\Data Access\\Employee.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2025-06-21T15:11:48.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQ to SQL Classes\\LINQ to SQL Classes\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "LINQ to SQL Classes\\WebForm1.aspx.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQ to SQL Classes\\LINQ to SQL Classes\\WebForm1.aspx.cs",
+              "RelativeToolTip": "LINQ to SQL Classes\\WebForm1.aspx.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:15:19.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQ to SQL Classes\\LINQ to SQL Classes\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "LINQ to SQL Classes\\Services\\EmployeeService.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQ to SQL Classes\\LINQ to SQL Classes\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "LINQ to SQL Classes\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T13:03:43.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQ to SQL Classes\\LINQ to SQL Classes\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "LINQ to SQL Classes\\WebForm1.aspx",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQ to SQL Classes\\LINQ to SQL Classes\\WebForm1.aspx",
+              "RelativeToolTip": "LINQ to SQL Classes\\WebForm1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-21T13:00:01.3Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

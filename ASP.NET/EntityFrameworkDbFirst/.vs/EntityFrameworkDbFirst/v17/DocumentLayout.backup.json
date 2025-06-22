@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|e:\\fullstack dotnet dev seed\\asp.net\\entityframeworkdbfirst\\entityframeworkdbfirst\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|solutionrelative:entityframeworkdbfirst\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|e:\\fullstack dotnet dev seed\\asp.net\\entityframeworkdbfirst\\entityframeworkdbfirst\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|solutionrelative:entityframeworkdbfirst\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|e:\\fullstack dotnet dev seed\\asp.net\\entityframeworkdbfirst\\entityframeworkdbfirst\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|solutionrelative:entityframeworkdbfirst\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|e:\\fullstack dotnet dev seed\\asp.net\\entityframeworkdbfirst\\entityframeworkdbfirst\\data access\\employeemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|solutionrelative:entityframeworkdbfirst\\data access\\employeemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|e:\\fullstack dotnet dev seed\\asp.net\\entityframeworkdbfirst\\entityframeworkdbfirst\\data access\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57411B2D-2E67-48AE-B992-4D4CABB96666}|EntityFrameworkDbFirst\\EntityFrameworkDbFirst.csproj|solutionrelative:entityframeworkdbfirst\\data access\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkDbFirst\\Service\\EmployeeService.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "EntityFrameworkDbFirst\\Service\\EmployeeService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:02:33.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Form1.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkDbFirst\\Form1.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Form1.cs",
+              "RelativeToolTip": "EntityFrameworkDbFirst\\Form1.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswEYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:49:24.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeModel.Context.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Data Access\\EmployeeModel.Context.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkDbFirst\\Data Access\\EmployeeModel.Context.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Data Access\\EmployeeModel.Context.cs",
+              "RelativeToolTip": "EntityFrameworkDbFirst\\Data Access\\EmployeeModel.Context.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:01:36.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Data Access\\Emp.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkDbFirst\\Data Access\\Emp.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Data Access\\Emp.cs",
+              "RelativeToolTip": "EntityFrameworkDbFirst\\Data Access\\Emp.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:00:28.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Form1.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkDbFirst\\Form1.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EntityFrameworkDbFirst\\EntityFrameworkDbFirst\\Form1.cs [Design]",
+              "RelativeToolTip": "EntityFrameworkDbFirst\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T05:54:46.141Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

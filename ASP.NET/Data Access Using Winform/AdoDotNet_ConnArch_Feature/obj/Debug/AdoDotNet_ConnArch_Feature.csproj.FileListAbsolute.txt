@@ -1,0 +1,11 @@
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\bin\Debug\AdoDotNet_ConnArch_Feature.exe.config
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\bin\Debug\AdoDotNet_ConnArch_Feature.exe
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\bin\Debug\AdoDotNet_ConnArch_Feature.pdb
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\obj\Debug\AdoDotNet_ConnArch_Feature.csproj.AssemblyReference.cache
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\obj\Debug\AdoDotNet_ConnArch_Feature.frm_MultipleQueries.resources
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\obj\Debug\AdoDotNet_ConnArch_Feature.Properties.Resources.resources
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\obj\Debug\AdoDotNet_ConnArch_Feature.csproj.GenerateResource.cache
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\obj\Debug\AdoDotNet_ConnArch_Feature.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\obj\Debug\AdoDotNet_ConnArch_Feature.exe
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\obj\Debug\AdoDotNet_ConnArch_Feature.pdb
+E:\FullStack dotNET dev Seed\ASP.NET\Data Access Using Winform\AdoDotNet_ConnArch_Feature\obj\Debug\AdoDotNet_ConnArch_Feature.exe.config

@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DapperConnectedArch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B705D0F-E33C-4B26-BA38-4B32F8FEB8A8}|DapperConnectedArch\\DapperConnectedArch.csproj|e:\\fullstack dotnet dev seed\\asp.net\\dapperconnectedarch\\dapperconnectedarch\\dataaccess\\employeeoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B705D0F-E33C-4B26-BA38-4B32F8FEB8A8}|DapperConnectedArch\\DapperConnectedArch.csproj|solutionrelative:dapperconnectedarch\\dataaccess\\employeeoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B705D0F-E33C-4B26-BA38-4B32F8FEB8A8}|DapperConnectedArch\\DapperConnectedArch.csproj|e:\\fullstack dotnet dev seed\\asp.net\\dapperconnectedarch\\dapperconnectedarch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B705D0F-E33C-4B26-BA38-4B32F8FEB8A8}|DapperConnectedArch\\DapperConnectedArch.csproj|solutionrelative:dapperconnectedarch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B705D0F-E33C-4B26-BA38-4B32F8FEB8A8}|DapperConnectedArch\\DapperConnectedArch.csproj|e:\\fullstack dotnet dev seed\\asp.net\\dapperconnectedarch\\dapperconnectedarch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B705D0F-E33C-4B26-BA38-4B32F8FEB8A8}|DapperConnectedArch\\DapperConnectedArch.csproj|solutionrelative:dapperconnectedarch\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B705D0F-E33C-4B26-BA38-4B32F8FEB8A8}|DapperConnectedArch\\DapperConnectedArch.csproj|e:\\fullstack dotnet dev seed\\asp.net\\dapperconnectedarch\\dapperconnectedarch\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B705D0F-E33C-4B26-BA38-4B32F8FEB8A8}|DapperConnectedArch\\DapperConnectedArch.csproj|solutionrelative:dapperconnectedarch\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DapperConnectedArch\\DapperConnectedArch\\Form1.cs",
+              "RelativeDocumentMoniker": "DapperConnectedArch\\Form1.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DapperConnectedArch\\DapperConnectedArch\\Form1.cs",
+              "RelativeToolTip": "DapperConnectedArch\\Form1.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAYwC8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:03:59.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeOperations.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DapperConnectedArch\\DapperConnectedArch\\DataAccess\\EmployeeOperations.cs",
+              "RelativeDocumentMoniker": "DapperConnectedArch\\DataAccess\\EmployeeOperations.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DapperConnectedArch\\DapperConnectedArch\\DataAccess\\EmployeeOperations.cs",
+              "RelativeToolTip": "DapperConnectedArch\\DataAccess\\EmployeeOperations.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowDcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:51:24.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DapperConnectedArch\\DapperConnectedArch\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "DapperConnectedArch\\Model\\Employee.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DapperConnectedArch\\DapperConnectedArch\\Model\\Employee.cs",
+              "RelativeToolTip": "DapperConnectedArch\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:49:27.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DapperConnectedArch\\DapperConnectedArch\\Form1.cs",
+              "RelativeDocumentMoniker": "DapperConnectedArch\\Form1.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DapperConnectedArch\\DapperConnectedArch\\Form1.cs [Design]",
+              "RelativeToolTip": "DapperConnectedArch\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:47:01.245Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

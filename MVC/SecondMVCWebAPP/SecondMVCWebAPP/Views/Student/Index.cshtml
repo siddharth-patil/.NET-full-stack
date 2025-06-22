@@ -1,0 +1,37 @@
+﻿@model List<SecondMVCWebAPP.Models.Student>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Student List</h2>
+
+<table class="table table-bordered table-hover table-responsive table-light">
+    <thead>
+        <tr>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Gender</th>
+            <th>Email</th>
+            <th>Qualification</th>
+            <th>Date of Birth</th>
+            <th>Percentage</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*@foreach (SecondMVCWebAPP.Models.Student item in (List<SecondMVCWebAPP.Models.Student>)Session["List"])*@
+            @foreach (SecondMVCWebAPP.Models.Student item in Model)
+             {
+                <tr>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.Gender</td>
+                    <td>@item.Email</td>
+                    <td>@item.Qualification</td>
+                    <td>@item.DateofBirth</td>
+                    <td><strong> @item.Percentage </strong></td>
+                </tr>
+             }
+    </tbody>
+</table>
+

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDatabaseFirstDemo", "EntityFrameworkDatabaseFirstDemo\EntityFrameworkDatabaseFirstDemo.csproj", "{BC74249A-9062-47F3-8FEE-C0DB89434618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstDemo", "CodeFirstDemo\CodeFirstDemo.csproj", "{73798E07-D8EE-4A6D-830B-449AA2DB60A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC74249A-9062-47F3-8FEE-C0DB89434618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC74249A-9062-47F3-8FEE-C0DB89434618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC74249A-9062-47F3-8FEE-C0DB89434618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC74249A-9062-47F3-8FEE-C0DB89434618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73798E07-D8EE-4A6D-830B-449AA2DB60A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73798E07-D8EE-4A6D-830B-449AA2DB60A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73798E07-D8EE-4A6D-830B-449AA2DB60A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73798E07-D8EE-4A6D-830B-449AA2DB60A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7CABD23-7473-4DD7-A741-4337B9180CE3}
+	EndGlobalSection
+EndGlobal

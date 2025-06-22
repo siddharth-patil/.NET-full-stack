@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C15CB3F-FE63-442C-A69F-97004CEB4942}|DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture.csproj|e:\\fullstack dotnet dev seed\\asp.net\\dataaccessusingconnectedarchitecrture\\dataaccessusingconnectedarchitecrture\\employeeoperationsnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15CB3F-FE63-442C-A69F-97004CEB4942}|DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture.csproj|solutionrelative:dataaccessusingconnectedarchitecrture\\employeeoperationsnew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C15CB3F-FE63-442C-A69F-97004CEB4942}|DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture.csproj|E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\dataaccessusingconnectedarchitecrture\\employeeoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15CB3F-FE63-442C-A69F-97004CEB4942}|DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture.csproj|solutionrelative:dataaccessusingconnectedarchitecrture\\employeeoperations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C15CB3F-FE63-442C-A69F-97004CEB4942}|DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture.csproj|E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\dataaccessusingconnectedarchitecrture\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15CB3F-FE63-442C-A69F-97004CEB4942}|DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture.csproj|solutionrelative:dataaccessusingconnectedarchitecrture\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C15CB3F-FE63-442C-A69F-97004CEB4942}|DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture.csproj|E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\dataaccessusingconnectedarchitecrture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C15CB3F-FE63-442C-A69F-97004CEB4942}|DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture.csproj|solutionrelative:dataaccessusingconnectedarchitecrture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeOperationsNew.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture\\EmployeeOperationsNew.cs",
+              "RelativeDocumentMoniker": "DataAccessUsingConnectedArchitecrture\\EmployeeOperationsNew.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture\\EmployeeOperationsNew.cs",
+              "RelativeToolTip": "DataAccessUsingConnectedArchitecrture\\EmployeeOperationsNew.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T15:49:55.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeOperations.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture\\EmployeeOperations.cs",
+              "RelativeDocumentMoniker": "DataAccessUsingConnectedArchitecrture\\EmployeeOperations.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture\\EmployeeOperations.cs",
+              "RelativeToolTip": "DataAccessUsingConnectedArchitecrture\\EmployeeOperations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:45:44.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture\\Employee.cs",
+              "RelativeDocumentMoniker": "DataAccessUsingConnectedArchitecrture\\Employee.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture\\Employee.cs",
+              "RelativeToolTip": "DataAccessUsingConnectedArchitecrture\\Employee.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:40:25.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture\\Program.cs",
+              "RelativeDocumentMoniker": "DataAccessUsingConnectedArchitecrture\\Program.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\DataAccessUsingConnectedArchitecrture\\DataAccessUsingConnectedArchitecrture\\Program.cs",
+              "RelativeToolTip": "DataAccessUsingConnectedArchitecrture\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswDAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T14:00:26.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

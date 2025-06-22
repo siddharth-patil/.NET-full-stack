@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQBasics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C2BC01-28F1-40FE-8F34-B0BF10948476}|LINQBasics\\LINQBasics.csproj|e:\\fullstack dotnet dev seed\\asp.net\\linqbasics\\linqbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C2BC01-28F1-40FE-8F34-B0BF10948476}|LINQBasics\\LINQBasics.csproj|solutionrelative:linqbasics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C2BC01-28F1-40FE-8F34-B0BF10948476}|LINQBasics\\LINQBasics.csproj|e:\\fullstack dotnet dev seed\\asp.net\\linqbasics\\linqbasics\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5C2BC01-28F1-40FE-8F34-B0BF10948476}|LINQBasics\\LINQBasics.csproj|solutionrelative:linqbasics\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQBasics\\LINQBasics\\Employee.cs",
+              "RelativeDocumentMoniker": "LINQBasics\\Employee.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQBasics\\LINQBasics\\Employee.cs",
+              "RelativeToolTip": "LINQBasics\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T08:38:42.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQBasics\\LINQBasics\\Program.cs",
+              "RelativeDocumentMoniker": "LINQBasics\\Program.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\LINQBasics\\LINQBasics\\Program.cs",
+              "RelativeToolTip": "LINQBasics\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T08:26:46.141Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

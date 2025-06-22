@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Employee List</title>
+</head>
+<body>
+    <div> 
+        @{ 
+            List<MVC_FirstApp.Models.Employee> employees = (List<MVC_FirstApp.Models.Employee>)Session["employees"];
+        }
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>Name</td>
+                    <td>Designation</td>
+                    <td>Salary</td>
+                </tr>
+            </thead>
+            <tbody>
+
+
+                @foreach (var emp in employees)
+                 {
+                    <tr>
+                        <td>
+                            @emp.Id
+                        </td>
+                        <td>
+                            @emp.Name
+                        </td>
+                        <td>
+                            @emp.Designation
+                        </td>
+                        <td>
+                            @emp.Salary
+                        </td>
+                    </tr>
+                 }
+                    
+
+                </tbody>
+        </table>
+    </div>
+</body>
+</html>

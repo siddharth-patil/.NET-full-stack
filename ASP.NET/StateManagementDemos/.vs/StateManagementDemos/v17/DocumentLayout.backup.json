@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\ASP.NET\\StateManagementDemos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20D41217-FEC5-4F54-9F79-6252CBAF90C3}|UserControlDemo\\UserControlDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net\\statemanagementdemos\\usercontroldemo\\calendarusercontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D41217-FEC5-4F54-9F79-6252CBAF90C3}|UserControlDemo\\UserControlDemo.csproj|solutionrelative:usercontroldemo\\calendarusercontrol.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D41217-FEC5-4F54-9F79-6252CBAF90C3}|UserControlDemo\\UserControlDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net\\statemanagementdemos\\usercontroldemo\\calendardemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D41217-FEC5-4F54-9F79-6252CBAF90C3}|UserControlDemo\\UserControlDemo.csproj|solutionrelative:usercontroldemo\\calendardemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D41217-FEC5-4F54-9F79-6252CBAF90C3}|UserControlDemo\\UserControlDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net\\statemanagementdemos\\usercontroldemo\\calendardemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20D41217-FEC5-4F54-9F79-6252CBAF90C3}|UserControlDemo\\UserControlDemo.csproj|solutionrelative:usercontroldemo\\calendardemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D41217-FEC5-4F54-9F79-6252CBAF90C3}|UserControlDemo\\UserControlDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net\\statemanagementdemos\\usercontroldemo\\calendarusercontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{20D41217-FEC5-4F54-9F79-6252CBAF90C3}|UserControlDemo\\UserControlDemo.csproj|solutionrelative:usercontroldemo\\calendarusercontrol.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalendarUserControl.ascx.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\StateManagementDemos\\UserControlDemo\\CalendarUserControl.ascx.cs",
+              "RelativeDocumentMoniker": "UserControlDemo\\CalendarUserControl.ascx.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\StateManagementDemos\\UserControlDemo\\CalendarUserControl.ascx.cs",
+              "RelativeToolTip": "UserControlDemo\\CalendarUserControl.ascx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:23:25.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalendarDemo.aspx.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\StateManagementDemos\\UserControlDemo\\CalendarDemo.aspx.cs",
+              "RelativeDocumentMoniker": "UserControlDemo\\CalendarDemo.aspx.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\StateManagementDemos\\UserControlDemo\\CalendarDemo.aspx.cs",
+              "RelativeToolTip": "UserControlDemo\\CalendarDemo.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T08:23:37.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalendarUserControl.ascx",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\StateManagementDemos\\UserControlDemo\\CalendarUserControl.ascx",
+              "RelativeDocumentMoniker": "UserControlDemo\\CalendarUserControl.ascx",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\StateManagementDemos\\UserControlDemo\\CalendarUserControl.ascx",
+              "RelativeToolTip": "UserControlDemo\\CalendarUserControl.ascx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-06-07T08:21:24.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalendarDemo.aspx",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\StateManagementDemos\\UserControlDemo\\CalendarDemo.aspx",
+              "RelativeDocumentMoniker": "UserControlDemo\\CalendarDemo.aspx",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\StateManagementDemos\\UserControlDemo\\CalendarDemo.aspx",
+              "RelativeToolTip": "UserControlDemo\\CalendarDemo.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-07T08:21:47.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
