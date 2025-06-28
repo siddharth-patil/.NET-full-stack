@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|e:\\fullstack dotnet dev seed\\asp.net\\employeecodefirstlibrary\\employeedataaccess\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|solutionrelative:employeedataaccess\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|e:\\fullstack dotnet dev seed\\asp.net\\employeecodefirstlibrary\\employeedataaccess\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|solutionrelative:employeedataaccess\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|e:\\fullstack dotnet dev seed\\asp.net\\employeecodefirstlibrary\\employeedataaccess\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|solutionrelative:employeedataaccess\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|e:\\fullstack dotnet dev seed\\asp.net\\employeecodefirstlibrary\\employeedataaccess\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|solutionrelative:employeedataaccess\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|e:\\fullstack dotnet dev seed\\asp.net\\employeecodefirstlibrary\\employeedataaccess\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|solutionrelative:employeedataaccess\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|e:\\fullstack dotnet dev seed\\asp.net\\employeecodefirstlibrary\\employeedataaccess\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93BEBF43-6DF9-4CF4-AC91-040C116AE432}|EmployeeDataAccess\\EmployeeDataAccess.csproj|solutionrelative:employeedataaccess\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED2F762-1D8D-4052-B97B-F92427500F10}|EmployeeCodeFirstLibrary\\EmployeeCodeFirstLibrary.csproj|e:\\fullstack dotnet dev seed\\asp.net\\employeecodefirstlibrary\\employeecodefirstlibrary\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED2F762-1D8D-4052-B97B-F92427500F10}|EmployeeCodeFirstLibrary\\EmployeeCodeFirstLibrary.csproj|solutionrelative:employeecodefirstlibrary\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EmployeeDataAccess\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "EmployeeDataAccess\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T08:58:13.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EmployeeDataAccess\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "EmployeeDataAccess\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T09:12:55.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "EmployeeDataAccess\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "EmployeeDataAccess\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T08:01:31.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeCodeFirstLibrary\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeCodeFirstLibrary\\Services\\EmployeeService.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeCodeFirstLibrary\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeCodeFirstLibrary\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwEIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T07:20:58.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "EmployeeDataAccess\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "EmployeeDataAccess\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T07:18:58.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeDataAccess\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "EmployeeDataAccess\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T06:50:39.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeDataAccess\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\ASP.NET\\EmployeeCodeFirstLibrary\\EmployeeDataAccess\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeDataAccess\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAA9wEcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:47:11.149Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

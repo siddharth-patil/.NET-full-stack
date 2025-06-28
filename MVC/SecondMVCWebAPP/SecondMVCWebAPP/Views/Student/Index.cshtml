@@ -6,9 +6,14 @@
 
 <h2>Student List</h2>
 
+<p>
+    @Html.ActionLink("Add New Student",  "Create")
+</p>
+
 <table class="table table-bordered table-hover table-responsive table-light">
     <thead>
         <tr>
+            <th>Roll</th>
             <th>FirstName</th>
             <th>LastName</th>
             <th>Gender</th>
@@ -16,6 +21,7 @@
             <th>Qualification</th>
             <th>Date of Birth</th>
             <th>Percentage</th>
+            <th>Manipulate</th>
         </tr>
     </thead>
     <tbody>
@@ -23,6 +29,7 @@
             @foreach (SecondMVCWebAPP.Models.Student item in Model)
              {
                 <tr>
+                    <td>@item.Roll</td>
                     <td>@item.FirstName</td>
                     <td>@item.LastName</td>
                     <td>@item.Gender</td>
@@ -30,6 +37,11 @@
                     <td>@item.Qualification</td>
                     <td>@item.DateofBirth</td>
                     <td><strong> @item.Percentage </strong></td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = item.Roll }) |
+                        @Html.ActionLink("Update", "Edit", new { id = item.Roll }) |
+                        @Html.ActionLink("Remove", "Delete", new { id = item.Roll })
+                    </td>
                 </tr>
              }
     </tbody>

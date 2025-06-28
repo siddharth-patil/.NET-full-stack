@@ -1,0 +1,11 @@
+﻿<h2>Cookie details</h2>
+
+@{ 
+    HttpCookie cookie = Request.Cookies["info"];
+}
+
+<p><h5>Time :</h5> @cookie["time"]</p>
+
+<p><h5>Fruits :</h5> @cookie["fruits"]</p>
+
+@Html.ActionLink("Redirect to index","Index","Home")

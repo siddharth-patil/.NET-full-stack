@@ -28,7 +28,7 @@ namespace SecondMVCWebAPP.Controllers
         // GET: Student/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            return View(studentService.GetById(id));
         }
 
         // GET: Student/Create
@@ -39,13 +39,20 @@ namespace SecondMVCWebAPP.Controllers
 
         // POST: Student/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Student newstudent)
         {
             try
             {
                 // TODO: Add insert logic here
+                if (studentService.AddNew(newstudent))
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(newstudent);
+                }
 
-                return RedirectToAction("Index");
             }
             catch
             {
@@ -56,18 +63,27 @@ namespace SecondMVCWebAPP.Controllers
         // GET: Student/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            Student existingStudent = studentService.GetById(id);
+            return View(existingStudent);
         }
 
         // POST: Student/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(Student editedStudent)
         {
             try
             {
                 // TODO: Add update logic here
+                if (studentService.EditStudent(editedStudent))
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View();
+                }
 
-                return RedirectToAction("Index");
+                
             }
             catch
             {
@@ -78,18 +94,27 @@ namespace SecondMVCWebAPP.Controllers
         // GET: Student/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            Student dltStudent = studentService.GetById(id);
+            return View(dltStudent);
         }
 
         // POST: Student/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        [HttpPost, ActionName("Delete")]
+        public ActionResult DeleteStudent(int roll)
         {
             try
             {
                 // TODO: Add delete logic here
+                if (studentService.deleteStudent(roll))
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View();
+                }
 
-                return RedirectToAction("Index");
+                
             }
             catch
             {

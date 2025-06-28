@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|e:\\fullstack dotnet dev seed\\mvc\\secondmvcwebapp\\secondmvcwebapp\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\secondmvcwebapp\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|e:\\fullstack dotnet dev seed\\mvc\\secondmvcwebapp\\secondmvcwebapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +15,20 @@
       "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\dataaccess\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|e:\\fullstack dotnet dev seed\\mvc\\secondmvcwebapp\\secondmvcwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\secondmvcwebapp\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|e:\\fullstack dotnet dev seed\\mvc\\secondmvcwebapp\\secondmvcwebapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|e:\\fullstack dotnet dev seed\\mvc\\secondmvcwebapp\\secondmvcwebapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|e:\\fullstack dotnet dev seed\\mvc\\secondmvcwebapp\\secondmvcwebapp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|e:\\fullstack dotnet dev seed\\mvc\\secondmvcwebapp\\secondmvcwebapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\secondmvcwebapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\secondmvcwebapp\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\secondmvcwebapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{91F08BF2-88B8-4601-A168-E01F5870B288}|SecondMVCWebAPP\\SecondMVCWebAPP.csproj|solutionrelative:secondmvcwebapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,59 +38,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "SecondMVCWebAPP\\App_Start\\RouteConfig.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "SecondMVCWebAPP\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:52:37.757Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Global.asax.cs",
-              "RelativeDocumentMoniker": "SecondMVCWebAPP\\Global.asax.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Global.asax.cs",
-              "RelativeToolTip": "SecondMVCWebAPP\\Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T16:52:30.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SecondMVCWebAPP\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SecondMVCWebAPP\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAATAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SecondMVCWebAPP\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "SecondMVCWebAPP\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T16:52:00.712Z",
+              "WhenOpened": "2025-06-25T16:00:29.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SecondMVCWebAPP\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "SecondMVCWebAPP\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T15:47:19.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "SecondMVCWebAPP\\Views\\Student\\Index.cshtml",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Views\\Student\\Index.cshtml",
               "RelativeToolTip": "SecondMVCWebAPP\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T16:41:52.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T16:41:52.884Z"
             },
             {
               "$type": "Document",
@@ -104,14 +86,14 @@
               "RelativeDocumentMoniker": "SecondMVCWebAPP\\Controllers\\StudentController.cs",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Controllers\\StudentController.cs",
               "RelativeToolTip": "SecondMVCWebAPP\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwEcAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T16:29:47.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Web.config",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Web.config",
               "RelativeDocumentMoniker": "SecondMVCWebAPP\\Web.config",
@@ -124,13 +106,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Student.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Models\\Student.cs",
               "RelativeDocumentMoniker": "SecondMVCWebAPP\\Models\\Student.cs",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\Models\\Student.cs",
               "RelativeToolTip": "SecondMVCWebAPP\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T07:06:06.359Z",
               "EditorCaption": ""
@@ -143,7 +125,7 @@
               "RelativeDocumentMoniker": "SecondMVCWebAPP\\DataAccess\\StudentService.cs",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\SecondMVCWebAPP\\SecondMVCWebAPP\\DataAccess\\StudentService.cs",
               "RelativeToolTip": "SecondMVCWebAPP\\DataAccess\\StudentService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswBcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAA8wIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T07:05:28.24Z",
               "EditorCaption": ""
