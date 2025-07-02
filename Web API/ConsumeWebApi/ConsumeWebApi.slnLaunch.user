@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "WebAPI\\WebAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "IIS Express (Google Chrome)"
+      },
+      {
+        "Path": "ConsumeWebAPI\\ConsumeWebAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "IIS Express (Google Chrome)"
+      }
+    ]
+  }
+]

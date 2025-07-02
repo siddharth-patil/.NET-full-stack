@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ADODB" Class="EmployeeModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Emp" Member="Emps">
+    <Type Name="Emp">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfJoining" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Salary" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.CRUDEmployeeOperations" Method="CRUDEmployeeOperations">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="VarChar(30)" />
+    <Parameter Name="Gender" Parameter="gender" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="DateOfJoining" Parameter="dateOfJoining" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="Salary" Parameter="salary" Type="System.Double" DbType="Float" />
+    <Parameter Name="Operation" Parameter="operation" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="CRUDEmployeeOperationsResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfJoining" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Salary" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

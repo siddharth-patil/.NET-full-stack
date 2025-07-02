@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA73EC49-EC22-4790-9E34-CB9C973554A9}|WebAPI\\WebAPI.csproj|e:\\fullstack dotnet dev seed\\web api\\consumewebapi\\webapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA73EC49-EC22-4790-9E34-CB9C973554A9}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\consumewebapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\consumewebapi\\service\\consumewebapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\service\\consumewebapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\consumewebapi\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA73EC49-EC22-4790-9E34-CB9C973554A9}|WebAPI\\WebAPI.csproj|E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\webapi\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA73EC49-EC22-4790-9E34-CB9C973554A9}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\consumewebapi\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\consumewebapi\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A349671-CBD0-4B22-BE51-4569E9DF7EEA}|ConsumeWebAPI\\ConsumeWebAPI.csproj|solutionrelative:consumewebapi\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Employee\\Delete.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T17:20:41.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T16:41:55.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "ConsumeWebAPI\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T15:49:07.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\WebAPI\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Services\\EmployeeService.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\WebAPI\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "WebAPI\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:41:28.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\WebAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\WebAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T13:52:25.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAQwGYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:24:33.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsumeWebApi.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Service\\ConsumeWebApi.cs",
+              "RelativeDocumentMoniker": "ConsumeWebAPI\\Service\\ConsumeWebApi.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi\\ConsumeWebAPI\\Service\\ConsumeWebApi.cs",
+              "RelativeToolTip": "ConsumeWebAPI\\Service\\ConsumeWebApi.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T13:47:18.132Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

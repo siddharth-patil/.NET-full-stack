@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<p>Current Time => @ViewBag.Time</p>
+
+<form action="/" method="post">
+    @Html.AntiForgeryToken()
+    <input type="text" name="txtInput" />
+    <input type="submit" name="btnSubmit" value="Submit" />
+</form>
+
+Textbox Input Entered is : @ViewBag.Text
+
+<hr />
+Raw html input : @Html.Raw(ViewBag.Text)

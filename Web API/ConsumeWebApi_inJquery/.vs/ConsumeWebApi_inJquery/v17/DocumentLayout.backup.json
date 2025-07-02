@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi_inJquery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{26081241-B862-4901-943A-1DA8A1F2F582}|ConsumeWebApi_inJquery\\ConsumeWebApi_inJquery.csproj|e:\\fullstack dotnet dev seed\\web api\\consumewebapi_injquery\\consumewebapi_injquery\\consumewebapi.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{26081241-B862-4901-943A-1DA8A1F2F582}|ConsumeWebApi_inJquery\\ConsumeWebApi_inJquery.csproj|solutionrelative:consumewebapi_injquery\\consumewebapi.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsumeWebApi.html",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi_inJquery\\ConsumeWebApi_inJquery\\ConsumeWebApi.html",
+              "RelativeDocumentMoniker": "ConsumeWebApi_inJquery\\ConsumeWebApi.html",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\ConsumeWebApi_inJquery\\ConsumeWebApi_inJquery\\ConsumeWebApi.html",
+              "RelativeToolTip": "ConsumeWebApi_inJquery\\ConsumeWebApi.html",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-02T16:08:49.777Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\customauthenticationfilterdemo\\customauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|solutionrelative:customauthenticationfilterdemo\\customauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|e:\\fullstack dotnet dev seed\\mvc\\builtinfiltersdemo\\customauthenticationfilterdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|solutionrelative:customauthenticationfilterdemo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\customauthenticationfilterdemo\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|solutionrelative:customauthenticationfilterdemo\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\customauthenticationfilterdemo\\dataaccess\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|solutionrelative:customauthenticationfilterdemo\\dataaccess\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\customauthenticationfilterdemo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|solutionrelative:customauthenticationfilterdemo\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\customauthenticationfilterdemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|solutionrelative:customauthenticationfilterdemo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\customauthenticationfilterdemo\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|solutionrelative:customauthenticationfilterdemo\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\customauthenticationfilterdemo\\dataaccess\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|solutionrelative:customauthenticationfilterdemo\\dataaccess\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\customauthenticationfilterdemo\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8AC8952-96B7-4290-9D89-E578B0E0BBBD}|CustomAuthenticationFilterDemo\\CustomAuthenticationFilterDemo.csproj|solutionrelative:customauthenticationfilterdemo\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CustomAuthenticationFilterDemo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CustomAuthenticationFilterDemo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T13:46:30.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Views\\Users\\Login.cshtml",
+              "RelativeDocumentMoniker": "CustomAuthenticationFilterDemo\\Views\\Users\\Login.cshtml",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Views\\Users\\Login.cshtml",
+              "RelativeToolTip": "CustomAuthenticationFilterDemo\\Views\\Users\\Login.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T13:34:27.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CustomAuthenticationFilterDemo\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CustomAuthenticationFilterDemo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T13:30:06.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Web.config",
+              "RelativeDocumentMoniker": "CustomAuthenticationFilterDemo\\Web.config",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Web.config",
+              "RelativeToolTip": "CustomAuthenticationFilterDemo\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-29T13:22:31.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "CustomAuthenticationFilterDemo\\Controllers\\UsersController.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "CustomAuthenticationFilterDemo\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T13:17:44.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\DataAccess\\UserService.cs",
+              "RelativeDocumentMoniker": "CustomAuthenticationFilterDemo\\DataAccess\\UserService.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\DataAccess\\UserService.cs",
+              "RelativeToolTip": "CustomAuthenticationFilterDemo\\DataAccess\\UserService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T13:02:00.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserDBContext.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\DataAccess\\UserDBContext.cs",
+              "RelativeDocumentMoniker": "CustomAuthenticationFilterDemo\\DataAccess\\UserDBContext.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\DataAccess\\UserDBContext.cs",
+              "RelativeToolTip": "CustomAuthenticationFilterDemo\\DataAccess\\UserDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:48:48.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Models\\UserDetails.cs",
+              "RelativeDocumentMoniker": "CustomAuthenticationFilterDemo\\Models\\UserDetails.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\Models\\UserDetails.cs",
+              "RelativeToolTip": "CustomAuthenticationFilterDemo\\Models\\UserDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:44:02.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomAuthentication.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\CustomAuthentication.cs",
+              "RelativeDocumentMoniker": "CustomAuthenticationFilterDemo\\CustomAuthentication.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\MVC\\BuiltinFiltersDemo\\CustomAuthenticationFilterDemo\\CustomAuthentication.cs",
+              "RelativeToolTip": "CustomAuthenticationFilterDemo\\CustomAuthentication.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:44:53.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
