@@ -8,5 +8,6 @@ namespace FirstMVCApp.DataAccess
         public bool AddEmployee(Employee employee);
         public bool UpdateEmployee(Employee employee);
         public bool DeleteEmployee(int id);
+        Employee GetById(int id);
     }
 }

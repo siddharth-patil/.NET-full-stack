@@ -27,7 +27,22 @@ namespace FirstMVCApp.Controllers
                 return RedirectToAction("Index");
             }
             return View(emp);
-            
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            if (repo_ref.DeleteEmployee(id))
+            { 
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        public JsonResult Details(int id)
+        {
+            Employee employee = repo_ref.GetById(id);
+            return Json(employee);
         }
     }
 }

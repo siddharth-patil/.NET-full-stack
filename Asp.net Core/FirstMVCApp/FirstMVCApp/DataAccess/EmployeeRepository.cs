@@ -138,5 +138,21 @@ namespace FirstMVCApp.DataAccess
 
             return status;
         }
+
+        Employee IEmployeeRepository.GetById(int id)
+        {
+            ds = CopyData();
+            Employee emp = new Employee();
+            DataRow searchedRecord = ds.Tables["Emp"].Rows.Find(id);
+            if (searchedRecord != null)
+            {
+                emp.Id = Convert.ToInt32(searchedRecord["Id"]);
+                emp.Name = searchedRecord["Name"].ToString();
+                emp.Gender = searchedRecord["Gender"].ToString();
+                emp.DateOfJoining = searchedRecord["DateOfJoining"].ToString();
+                emp.Salary = Convert.ToDouble(searchedRecord["Salary"]);
+            }
+            return emp;
+        }
     }
 }
