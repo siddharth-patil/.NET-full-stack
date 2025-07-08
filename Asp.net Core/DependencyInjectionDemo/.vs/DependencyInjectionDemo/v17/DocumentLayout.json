@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\DependencyInjectionDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF81D04-CEBB-4E11-A4A9-9FC5DC001786}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\dependencyinjectiondemo\\dependencyinjectiondemo\\dataaccess\\service\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF81D04-CEBB-4E11-A4A9-9FC5DC001786}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\dataaccess\\service\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF81D04-CEBB-4E11-A4A9-9FC5DC001786}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\dependencyinjectiondemo\\dependencyinjectiondemo\\dataaccess\\service\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF81D04-CEBB-4E11-A4A9-9FC5DC001786}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\dataaccess\\service\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF81D04-CEBB-4E11-A4A9-9FC5DC001786}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\dependencyinjectiondemo\\dependencyinjectiondemo\\dataaccess\\datacontext\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF81D04-CEBB-4E11-A4A9-9FC5DC001786}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\dataaccess\\datacontext\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF81D04-CEBB-4E11-A4A9-9FC5DC001786}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\dependencyinjectiondemo\\dependencyinjectiondemo\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF81D04-CEBB-4E11-A4A9-9FC5DC001786}|DependencyInjectionDemo\\DependencyInjectionDemo.csproj|solutionrelative:dependencyinjectiondemo\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\DependencyInjectionDemo\\DependencyInjectionDemo\\DataAccess\\Service\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\DataAccess\\Service\\MovieRepository.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\DependencyInjectionDemo\\DependencyInjectionDemo\\DataAccess\\Service\\MovieRepository.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\DataAccess\\Service\\MovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T12:34:47.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\DependencyInjectionDemo\\DependencyInjectionDemo\\DataAccess\\Service\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\DataAccess\\Service\\IMovieRepository.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\DependencyInjectionDemo\\DependencyInjectionDemo\\DataAccess\\Service\\IMovieRepository.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\DataAccess\\Service\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T12:33:06.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieDbContext.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\DependencyInjectionDemo\\DependencyInjectionDemo\\DataAccess\\DataContext\\MovieDbContext.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\DataAccess\\DataContext\\MovieDbContext.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\DependencyInjectionDemo\\DependencyInjectionDemo\\DataAccess\\DataContext\\MovieDbContext.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\DataAccess\\DataContext\\MovieDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T12:13:46.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\DependencyInjectionDemo\\DependencyInjectionDemo\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "DependencyInjectionDemo\\Models\\Movie.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\DependencyInjectionDemo\\DependencyInjectionDemo\\Models\\Movie.cs",
+              "RelativeToolTip": "DependencyInjectionDemo\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T12:10:36.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

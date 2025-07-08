@@ -1,0 +1,15 @@
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\bin\Debug\net8.0\SingletonDesignPatternDemo.exe
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\bin\Debug\net8.0\SingletonDesignPatternDemo.deps.json
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\bin\Debug\net8.0\SingletonDesignPatternDemo.runtimeconfig.json
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\bin\Debug\net8.0\SingletonDesignPatternDemo.dll
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\bin\Debug\net8.0\SingletonDesignPatternDemo.pdb
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\SingletonDesignPatternDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\SingletonDesignPatternDemo.AssemblyInfoInputs.cache
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\SingletonDesignPatternDemo.AssemblyInfo.cs
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\SingletonDesignPatternDemo.csproj.CoreCompileInputs.cache
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\SingletonDesignPatternDemo.sourcelink.json
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\SingletonDesignPatternDemo.dll
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\refint\SingletonDesignPatternDemo.dll
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\SingletonDesignPatternDemo.pdb
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\SingletonDesignPatternDemo.genruntimeconfig.cache
+E:\FullStack dotNET dev Seed\Asp.net Core\SingletonDesignPatternDemo\SingletonDesignPatternDemo\obj\Debug\net8.0\ref\SingletonDesignPatternDemo.dll

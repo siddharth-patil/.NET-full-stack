@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\FirstMVCApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBD9447C-6B84-4BD7-8EB3-D3ACF5DD3D8F}|FirstMVCApp\\FirstMVCApp.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\firstmvcapp\\firstmvcapp\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DBD9447C-6B84-4BD7-8EB3-D3ACF5DD3D8F}|FirstMVCApp\\FirstMVCApp.csproj|solutionrelative:firstmvcapp\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBD9447C-6B84-4BD7-8EB3-D3ACF5DD3D8F}|FirstMVCApp\\FirstMVCApp.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\firstmvcapp\\firstmvcapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBD9447C-6B84-4BD7-8EB3-D3ACF5DD3D8F}|FirstMVCApp\\FirstMVCApp.csproj|solutionrelative:firstmvcapp\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD9447C-6B84-4BD7-8EB3-D3ACF5DD3D8F}|FirstMVCApp\\FirstMVCApp.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\firstmvcapp\\firstmvcapp\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBD9447C-6B84-4BD7-8EB3-D3ACF5DD3D8F}|FirstMVCApp\\FirstMVCApp.csproj|solutionrelative:firstmvcapp\\views\\employee\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBD9447C-6B84-4BD7-8EB3-D3ACF5DD3D8F}|FirstMVCApp\\FirstMVCApp.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\firstmvcapp\\firstmvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\FirstMVCApp\\FirstMVCApp\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "FirstMVCApp\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\FirstMVCApp\\FirstMVCApp\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "FirstMVCApp\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAjwB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T15:49:30.398Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -50,33 +63,19 @@
               "RelativeToolTip": "FirstMVCApp\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:18:04.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T16:18:04.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "List.cshtml",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\FirstMVCApp\\FirstMVCApp\\Views\\Employee\\List.cshtml",
               "RelativeDocumentMoniker": "FirstMVCApp\\Views\\Employee\\List.cshtml",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\FirstMVCApp\\FirstMVCApp\\Views\\Employee\\List.cshtml",
               "RelativeToolTip": "FirstMVCApp\\Views\\Employee\\List.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAiwIAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-03T15:59:47.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\FirstMVCApp\\FirstMVCApp\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "FirstMVCApp\\Controllers\\EmployeeController.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\FirstMVCApp\\FirstMVCApp\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "FirstMVCApp\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T15:49:30.398Z",
               "EditorCaption": ""
             }
           ]
