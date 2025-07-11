@@ -1,0 +1,43 @@
+<!-- <h1 *ngIf="show">Heading Tag</h1> -->
+
+<!-- <h1>*ngIf Directives in Angular</h1>
+
+<div *ngIf="login;else elseBlock">
+  <a href="">logout</a>
+</div>
+
+<ng-template #elseBlock>
+    <a href="">login</a>
+</ng-template> -->
+
+<!-- ---------------------------- -->
+
+<!-- <div *ngIf="block==0">
+  <h1>heading 0</h1>
+</div>
+
+<div *ngIf="block==1">
+  <h1>heading 1</h1>
+</div>
+
+<div *ngIf="block==2">
+  <h1>heading 2</h1>
+</div>
+
+<button (click)="updateBlock()">Update Block</button> -->
+
+
+<!-- ngswitch -->
+ <button (click)="changeColor('green')">Green</button>
+ <button (click)="changeColor('red')">Red</button>
+ <button (click)="changeColor('orange')">Orange</button>
+ <button (click)="changeColor('pink')">Pink</button>
+
+<div [ngSwitch]="color">
+  <h3 *ngSwitchCase="'green'" style="background-color: green; color: burlywood;">Green color</h3>
+  <h3 *ngSwitchCase="'red'" style="background-color: red;">Red Color</h3>
+  <h3 *ngSwitchCase="'orange'" style="background-color: orange;">Orange Color</h3>
+  <h3 *ngSwitchCase="'pink'" style="background-color: pink;">pink color</h3>
+
+  <h3 *ngSwitchDefault>No color match</h3>
+</div>
