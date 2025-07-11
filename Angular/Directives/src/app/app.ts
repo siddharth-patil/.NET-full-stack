@@ -24,9 +24,15 @@ export class App {
   // }
 
 
-  color:string = 'white';
-  changeColor(color:string){
-    this.color = color;
+  // color:string = 'white';
+  // changeColor(color:string){
+  //   this.color = color;
+  // }
+
+  isActive = false;
+
+  toggle(){
+    this.isActive = !this.isActive;
   }
 
 }

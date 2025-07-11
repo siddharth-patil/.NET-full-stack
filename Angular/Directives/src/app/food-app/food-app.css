@@ -1,0 +1,15 @@
+.veg{
+    color: green;
+}
+
+.nonveg{
+    color: red;
+}
+
+table{
+    border:5px groove black;
+}
+
+th,td{
+    border: 1px solid black;
+}

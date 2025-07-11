@@ -1,0 +1,35 @@
+<!-- <p>food-app works!</p> -->
+
+<h1 [ngStyle]="{'color': headingColor}">Food Menu</h1>
+
+<table *ngIf="show">
+
+    <thead>
+        <th>Image</th>
+        <th>DishName</th>
+        <th>FoodType</th>
+        <th>Cuisine</th>
+        <th>Price</th>
+    </thead>
+    <tbody *ngFor="let dish of foodArr" [ngSwitch]="dish.foodType">
+        <tr *ngSwitchCase="'veg'" [ngClass]="'veg'">
+            <td>
+                <img src="{{dish.image}}" alt="">
+            </td>
+            <td>{{dish.dishName}}</td>
+            <td>{{dish.foodType}}</td>
+            <td>{{dish.cuisine}}</td>
+            <td>{{dish.price}}</td>
+        </tr>
+
+        <tr *ngSwitchCase="'nonveg'" [ngClass]="'nonveg'">
+            <td>
+                <img src="{{dish.image}}" alt="">
+            </td>
+            <td>{{dish.dishName}}</td>
+            <td>{{dish.foodType}}</td>
+            <td>{{dish.cuisine}}</td>
+            <td>{{dish.price}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+.classTrue{
+    text-decoration: underline;
+    color: pink;
+    background-color: blue;
+}
+
+.classFalse{
+    text-decoration: dashed;
+    color: aquamarine;
+    background-color: brown;
+}

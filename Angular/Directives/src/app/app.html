@@ -28,7 +28,7 @@
 
 
 <!-- ngswitch -->
- <button (click)="changeColor('green')">Green</button>
+ <!-- <button (click)="changeColor('green')">Green</button>
  <button (click)="changeColor('red')">Red</button>
  <button (click)="changeColor('orange')">Orange</button>
  <button (click)="changeColor('pink')">Pink</button>
@@ -39,5 +39,13 @@
   <h3 *ngSwitchCase="'orange'" style="background-color: orange;">Orange Color</h3>
   <h3 *ngSwitchCase="'pink'" style="background-color: pink;">pink color</h3>
 
-  <h3 *ngSwitchDefault>No color match</h3>
-</div>
+  <h3 *ngSwitchDefault>No color match</h3> 
+  </div> -->
+
+  <h2>ngStyle and ngClass</h2>
+
+  <p [ngStyle]="{'color':isActive ? 'green':'orange', 'font-weight':isActive ? 'bold':'normal'}">This line uses ngStyle</p>
+
+  <p [ngClass]="{'classTrue':isActive, 'classFalse':!isActive}">This line uses ngClass</p>
+
+  <button (click)="toggle()">Toggle state</button>
