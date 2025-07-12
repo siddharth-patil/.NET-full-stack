@@ -2,10 +2,14 @@ import { CommonModule} from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { FoodApp } from "./food-app/food-app";
+import { Car } from "./car/car";
+import { Customer } from './customer/customer';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, FoodApp],
+  // imports: [CommonModule, FoodApp],
+  // imports: [CommonModule,Car],
+  imports: [CommonModule,Customer],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
