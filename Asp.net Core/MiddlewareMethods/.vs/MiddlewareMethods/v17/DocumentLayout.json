@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\MiddlewareMethods\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAB05B4F-82A5-425F-B37F-D60A83B22CFD}|MiddlewareMethods\\MiddlewareMethods.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\middlewaremethods\\middlewaremethods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAB05B4F-82A5-425F-B37F-D60A83B22CFD}|MiddlewareMethods\\MiddlewareMethods.csproj|solutionrelative:middlewaremethods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\MiddlewareMethods\\MiddlewareMethods\\Program.cs",
+              "RelativeDocumentMoniker": "MiddlewareMethods\\Program.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\MiddlewareMethods\\MiddlewareMethods\\Program.cs",
+              "RelativeToolTip": "MiddlewareMethods\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:45:24.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

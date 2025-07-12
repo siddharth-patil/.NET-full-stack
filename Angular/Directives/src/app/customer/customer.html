@@ -12,11 +12,11 @@
     </thead>
     <tbody *ngFor="let customer of Customers">
         <tr>
-            <td>{{customer.custId}}</td>
-            <td>{{customer.custName}}</td>
-            <td>{{customer.country}}</td>
-            <td>{{customer.city}}</td>
-            <td>{{customer.contact}}</td>
+            <td [ngClass]="'even-row'">{{customer.custId}}</td>
+            <td [ngClass]="'odd-row'">{{customer.custName}}</td>
+            <td [ngClass]="'even-row'">{{customer.country}}</td>
+            <td [ngClass]="'odd-row'">{{customer.city}}</td>
+            <td [ngClass]="'even-row'">{{customer.contact}}</td>
         </tr>
     </tbody>
 </table>

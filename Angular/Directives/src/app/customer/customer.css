@@ -5,3 +5,11 @@ table{
 th,td{
     border: 1px solid black;
 }
+
+.even-row{
+    background-color: antiquewhite;
+}
+
+.odd-row{
+    background-color:aquamarine;
+}
