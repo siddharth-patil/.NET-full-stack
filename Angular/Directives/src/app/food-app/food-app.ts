@@ -10,15 +10,15 @@ import { CommonModule } from '@angular/common';
 })
 export class FoodApp {
 
-  show:boolean = false;
+  show:boolean = true;
   headingColor:string="MAROON";
 
   // array of dishes
 
   foodArr:FoodDish[] = [
-    new FoodDish("","Paneer Paratha","veg","Punjabi",120),
-    new FoodDish("","Aloo Paratha","veg","Gujarathi",100),
-    new FoodDish("","Biryani","nonveg","Haidrabadi",120),
-    new FoodDish("","Kolhapuri Misal","veg","Maharashtrian",120),
+    new FoodDish("paneerParatha.jpg","Paneer Paratha","veg","Punjabi",120),
+    new FoodDish("alooParatha.avif","Aloo Paratha","veg","Gujarathi",100),
+    new FoodDish("biryani.jfif","Biryani","nonveg","Haidrabadi",220),
+    new FoodDish("misal.webp","Kolhapuri Misal","veg","Maharashtrian",99),
   ]
 }

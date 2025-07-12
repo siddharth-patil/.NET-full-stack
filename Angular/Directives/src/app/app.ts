@@ -1,10 +1,11 @@
 import { CommonModule} from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { FoodApp } from "./food-app/food-app";
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule],
+  imports: [CommonModule, FoodApp],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
