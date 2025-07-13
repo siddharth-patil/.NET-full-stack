@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\CustomeMiddlewareConventional\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58E5A0BD-F528-428E-A070-1408D4E34733}|CustomeMiddlewareConventional\\CustomeMiddlewareConventional.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\customemiddlewareconventional\\customemiddlewareconventional\\conventionalmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E5A0BD-F528-428E-A070-1408D4E34733}|CustomeMiddlewareConventional\\CustomeMiddlewareConventional.csproj|solutionrelative:customemiddlewareconventional\\conventionalmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E5A0BD-F528-428E-A070-1408D4E34733}|CustomeMiddlewareConventional\\CustomeMiddlewareConventional.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\customemiddlewareconventional\\customemiddlewareconventional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E5A0BD-F528-428E-A070-1408D4E34733}|CustomeMiddlewareConventional\\CustomeMiddlewareConventional.csproj|solutionrelative:customemiddlewareconventional\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58E5A0BD-F528-428E-A070-1408D4E34733}|CustomeMiddlewareConventional\\CustomeMiddlewareConventional.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\customemiddlewareconventional\\customemiddlewareconventional\\factorybasedmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58E5A0BD-F528-428E-A070-1408D4E34733}|CustomeMiddlewareConventional\\CustomeMiddlewareConventional.csproj|solutionrelative:customemiddlewareconventional\\factorybasedmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FactoryBasedMiddleware.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\CustomeMiddlewareConventional\\CustomeMiddlewareConventional\\FactoryBasedMiddleware.cs",
+              "RelativeDocumentMoniker": "CustomeMiddlewareConventional\\FactoryBasedMiddleware.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\CustomeMiddlewareConventional\\CustomeMiddlewareConventional\\FactoryBasedMiddleware.cs",
+              "RelativeToolTip": "CustomeMiddlewareConventional\\FactoryBasedMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T09:32:11.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\CustomeMiddlewareConventional\\CustomeMiddlewareConventional\\Program.cs",
+              "RelativeDocumentMoniker": "CustomeMiddlewareConventional\\Program.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\CustomeMiddlewareConventional\\CustomeMiddlewareConventional\\Program.cs",
+              "RelativeToolTip": "CustomeMiddlewareConventional\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T08:57:03.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConventionalMiddleware.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\CustomeMiddlewareConventional\\CustomeMiddlewareConventional\\ConventionalMiddleware.cs",
+              "RelativeDocumentMoniker": "CustomeMiddlewareConventional\\ConventionalMiddleware.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\CustomeMiddlewareConventional\\CustomeMiddlewareConventional\\ConventionalMiddleware.cs",
+              "RelativeToolTip": "CustomeMiddlewareConventional\\ConventionalMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T08:45:35.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
