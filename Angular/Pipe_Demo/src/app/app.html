@@ -1,0 +1,29 @@
+<h3>Currency pipe examples</h3>
+
+<p>Amout is {{amount}}</p>
+<p>Amout is {{amount | currency:'USD'}}</p>
+<p>Amout is {{amount | currency:'EUR'}}</p>
+<p>Amout is {{amount | currency:'INR'}}</p>
+
+<hr>
+<p>converted currency: {{amountInDollar|currencyConvertor}}</p>
+<p>converted currency: {{amountInDollar|currencyConvertor:19}}</p>
+<hr>
+
+<p>{{jdate | date:'mediumDate'}}</p>
+<p>{{jdate | date:'dd/MM/yyy'}}</p>
+<p>{{jdate | date:'fullDate'}}</p>
+<p>{{jdate | date:'shortTime'}}</p>
+<hr>
+<p>{{18|number:'2.4-6'}}</p>
+<p>{{18|number:'3.2-5'}}</p>
+<hr>
+<p>{{"ram"|uppercase}}</p>
+<p>{{"SITA"|lowercase}}</p>
+<p>{{"ramrajya"|titlecase}}</p>
+
+<hr>
+<pre>{{person|json}}</pre>
+
+<hr><hr>
+<app-order></app-order>

@@ -1,0 +1,40 @@
+<p>order summary!</p>
+
+<table border="1">
+    <thead>
+        <th>orderNo</th>
+        <th>orderDate</th>
+        <th>CustomerName</th>
+        <th>ContactNo</th>
+        <th>Country</th>
+        <th>OrderStatus</th>
+    </thead>
+    <tbody *ngFor="let item of orderArr" [ngSwitch]="item.orderStatus">
+        <tr *ngSwitchCase="'processed'" >
+            <td>{{item.orderNo}}</td>
+            <td>{{item.orderDate}}</td>
+            <td>{{item.customerName}}</td>
+            <td>{{item.contactNo}}</td>
+            <td>{{item.country|countryCode}}</td>
+            <td style="background-color: green; color: white;">{{item.orderStatus}}</td>
+        </tr>
+
+        <tr *ngSwitchCase="'pending'" >
+            <td>{{item.orderNo}}</td>
+            <td>{{item.orderDate}}</td>
+            <td>{{item.customerName}}</td>
+            <td>{{item.contactNo}}</td>
+            <td>{{item.country|countryCode}}</td>
+            <td style="background-color: orange; color: white;">{{item.orderStatus}}</td>
+        </tr>
+
+        <tr *ngSwitchCase="'cancelled'" >
+            <td>{{item.orderNo}}</td>
+            <td>{{item.orderDate}}</td>
+            <td>{{item.customerName}}</td>
+            <td>{{item.contactNo}}</td>
+            <td>{{item.country|countryCode}}</td>
+            <td style="background-color: red; color: white;">{{item.orderStatus}}</td>
+        </tr>
+    </tbody>
+</table>
