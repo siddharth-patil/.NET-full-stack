@@ -4,10 +4,11 @@ import { RouterOutlet } from '@angular/router';
 import { Order } from "./order/order";
 import { CountryCodePipe } from './pipe/country-code-pipe';
 import { CurrencyConvertorPipe } from './pipe/currency-convertor-pipe';
+import { ReversePipe } from './pipe/reverse-pipe';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule,Order,CurrencyConvertorPipe],
+  imports: [CommonModule,Order,CurrencyConvertorPipe,ReversePipe],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
