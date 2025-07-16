@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\repositories\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\repositories\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\repositories\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\repositories\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\genercrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\genercrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\genercrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\genercrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\repositories\\productrepository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +23,36 @@
       "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\repositories\\productrepository\\iproductrepositpry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\genercrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\genercrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\genercrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\genercrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\repositories\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\repositories\\categoryrepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|e:\\fullstack dotnet dev seed\\asp.net core\\genericrepositorypatterndemo\\genericrepositorypatterndemo\\dataaccess\\repositories\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB221D45-7082-4C4E-8536-301D7650F072}|GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo.csproj|solutionrelative:genericrepositorypatterndemo\\dataaccess\\repositories\\categoryrepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,63 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\CategoryRepository.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\CategoryRepository.cs",
-              "RelativeToolTip": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\CategoryRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\Models\\ProductViewModel.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T17:36:45.756Z",
+              "WhenOpened": "2025-07-15T16:26:38.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwEAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T16:17:57.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
-              "RelativeToolTip": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T17:34:13.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\ProductRepository.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\ProductRepository.cs",
-              "RelativeToolTip": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\ProductRepository.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAiwBwAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T16:57:02.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IProductRepositpry.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\IProductRepositpry.cs",
-              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\IProductRepositpry.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\IProductRepositpry.cs",
-              "RelativeToolTip": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\IProductRepositpry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T16:37:55.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\GenercRepository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\GenercRepository\\IGenericRepository.cs",
@@ -120,19 +106,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IProductRepositpry.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\IProductRepositpry.cs",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\IProductRepositpry.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\IProductRepositpry.cs",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\IProductRepositpry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:37:55.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\ProductRepository.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\ProductRepository.cs",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\ProductRepository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T16:57:02.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\GenercRepository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\GenercRepository\\GenericRepository.cs",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\GenercRepository\\GenericRepository.cs",
               "RelativeToolTip": "GenericRepositoryPatternDemo\\DataAccess\\GenercRepository\\GenericRepository.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAqwFAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T11:45:03.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Products.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\Models\\Products.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\Products.cs",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\Models\\Products.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:36:54.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\appsettings.json",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\appsettings.json",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T15:28:33.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Program.cs",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\Program.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Program.cs",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T09:53:48.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\Models\\Category.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\Category.cs",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:36:02.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ApplicationDBContext.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\ApplicationDBContext.cs",
               "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\ApplicationDBContext.cs",
@@ -145,41 +209,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Products.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\Models\\Products.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\Products.cs",
-              "RelativeToolTip": "GenericRepositoryPatternDemo\\Models\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\CategoryRepository.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\CategoryRepository.cs",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T10:36:54.525Z",
+              "WhenOpened": "2025-07-13T17:36:45.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Category.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\Models\\Category.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Models\\Category.cs",
-              "RelativeToolTip": "GenericRepositoryPatternDemo\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "GenericRepositoryPatternDemo\\DataAccess\\Repositories\\CategoryRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T10:36:02.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Program.cs",
-              "RelativeDocumentMoniker": "GenericRepositoryPatternDemo\\Program.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Asp.net Core\\GenericRepositoryPatternDemo\\GenericRepositoryPatternDemo\\Program.cs",
-              "RelativeToolTip": "GenericRepositoryPatternDemo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T09:53:48.275Z",
+              "WhenOpened": "2025-07-13T17:34:13.732Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,15 @@
+<p>calculate</p>
+
+<div class="outer-div">
+    <input type="number" [(ngModel)]="txt1"><br>
+    <input type="number" [(ngModel)]="txt2"><br>
+    <div>
+        <button (click)="add()">Add</button>
+        <button (click)="subtract()">Sub</button>
+        <button (click)="multiply()">Multiply</button>
+        <button (click)="divide()">Divide</button>
+    </div>
+    <br>
+    <br>
+    <input [(ngModel)]="output" type="text" readonly>
+</div>

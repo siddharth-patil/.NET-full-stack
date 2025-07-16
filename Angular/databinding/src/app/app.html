@@ -1,0 +1,39 @@
+<h2>Demo of {{title}}</h2>
+<h3>Hello {{username}}</h3>
+<br>
+
+<img [src]="imgUrl" [width]="width" [height]="height">
+
+<hr>
+
+<input type="text" [value]="username">
+<br>
+<br>
+<button (click)="greet()">Greet user</button>
+<br><br>
+
+<input type="text" [(ngModel)]="username1" name="" id="">
+<p>welcome {{username1}}</p>
+<br><br>
+
+<input type="text" [(ngModel)]="firstName" name="" id=""><br>
+<input type="text" [(ngModel)]="lastName" name="" id=""><br>
+<input type="button" value="Get FullName" (click)="generateFullName()"><br>
+<h4>King {{fullName}}</h4>
+<br>
+<hr>
+
+<select [(ngModel)]="clr" name="" id="">
+  <option *ngFor="let color of colors">{{color}}</option>
+</select>
+
+<br>
+<h2 [ngStyle]="{'color': clr}"> King {{fullName}}</h2>
+
+<hr><hr>
+
+<app-calculator></app-calculator>
+<hr>
+<br>
+
+<app-city></app-city>

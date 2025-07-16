@@ -1,0 +1,10 @@
+<h2>Indian cities</h2>
+
+<select [(ngModel)]="city" id="cityValue" (change)="getCity($event)">
+    <option *ngFor="let ct of cityNames">{{ct}}</option>
+</select>
+<br>
+<button (click)="showCity()">Show City</button>
+<br>
+
+<img [src]="imgUrl" [width]="wd" [height]="ht">
