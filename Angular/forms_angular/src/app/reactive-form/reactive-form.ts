@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-reactive-form',
@@ -14,12 +14,16 @@ export class ReactiveForm {
   }
 
   setValues(){
-    
+    this.profileForm.setValue({
+      name:'sid',
+      password:'sid@123',
+      email:'sid@gmail.com'
+    });
   }
 
   profileForm = new FormGroup({
-    name:new FormGroup('xyz'),
-    password:new FormGroup('x@123'),
-    email:new FormGroup('xyz@gmail.com')
+    name:new FormControl('',[Validators.required,Validators.minLength(2)]),
+    password:new FormControl('',[Validators.required, Validators.minLength(4),Validators.maxLength(12)]),
+    email:new FormControl('',[Validators.required, Validators.email])
   });
 }

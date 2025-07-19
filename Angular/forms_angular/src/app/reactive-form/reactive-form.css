@@ -1,0 +1,15 @@
+.error{
+    color: red;
+    font-size: 12px;
+    display: inline-block;
+}
+
+input.ng-invalid.ng-touched{
+    border: 2px solid red;
+    background-color: blanchedalmond;
+}
+
+input.ng-valid.ng-touched{
+    border: 2px solid green;
+    background-color: antiquewhite;
+}

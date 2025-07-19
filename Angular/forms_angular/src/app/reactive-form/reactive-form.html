@@ -2,16 +2,36 @@
 
 <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
 
-    <input type="text" placeholder="Enter Name" formControlName="Name">
+    <!-- name -->
+    <input type="text" formControlName="name" placeholder="Enter Name">
+    <div *ngIf="profileForm.get('name')?.touched && profileForm.get('name')?.invalid" class="error">
+        <small *ngIf="profileForm.get('name')?.errors?.['required']">*Name is required</small>
+        <small *ngIf="profileForm.get('name')?.errors?.['minlength']">*Name must be at least 2 characters</small>
+    </div>
     <br><br>
 
-    <input type="password" formControlName="password" placeholder="Enter password" id="">
+    <!-- password -->
+    <input type="password" formControlName="password" placeholder="Enter password">
+    <div *ngIf="profileForm.get('password')?.touched && profileForm.get('password')?.invalid" class="error">
+        <small *ngIf="profileForm.get('password')?.errors?.['required']">*Password can't be empty</small>
+        <small *ngIf="profileForm.get('password')?.errors?.['minlength']">*Name must be at least 2 characters</small>
+    </div>
     <br><br>
 
-    <input type="email" formControlName="email" placeholder="Enter email" id="">
+    <!-- Email -->
+    <input type="email" formControlName="email" placeholder="Enter email">
+    <div *ngIf="profileForm.get('email')?.touched && profileForm.get('email')?.invalid" class="error">
+        <small *ngIf="profileForm.get('email')?.errors?.['required']">*Email is required</small>
+        <small *ngIf="profileForm.get('email')?.errors?.['email']">*Invalid email id</small>
+    </div>
     <br><br>
 
-    <button type="submit">Submit</button>
+    <!-- buttons -->
+    <button type="submit" [disabled]="profileForm.invalid">Submit</button>
     <button type="button" (click)="setValues()">Set Values</button>
 
 </form>
+
+<h2>{{this.profileForm.value.name}}</h2>
+<h2>{{this.profileForm.value.password}}</h2>
+<h2>{{this.profileForm.value.email}}</h2>
