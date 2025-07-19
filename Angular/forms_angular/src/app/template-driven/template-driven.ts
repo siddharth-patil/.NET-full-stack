@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-template-driven',
@@ -10,12 +10,14 @@ import { FormsModule } from '@angular/forms';
 })
 export class TemplateDriven {
 
-  userDetails:any;
+  userDetails:any = {};
 
-  addDetails(formData:any){
+  addDetails(formData:any,formRef:NgForm){
     this.userDetails = formData;
 
     console.log('Submitted data:', this.userDetails);
+
+    formRef.reset();
   }
 
 }

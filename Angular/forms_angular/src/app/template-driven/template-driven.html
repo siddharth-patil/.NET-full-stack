@@ -1,37 +1,69 @@
 <!-- <p>template-driven works!</p> -->
 
-<form #userForm="ngForm" (ngSubmit)="addDetails(userForm.value)">
+<form #userForm="ngForm" (ngSubmit)="addDetails(userForm.value,userForm)">
 
-    <label for="name" id="name">Name:</label><br>
-    <input #name="ngModel" required type="text" name="name" id="name" placeholder="Enter Name" ngModel>
-    <span class="error" *ngIf="name.invalid && name.touched"></span>
+    <!-- <label for="name" id="name">Name:</label><br> -->
+    <label for="name">Name:</label><br>
+    <input #name="ngModel" minlength="2" required type="text" name="name" placeholder="Enter Name" ngModel>
+    <span class="error" *ngIf="name.invalid && name.touched">Name is required</span>
     <br><br>
 
     <label for="password">Password:</label><br>
 
-    <input id="password" type="password" name="password" placeholder="Enter password" ngModel>
+    <input #password="ngModel" required minlength="5" maxlength="12" id="password" type="password" name="password" placeholder="Enter password" ngModel>
+    <span class="error" *ngIf="password.invalid && password.touched">Please enter a valid password</span>
+    <br><br>
+
+    <label for="email">Email:</label><br>
+    <input #email="ngModel" required email type="email" name="email" placeholder="Enter email" ngModel>
+    <span class="error" *ngIf="email.invalid && email.touched">Pls enter valid email id</span>
+    <br><br>
+
+    <label for="mobile">Mobile Number:</label><br>
+    <input #mobile="ngModel" required type="number" name="mobile" placeholder="Enter Mobile Number" ngModel>
+    <span class="error" *ngIf="mobile.invalid && mobile.touched">Pls enter valid Mobile Number</span>
+    <br><br>
+
+    <label for="age">Age:</label><br>
+    <input #age="ngModel" ngModel type="number" name="age" required placeholder="Enter age" min="18" max="60">
+    <span class="error" *ngIf="age.invalid && age.touched">Age should be between 18 to 60</span>
+    <br><br>
+
+     <label for="address">Address:</label><br>
+    <input #address="ngModel" pattern="[a-zA-Z0-9\s]+" required placeholder="Enter Address" type="text" name="address" ngModel>
+    <span class="error" *ngIf="address.invalid && address.touched">Pls enter valid address</span>
     <br><br>
 
     <label for="gender">Gender:</label>
-    <select name="gender" id="gender" ngModel>
+    <select #gender="ngModel" required name="gender" id="gender" ngModel>
         <option value="">Select Gender</option>
         <option value="male">Male</option>
         <option value="female">Female</option>
     </select>
+    <span class="error" *ngIf="gender.invalid && gender.touched">Pls select grnder</span>
     <br><br>
 
     <label for="range">Range:</label>
     <input id="range" type="range" name="range" min="0" max="20" ngModel>
     <br><br>
 
-    <button type="submit">Add User</button>
+    <label for="terms">I agree to the terms and conditions</label>
+    <input #terms="ngModel" ngModel required type="checkbox" name="terms" id="">
+    <br><br>
+
+    <button [disabled]="userForm.invalid">Add User</button>
 
 </form>
 
-<p>hi</p>
+<!-- <p>hi</p> -->
 <!-- Display submitted detai ls -->
 
-<h3>{{userDetails.name}}</h3>
-<h3>{{userDetails.password}}</h3>
-<h3>{{userDetails.gender}}</h3>
-<h3>{{userDetails.range}}</h3>
+<h3>{{userDetails?.name}}</h3>
+<h3>{{userDetails?.password}}</h3>
+<h3>{{userDetails?.gender}}</h3>
+<h3>{{userDetails?.range}}</h3>
+<h3>{{userDetails?.email}}</h3>
+<h3>{{userDetails?.address}}</h3>
+<h3>{{userDetails?.mobile}}</h3>
+<h3>{{userDetails?.age}}</h3>
+<h3>{{userDetails?.terms}}</h3>
