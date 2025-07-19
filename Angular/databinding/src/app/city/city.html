@@ -7,4 +7,18 @@
 <button (click)="showCity()">Show City</button>
 <br>
 
-<img [src]="imgUrl" [width]="wd" [height]="ht">
+<!-- <img [src]="imgUrl" [width]="wd" [height]="ht" [style.display]="showImage ? 'block' : 'none'"> -->
+<img [src]="imgUrl" [width]="wd" [height]="ht" >
+<br>
+<br>
+<h3>Some tourist places in {{selectedValue}}</h3>
+
+<div>
+    <!-- <ul *ngFor="let tPlace of selectedCity">
+        <li>{{tPlace}}</li>
+    </ul> -->
+
+    <ul *ngFor="let tPlace of touristSpots[selectedValue]">
+        <li>{{tPlace}}</li>
+    </ul>
+</div>

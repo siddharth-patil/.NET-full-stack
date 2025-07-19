@@ -1,0 +1,37 @@
+<!-- <p>template-driven works!</p> -->
+
+<form #userForm="ngForm" (ngSubmit)="addDetails(userForm.value)">
+
+    <label for="name" id="name">Name:</label><br>
+    <input #name="ngModel" required type="text" name="name" id="name" placeholder="Enter Name" ngModel>
+    <span class="error" *ngIf="name.invalid && name.touched"></span>
+    <br><br>
+
+    <label for="password">Password:</label><br>
+
+    <input id="password" type="password" name="password" placeholder="Enter password" ngModel>
+    <br><br>
+
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender" ngModel>
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    <br><br>
+
+    <label for="range">Range:</label>
+    <input id="range" type="range" name="range" min="0" max="20" ngModel>
+    <br><br>
+
+    <button type="submit">Add User</button>
+
+</form>
+
+<p>hi</p>
+<!-- Display submitted detai ls -->
+
+<h3>{{userDetails.name}}</h3>
+<h3>{{userDetails.password}}</h3>
+<h3>{{userDetails.gender}}</h3>
+<h3>{{userDetails.range}}</h3>
