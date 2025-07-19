@@ -1,0 +1,11 @@
+<h2> From Parent component</h2>
+
+<ul>
+    <li *ngFor="let user of users" (click)="selectUser(user)">
+        {{user.name}}
+    </li>
+</ul>
+
+<app-child [userName]="selectedUser.name" [userEmail] = "selectedUser.email">
+
+</app-child>
