@@ -1,0 +1,7 @@
+<h3>Select Rating</h3>
+
+<div>
+    <span *ngFor="let star of stars" (click)="chooseRating(star)" style="font-size: 32px; cursor: pointer;">
+        {{star<=selectedRating? '★':'☆'}}
+    </span>
+</div>
