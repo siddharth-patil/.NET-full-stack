@@ -1,0 +1,20 @@
+.form-mar-pad{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    display: inline-block;
+}
+
+input.ng-invalid.ng-touched{
+    border: 2px solid red;
+    background-color: rgb(238, 238, 222);
+}
+
+input.ng-valid.ng-touched{
+    border: 2px solid green;
+    background-color: rgb(223, 225, 238);
+}

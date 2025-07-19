@@ -1,0 +1,93 @@
+<form class="row g-3 form-mar-pad" [formGroup]="signInForm" (ngSubmit)="onSubmit()">
+  <!-- Email -->
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" formControlName="email">
+    <div *ngIf="signInForm.get('email')?.touched && signInForm.get('email')?.invalid" class="error">
+      <small *ngIf="signInForm.get('email')?.errors?.['required']">*Email is required</small>
+      <small *ngIf="signInForm.get('email')?.errors?.['email']">*Invalid email id</small>
+    </div>
+  </div>
+
+  <!-- Password -->
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4" formControlName="password">
+    <div *ngIf="signInForm.get('password')?.touched && signInForm.get('password')?.invalid" class="error">
+      <small *ngIf="signInForm.get('password')?.errors?.['required']">*Password is required</small>
+      <small *ngIf="signInForm.get('password')?.errors?.['minlength']">*Length must be >=5</small>
+    </div>
+  </div>
+
+
+  <!-- Address -->
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" formControlName="address">
+    <div *ngIf="signInForm.get('address')?.touched && signInForm.get('address')?.invalid" class="error">
+      <small *ngIf="signInForm.get('address')?.errors?.['required']">*Address is required</small>
+      <!-- <small *ngIf="signInForm.get('address')?.errors?.['']">*Invalid email id</small> -->
+    </div>
+  </div>
+
+
+  <!-- Address2 -->
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"
+      formControlName="address2">
+  </div>
+
+  <!-- City -->
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity" formControlName="city">
+    <div *ngIf="signInForm.get('city')?.touched && signInForm.get('city')?.invalid" class="error">
+      <small *ngIf="signInForm.get('address')?.errors?.['required']">*City name is required</small>
+      <!-- <small *ngIf="signInForm.get('address')?.errors?.['']">*Invalid email id</small> -->
+    </div>
+  </div>
+
+  <!-- State -->
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select" formControlName="state">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+    <div *ngIf="signInForm.get('state')?.touched && signInForm.get('state')?.invalid" class="error">
+      <small *ngIf="signInForm.get('state')?.errors?.['required']">*State name is required</small>
+      <!-- <small *ngIf="signInForm.get('address')?.errors?.['']">*Invalid email id</small> -->
+    </div>
+  </div>
+
+  <!-- Zip -->
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="number" class="form-control" id="inputZip" formControlName="zip">
+    <div *ngIf="signInForm.get('zip')?.touched && signInForm.get('zip')?.invalid" class="error">
+      <small *ngIf="signInForm.get('zip')?.errors?.['required']">*Zip code can't be empty</small>
+      <small *ngIf="signInForm.get('zip')?.errors?.['minlength']">*Enter valid zip code (6 digits)</small>
+    </div>
+  </div>
+
+  <!-- checkbox -->
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck" formControlName="checkbox">
+      <label class="form-check-label" for="gridCheck">
+        I accept terms and conditions
+      </label>
+      <div *ngIf="signInForm.get('checkbox')?.touched && signInForm.get('checkbox')?.invalid" class="error">
+        <small *ngIf="signInForm.get('checkbox')?.errors?.['requiredTrue']">Accept the terms and conditions</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- button -->
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary" [disabled]="signInForm.invalid">Sign in</button>
+  </div>
+</form>
+
+<!-- <button class="btn btn-success">Bootstrap Button</button> -->
