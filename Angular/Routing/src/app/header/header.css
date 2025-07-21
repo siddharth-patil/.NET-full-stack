@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    & ul{
+        display: flex;
+        gap: 2rem;
+        
+        list-style: none;
+        font-size: large;
+        font-weight: bold;
+
+        & li a{
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+    & img{
+        height: 4rem;
+    }
+}
+
+.active{
+    background-color: rgb(205, 218, 241);
+    text-decoration: underline;
+    color: rgb(250, 40, 110);
+    font-weight: bolder;
+}
