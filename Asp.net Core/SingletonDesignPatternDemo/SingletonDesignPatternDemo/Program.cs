@@ -12,7 +12,7 @@
             ref1.Get("1st reference calling..");
 
             Singleton ref2 = Singleton.getInstance;
-            ref2.Get("1st reference calling..");
+            ref2.Get("2nd reference calling..");
         }
     }
 }
