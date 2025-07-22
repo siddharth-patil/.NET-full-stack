@@ -1,0 +1,25 @@
+<div class="container my-5 p-4 bg-light rounded shadow">
+  <h1 class="text-center mb-4 display-5 fw-bold">About Royal Rider Club</h1>
+
+  <section class="mb-5">
+    <h2 class="h4 fw-semibold mb-2">Our Mission</h2>
+    <p class="text-muted">{{ mission }}</p>
+  </section>
+
+  <section class="mb-5">
+    <h2 class="h4 fw-semibold mb-2">Our Vision</h2>
+    <p class="text-muted">{{ vision }}</p>
+  </section>
+
+  <section class="mb-5">
+    <h2 class="h4 fw-semibold mb-2">Our Core Values</h2>
+    <ul class="list-group list-group-flush">
+      <li *ngFor="let value of values" class="list-group-item bg-light text-muted">{{ value }}</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="h4 fw-semibold mb-2">Our Journey</h2>
+    <p class="text-muted">{{ history }}</p>
+  </section>
+</div>

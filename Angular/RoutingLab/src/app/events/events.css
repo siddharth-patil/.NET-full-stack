@@ -1,0 +1,37 @@
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('E:/FullStack dotNET dev Seed/Angular/RoutingLab/public/riderBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    position: relative;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* color: red; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* <-- This controls faintness */
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  padding: 2rem;
+}

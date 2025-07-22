@@ -1,0 +1,29 @@
+<div class="container">
+    <button type="button" class="btn btn-outline-primary" routerLink="/Events">Mega Event</button>
+</div>
+
+<div class="container mt-4">
+    <table class="table table-bordered table-striped table-info">
+        <thead class="table-dark">
+            <tr>
+                <th>Event Name</th>
+                <th>Event Date</th>
+                <th>Start from</th>
+                <th>End at</th>
+                <th>Address</th>
+                <th>Contact No</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let event of allEvents">
+                <td>{{event.eventName}}</td>
+                <td>{{event.eventDate | date}}</td>
+                <td>{{event.eventDate | date:'shortTime'}}</td>
+                <!-- <td>{{event.from}}</td> -->
+                <td>{{event.to | date:'shortTime'}}</td>
+                <td>{{event.address}}</td>
+                <td>{{event.contactNo}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
