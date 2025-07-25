@@ -4,20 +4,47 @@
 
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
     <div class="mb-3">
-        <input type="text" class="form-control bg-body-secondary" placeholder="Full Name"
-        formControlName="fullName">
+        <input type="text" class="form-control bg-body-secondary" placeholder="Full Name" formControlName="fullName">
+        <div *ngIf="form.get('fullName')?.touched && form.get('fullName')?.invalid">
+            <small class="text-danger" *ngIf="form.get('fullName')?.errors?.['required']">
+                Please Enter full name.
+            </small>
+        </div>
+
     </div>
     <div class="mb-3">
-        <input type="text" class="form-control bg-body-secondary" placeholder="Email"
-        formControlName="email">
+        <input type="text" class="form-control bg-body-secondary" placeholder="Email" formControlName="email">
+        <div *ngIf="form.get('email')?.touched && form.get('email')?.invalid">
+            <small class="text-danger" *ngIf="form.get('email')?.errors?.['required']">
+                Email is required.
+            </small>
+            <small class="text-danger" *ngIf="form.get('email')?.errors?.['email']">
+                Invalid Email Id.
+            </small>
+        </div>
     </div>
     <div class="mb-3">
-        <input type="text" class="form-control bg-body-secondary" placeholder="Password"
-        formControlName="password">
+        <input type="text" class="form-control bg-body-secondary" placeholder="Password" formControlName="password">
+        <div *ngIf="form.get('password')?.touched && form.get('password')?.invalid" class="text-danger">
+
+            <ng-container [ngSwitch]="form.get('password')?.errors | firstKey">
+                <small *ngSwitchCase="'required'" >Password is required</small> 
+                <!-- *ngIf="form.get('password')?.errors?.['required']" -->
+                <small *ngSwitchCase="'minlength'" >Atleast 6 characters required <br></small>
+                <!-- *ngIf="form.get('password')?.errors?.['minlength']" -->
+                <small *ngSwitchCase="'pattern'" >One or more special character(s)</small>
+                <!-- *ngIf="form.get('password')?.errors?.['pattern']" -->
+            </ng-container>
+        </div>
     </div>
     <div class="mb-3">
         <input type="text" class="form-control bg-body-secondary" placeholder="Confirm Password"
-        formControlName="confirmPassword">
+            formControlName="confirmPassword">
+            <div class="text-danger"  *ngIf="form.get('confirmPassword')?.touched && form.get('confirmPassword')?.invalid">
+            <small *ngIf="form.get('confirmPassword')?.errors?.['passwordMismatch']">
+                Password doesn't match.
+            </small>
+        </div>
     </div>
     <div class="mt-4">
         <button class="btn btn-success w-100 rounded-3">
