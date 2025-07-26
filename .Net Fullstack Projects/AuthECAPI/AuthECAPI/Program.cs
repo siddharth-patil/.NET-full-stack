@@ -1,4 +1,5 @@
 using AuthECAPI.Models;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -33,6 +34,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+#region Config. CORS
+app.UseCors(options=>
+    options.WithOrigins("http://localhost:4200") // Adjust the origin as needed
+           .AllowAnyMethod()
+           .AllowAnyHeader()
+           //.AllowCredentials()
+);
+#endregion
 
 app.UseAuthorization();
 
