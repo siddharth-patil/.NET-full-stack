@@ -21,4 +21,12 @@ export class AllProducts {
     this.products = this.product.getAllProducts();
   }
 
+  deleteProduct(productData:IProduct){
+    console.log(productData);
+
+    this.product.delete_Product(productData);
+
+    this.products = this.product.getAllProducts();
+  }
+
 }

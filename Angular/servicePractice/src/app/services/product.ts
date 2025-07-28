@@ -21,4 +21,20 @@ export class Product {
 
     return this.arrProduct;
   }
+
+  delete_Product(product:IProduct){
+    console.log(product);
+    for (let index = 0; index < this.arrProduct.length; index++) {
+      if(this.arrProduct[index].productId === product.productId){
+        this.arrProduct.splice(index,1);
+        break;
+      }
+      
+    }
+    
+  }
+
+  addProduct(prod:IProduct){
+    this.arrProduct.push(prod);
+  }
 }

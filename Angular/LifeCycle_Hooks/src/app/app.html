@@ -3,5 +3,5 @@
 <button (click)="updateCounter()">count: {{counter}}</button>
 
 <div *ngIf="counter != 3">
-  <app-user [counter]="counter"></app-user>
+  <app-user [counter]="counter" #user></app-user>
 </div>

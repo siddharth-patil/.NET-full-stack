@@ -1,0 +1,24 @@
+<!-- product-form.component.html -->
+<form [formGroup]="product" (ngSubmit)="addProduct()" style="padding-left: 10rem; padding-right: 10rem;">
+  <div class="mb-3">
+    <label>Product ID</label>
+    <input type="number" formControlName="productId" class="form-control" />
+  </div>
+
+  <div class="mb-3">
+    <label>Product Name</label>
+    <input type="text" formControlName="productName" class="form-control" />
+  </div>
+
+  <div class="mb-3">
+    <label>Product Price</label>
+    <input type="number" formControlName="productPrice" class="form-control" />
+  </div>
+
+  <div class="mb-3">
+    <label>Product Quantity</label>
+    <input type="number" formControlName="productQuantity" class="form-control" />
+  </div>
+
+  <button class="btn btn-primary" type="submit">Submit</button>
+</form>

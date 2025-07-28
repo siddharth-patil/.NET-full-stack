@@ -1,0 +1,28 @@
+<div class="container mt-5 w-50">
+  <form [formGroup]="calculatorForm">
+    <div class="form-group mb-3">
+      <label>Number 1:</label>
+      <input type="number" formControlName="number1" class="form-control">
+    </div>
+
+    <div class="mb-3">
+      <label>Choose Operation:</label><br>
+      <button type="button" class="btn btn-success me-2" (click)="calculate('+')">+</button>
+      <button type="button" class="btn btn-danger me-2" (click)="calculate('-')">−</button>
+      <button type="button" class="btn btn-primary me-2" (click)="calculate('*')">×</button>
+      <button type="button" class="btn btn-warning" (click)="calculate('/')">÷</button>
+    </div>
+
+    <div class="form-group mb-3">
+      <label>Number 2:</label>
+      <input type="number" formControlName="number2" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary me-2">Calculate</button>
+    <button type="button" class="btn btn-secondary" (click)="clearAll()">Clear</button>
+  </form>
+
+  <div class="mt-4" *ngIf="result !== ''">
+    <h4>Result: {{ result }}</h4>
+  </div>
+</div>
