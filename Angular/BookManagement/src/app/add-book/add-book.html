@@ -1,0 +1,22 @@
+<div class="container">
+  <h2>Add Book</h2>
+  <form (ngSubmit)="onSubmit()" #bookForm="ngForm">
+    <div class="mb-3">
+      <label>Book ID</label>
+      <input type="number" class="form-control" [(ngModel)]="book.bookId" name="bookId" required>
+    </div>
+    <div class="mb-3">
+      <label>Title</label>
+      <input type="text" class="form-control" [(ngModel)]="book.title" name="title" required>
+    </div>
+    <div class="mb-3">
+      <label>Author</label>
+      <input type="text" class="form-control" [(ngModel)]="book.author" name="author" required>
+    </div>
+    <div class="mb-3">
+      <label>Price</label>
+      <input type="number" class="form-control" [(ngModel)]="book.price" name="price" required>
+    </div>
+    <button class="btn btn-primary" type="submit">Add Book</button>
+  </form>
+</div>
