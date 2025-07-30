@@ -17,7 +17,7 @@
                 <td>{{product.productPrice}}</td>
                 <td>{{product.productQuantity}}</td>
                 <td>
-                    <button class="btn btn-sm btn-primary me-2">Update</button>
+                    <button class="btn btn-sm btn-primary me-2" routerLink="/updateProduct/{{product.productId}}">Update</button>
                     <button class="btn btn-sm btn-danger me-2" (click)="deleteProduct(product)">Delete</button>
                 </td>
             </tr>

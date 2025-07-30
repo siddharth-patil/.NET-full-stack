@@ -37,4 +37,8 @@ export class Product {
   addProduct(prod:IProduct){
     this.arrProduct.push(prod);
   }
+
+  getProductById(id:any):IProduct|undefined{
+    return this.arrProduct.find(p=>p.productId==id);
+  }
 }
