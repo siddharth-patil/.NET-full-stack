@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Minimalist Watch",
+    "price": 149.99,
+    "description": "Slim, elegant watch with leather strap.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Noise Cancelling Headphones",
+    "price": 249.5,
+    "description": "Comfortable over-ear headphones with great sound.",
+    "image": "https://images.unsplash.com/photo-1518444026739-5f4b0a7a8a0b?w=1200&q=80",
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Classic Backpack",
+    "price": 79.0,
+    "description": "Durable backpack for daily use.",
+    "image": "https://images.unsplash.com/photo-1520975919528-9c7f2bc4bbd4?w=1200&q=80",
+    "category": "Bags"
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "price": 129.0,
+    "description": "Comfortable running shoes for daily workouts.",
+    "image": "https://images.unsplash.com/photo-1600180758890-6b3f7f3a9f33?w=1200&q=80",
+    "category": "Footwear"
+  },
+  {
+    "id": 5,
+    "name": "Sunglasses",
+    "price": 59.0,
+    "description": "UV-protection stylish sunglasses.",
+    "image": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=1200&q=80",
+    "category": "Accessories"
+  }
+]

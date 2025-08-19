@@ -41,4 +41,16 @@ export class Product {
   getProductById(id:any):IProduct|undefined{
     return this.arrProduct.find(p=>p.productId==id);
   }
+
+  updateProduct(product:any){
+    for(let i=0; i<this.addProduct.length; i++){
+      if(product.productId === this.arrProduct[i].productId){
+        this.arrProduct[i].productId = product.productId;
+        this.arrProduct[i].productName = product.productName;
+        this.arrProduct[i].productQuantity = product.productQuantity;
+        this.arrProduct[i].productPrice = product.productPrice;
+        break;
+      }
+    }
+  }
 }

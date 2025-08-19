@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|solutionrelative:authecapi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|e:\\fullstack dotnet dev seed\\.net fullstack projects\\authecapi\\authecapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|solutionrelative:authecapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|e:\\fullstack dotnet dev seed\\.net fullstack projects\\authecapi\\authecapi\\models\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|solutionrelative:authecapi\\models\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|e:\\fullstack dotnet dev seed\\.net fullstack projects\\authecapi\\authecapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|solutionrelative:authecapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|e:\\fullstack dotnet dev seed\\.net fullstack projects\\authecapi\\authecapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|solutionrelative:authecapi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|e:\\fullstack dotnet dev seed\\.net fullstack projects\\authecapi\\authecapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|solutionrelative:authecapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|e:\\fullstack dotnet dev seed\\.net fullstack projects\\authecapi\\authecapi\\models\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|solutionrelative:authecapi\\models\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|e:\\fullstack dotnet dev seed\\.net fullstack projects\\authecapi\\authecapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0205C072-C79E-4197-8F5D-5E03E5315759}|AuthECAPI\\AuthECAPI.csproj|solutionrelative:authecapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.Net Fullstack Projects\\AuthECAPI\\AuthECAPI\\Program.cs",
               "RelativeDocumentMoniker": "AuthECAPI\\Program.cs",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserRegistrationModel.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.Net Fullstack Projects\\AuthECAPI\\AuthECAPI\\Models\\UserRegistrationModel.cs",
               "RelativeDocumentMoniker": "AuthECAPI\\Models\\UserRegistrationModel.cs",
@@ -54,23 +54,25 @@
               "RelativeToolTip": "AuthECAPI\\Models\\UserRegistrationModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T04:45:52.69Z"
+              "WhenOpened": "2025-07-25T04:45:52.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AppUser.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.Net Fullstack Projects\\AuthECAPI\\AuthECAPI\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "AuthECAPI\\Models\\AppUser.cs",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\.Net Fullstack Projects\\AuthECAPI\\AuthECAPI\\Models\\AppUser.cs",
               "RelativeToolTip": "AuthECAPI\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T18:12:05.545Z"
+              "WhenOpened": "2025-07-24T18:12:05.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\.Net Fullstack Projects\\AuthECAPI\\AuthECAPI\\appsettings.json",
               "RelativeDocumentMoniker": "AuthECAPI\\appsettings.json",
@@ -78,7 +80,8 @@
               "RelativeToolTip": "AuthECAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-24T17:04:55.298Z"
+              "WhenOpened": "2025-07-24T17:04:55.298Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

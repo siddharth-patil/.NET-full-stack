@@ -15,10 +15,10 @@ export class UpdateProduct {
   Product:IProduct|undefined;
 
   productData = new FormGroup({
-    product_id:new FormControl<number|null>(null),
-    product_name:new FormControl<string|null>(null),
-    product_price:new FormControl<number|null>(null),
-    product_quantity:new FormControl<number|null>(null)
+    productId:new FormControl<number|null>(null),
+    productName:new FormControl<string|null>(null),
+    productPrice:new FormControl<number|null>(null),
+    productQuantity:new FormControl<number|null>(null)
   });
 
   constructor(private routes:ActivatedRoute,private productService:Product){
@@ -33,6 +33,9 @@ export class UpdateProduct {
   }
 
   updateProduct(){
+    console.log(this.productData.value);
 
+    this.productService.updateProduct(this.productData);
+    
   }
 }

@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -9,7 +9,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
   styleUrl: './login.css'
 })
 export class Login {
-  from:FormGroup | undefined;
+  from:FormGroup | any;
   
 
   constructor(public formBuilder:FormBuilder){
@@ -18,7 +18,8 @@ export class Login {
 
   ngOnInit(){
       this.from = this.formBuilder.group({
-    
+    email:['',Validators.required],
+    password:['',Validators.required]
   })
   }
 

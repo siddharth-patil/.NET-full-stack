@@ -1,0 +1,14 @@
+This package does not include the full Angular CLI scaffolding.
+Recommended steps:
+
+1. Install Angular CLI if you don't have it:
+   npm install -g @angular/cli
+
+2. Create a new project:
+   ng new ecommerce-app --routing --style=css
+
+3. Replace the generated 'src' folder with the 'src' folder from this archive.
+
+4. Run:
+   npm install
+   ng serve --open
