@@ -9,6 +9,7 @@ import ClickBtn from './ClickBtn.jsx'
 import ClickBtnFunc from './ClickBtnFunc.jsx'
 import EventDemo from './EventDemo.jsx'
 import Todo from './Todo.jsx'
+import CounterApp from './CounterApp.jsx'
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -28,9 +29,11 @@ function App() {
 
         {/* <EventDemo></EventDemo> */}
 
-        <Todo></Todo>
+        {/* <Todo></Todo> */}
 
         {/* {Todo()} */}
+
+        <CounterApp></CounterApp>
 
       </div>
     </>
