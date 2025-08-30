@@ -4,6 +4,7 @@
 import './App.css'
 import Input from './Input'
 import MyForm from './MyForm'
+import Skills from './Skills'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,8 +12,8 @@ function App() {
   return (
     <>
       {/* <Input></Input> */}
-      <MyForm></MyForm>
-
+      {/* <MyForm></MyForm> */}
+      <Skills></Skills>
     </>
   )
 }

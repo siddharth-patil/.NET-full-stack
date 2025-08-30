@@ -105,7 +105,7 @@ class MyForm extends React.Component {
           <b>Course: {this.state.course}</b>
           <br />
           <b>Email: {this.state.email}</b>
-          <b>Email: {this.state.contact}</b>
+          <b>Contact: {this.state.contact}</b>
         </fieldset>
       </>
     );
