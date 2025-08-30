@@ -5,6 +5,7 @@ import './App.css'
 import Input from './Input'
 import MyForm from './MyForm'
 import Skills from './Skills'
+import AdmissionForm from './AdmissionForm'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <>
       {/* <Input></Input> */}
       {/* <MyForm></MyForm> */}
-      <Skills></Skills>
+      {/* <Skills></Skills> */}
+      <AdmissionForm></AdmissionForm>
     </>
   )
 }
