@@ -14,33 +14,45 @@ const appRouter = createBrowserRouter([
     path: "/",
     element: <App />,
     errorElement: <Error />,
-    // children: [
-    //   {
-    //     path: "/",
-    //     element: <Body />,
-    //   },
-    //   {
-    //     path: "/about",
-    //     element: <About />,
-    //   },
-    //   {
-    //     path: "/contact",
-    //     element: <Contact />,
-    //   },
-    // ],
+    children: [
+      {
+        index:true,
+        element: (
+          <div>
+            <Body />
+          </div>
+        ),
+      },
+      {
+        path: "/about",
+        element: (
+          <div>
+            <About />
+          </div>
+        ),
+      },
+      {
+        path: "/contact",
+        element: (
+          <div>
+           <Contact />
+          </div>
+        ),
+      },
+    ],
   },
-  {
-    path: "/",
-    element: <div><Header/><Body /></div> ,
-  },
-  {
-    path: "/about",
-    element: <div><Header/><About /></div>  ,
-  },
-  {
-    path: "/contact",
-    element: <div><Header/> <Contact /></div> ,
-  },
+  // {
+  //   path: "/",
+  //   element: <div><Header/><Body /></div> ,
+  // },
+  // {
+  //   path: "/about",
+  //   element: <div><Header/><About /></div>  ,
+  // },
+  // {
+  //   path: "/contact",
+  //   element: <div><Header/> <Contact /></div> ,
+  // },
 ]);
 
 createRoot(document.getElementById("root")).render(

@@ -70,7 +70,7 @@ function Body() {
           className="filter-btn"
           onClick={() => {
             //filter logic
-            setListOfRestaurants(
+            setFilteredlistOfRestaurants(
               listOfRestaurants.filter((res) => res.info.avgRating > 4.3)
             );
           }}
