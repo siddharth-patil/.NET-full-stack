@@ -21,6 +21,7 @@ function Body() {
     );
 
     const json = await data.json();
+    // console.log(json);
     // console.log(json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants);
     const list1 =
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
