@@ -11,6 +11,8 @@ function App() {
         <Header></Header>
         {/* <Body></Body> */}
         <Outlet/>
+        {/* {console.log(<Body/>)} */}
+        
       </div>
     </>
   )

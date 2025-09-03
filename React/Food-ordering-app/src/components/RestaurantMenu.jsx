@@ -9,7 +9,7 @@ import { MENU_API } from "../utils/restList";
 const RestaurantMenu = () => {
   const [resInfo, setResInfo] = useState(null);
 
-  const [resId] = useParams();
+  const {resId} = useParams(); //811707 , 1072777, 203925
 
   useEffect(() => {
     fetchMenu();
@@ -41,7 +41,7 @@ const RestaurantMenu = () => {
 
    
   const { itemCards } =
-    resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
+    resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card; //itemCards is missing in some rest.
 
   return (
     <div className="menu">
