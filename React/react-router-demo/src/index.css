@@ -1,0 +1,21 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 0 3rem;
+}
+
+.link{
+  text-decoration: none;
+  color: lightpink;
+}
+
+.nav-links{
+  
+  ul{
+    display: flex;
+    gap: 3em;
+    list-style: none;
+  }
+}
