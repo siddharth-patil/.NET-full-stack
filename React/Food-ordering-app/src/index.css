@@ -69,16 +69,34 @@ button:focus-visible {
 
 /* ---------------------------------------------------------- */
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid black;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.logo {
-  width: 14rem;
-  /* height: 8rem; */
+.link {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid black; */
+  /* background-color: #ff5200; */
+  background-color: rgb(82, 96, 190);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  .logo {
+    width: 6rem;
+    /* height: 6rem; */
+    /* border: 1px solid black; */
+    border-radius: 50%;
+  }
 }
 
 .search {
@@ -90,15 +108,21 @@ button:focus-visible {
   list-style: none;
   font-size: 1.5rem;
 
+  .link {
+    color: white;
+  }
+
   li {
-    padding: 10px;
+    padding: 0 10px;
     margin: 10px;
+    color: white;
   }
 
   .login {
     padding: 0 1rem;
     font-size: 1.2rem;
-    margin-right: 5px;
+    margin-right: -2rem;
+    /* margin-left: 3rem; */
   }
 }
 
@@ -107,7 +131,17 @@ button:focus-visible {
   width: 14rem;
   /* height: 19rem; */
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 0.8rem;
+  color: black;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden; /* prevent content overflow */
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  /*justify-content: space-evenly;
+  align-items: flex-start; */
 
   img {
     height: 9rem;
@@ -120,14 +154,37 @@ button:focus-visible {
   }
 
   &:hover {
-    border: 1px solid palevioletred;
+    /* border: 1px solid palevioletred; */
+    transform: scale(1.05); /* zoom effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* shadow effect */
   }
 }
 
+.res-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: auto 1rem;
+}
+
+.card-text-overflow {
+  white-space: nowrap; /* prevent wrapping to new line */
+  overflow: hidden; /* hide extra text */
+  text-overflow: ellipsis; /* show ... at the end */
+  display: block; /* required for ellipsis */
+  max-width: 200px; /* set width as per your design */
+  color: #555; /* optional styling */
+}
+
 .res-container {
+  margin: 0 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.menu {
+  margin: 1rem 2rem;
 }
 
 .res-logo {
@@ -135,7 +192,7 @@ button:focus-visible {
   height: 45%;
 }
 
-.filter{
+.filter {
   display: flex;
 }
 

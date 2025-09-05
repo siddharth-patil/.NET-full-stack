@@ -2,20 +2,26 @@ import Body from "./Body";
 import { CDN_URL } from "../utils/restList";
 
 function RestaurantCard(props) {
-    const resData = props;
-    const {name,cuisines,avgRating,costForTwo,cloudinaryImageId} = resData.resObj.info;
+  const resData = props;
+  const { name, cuisines, avgRating, costForTwo, cloudinaryImageId, areaName, sla } =
+    resData.resObj.info;
   return (
-    <div className="res-card" style={{ backgroundColor: "#f0f0f0" }}>
+    <div className="res-card" style={{ backgroundColor: "#ffffffff" }}>
       <img
         className="res-logo"
         src={CDN_URL + cloudinaryImageId}
         alt="res-logo"
       />
-      <h3>{name}</h3>
-      <h4>{cuisines.join(", ")}</h4>
-      <h4>{avgRating} stars</h4>
-      <h4>{costForTwo}</h4>
-      <h4>{resData.resObj.info.sla.deliveryTime} minutes</h4>
+      <div className="res-card-info">
+        <b style={{fontSize:"1.25rem", color:'black'}} className="card-text-overflow">{name}</b>
+        {/* <p className="card-text-overflow">{cuisines.join(", ")}</p> */}
+        {/* <p>{avgRating} stars - {resData.resObj.info.sla.deliveryTime} minutes</p> */}
+        <p>{avgRating} stars - {sla.slaString}</p>
+        <p>{costForTwo}</p>
+        {/* <p>{resData.resObj.info.sla.deliveryTime} minutes</p> */}
+        <p className="card-text-overflow">{cuisines.join(", ")}</p>
+        <small className="card-text-overflow">{areaName}</small>
+      </div>
     </div>
   );
 }

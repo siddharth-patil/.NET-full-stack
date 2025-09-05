@@ -82,7 +82,7 @@ function Body() {
       </div>
       <div className="res-container">
         {FilteredlistOfRestaurants.map((restaurant) => (
-         <Link key={restaurant?.info.id} to={"/restaurants/" + restaurant?.info.id}> <RestaurantCard resObj={restaurant} /> </Link>
+         <Link className="link" key={restaurant?.info.id} to={"/restaurants/" + restaurant?.info.id}> <RestaurantCard resObj={restaurant} /> </Link>
         ))}
       </div>
     </div>

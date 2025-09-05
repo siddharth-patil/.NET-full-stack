@@ -7,7 +7,7 @@ import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Error from "./components/Error.jsx";
 import Header from "./components/Header.jsx";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet, BrowserRouter } from "react-router-dom";
 import RestaurantMenu from "./components/RestaurantMenu.jsx";
 
 const appRouter = createBrowserRouter([
@@ -46,18 +46,7 @@ const appRouter = createBrowserRouter([
       }
     ],
   },
-  // {
-  //   path: "/",
-  //   element: <div><Header/><Body /></div> ,
-  // },
-  // {
-  //   path: "/about",
-  //   element: <div><Header/><About /></div>  ,
-  // },
-  // {
-  //   path: "/contact",
-  //   element: <div><Header/> <Contact /></div> ,
-  // },
+
 ]);
 
 createRoot(document.getElementById("root")).render(
@@ -66,4 +55,9 @@ createRoot(document.getElementById("root")).render(
     <RouterProvider router={appRouter} />
     {/* <Outlet/> */}
   </StrictMode>
+
+  // <BrowserRouter>
+  //   <App/>
+  // </BrowserRouter>
+
 );
