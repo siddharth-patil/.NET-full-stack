@@ -237,3 +237,7 @@ button:focus-visible {
     }
   }
 }
+
+.about-page{
+  margin: 2rem;
+}
