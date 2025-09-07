@@ -30,6 +30,7 @@ function Header() {
               <Link className="link" to="/contact">Contact</Link>
             </li>
             <li>
+              {/* using lazy loading for grocey (routing) */}
               <Link className="link" to="/grocery">Grocery</Link>
             </li>
             <li>Cart</li>
