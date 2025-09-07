@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+import { lazy, StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
@@ -9,6 +9,11 @@ import Error from "./components/Error.jsx";
 import Header from "./components/Header.jsx";
 import { createBrowserRouter, RouterProvider, Outlet, BrowserRouter } from "react-router-dom";
 import RestaurantMenu from "./components/RestaurantMenu.jsx";
+import Shimmer from "./components/Shimmer.jsx";
+// import Grocery from "./components/Grocery.jsx";
+
+const Grocery = lazy(()=>
+  import('./components/Grocery.jsx'));
 
 const appRouter = createBrowserRouter([
   {
@@ -43,6 +48,10 @@ const appRouter = createBrowserRouter([
       {
         path:"/restaurants/:resId",
         element:<RestaurantMenu/>
+      },
+      {
+        path:"/grocery",
+        element:<Suspense fallback={<Shimmer/>}><Grocery/></Suspense>
       }
     ],
   },
