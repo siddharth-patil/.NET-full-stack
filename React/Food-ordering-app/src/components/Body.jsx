@@ -1,4 +1,4 @@
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withTimeLabel } from "./RestaurantCard";
 // import { restList } from "../utils/mockData";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
@@ -12,6 +12,8 @@ function Body() {
 
   const [searchedText, setSearchedText] = useState("");
 
+  const RestaurantCardPromoted = withTimeLabel(RestaurantCard);
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -22,14 +24,14 @@ function Body() {
     );
 
     const json = await data.json();
-    // console.log(json);
-    // console.log(json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants);
+    console.log(json);
+    console.log(
+      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    );
     const list1 =
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants;
-    // const list2 = json.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
-    // const combinedArr = list1.concat(list2);
-    // setListOfRestaurants(combinedArr);
+
     setListOfRestaurants(list1);
     setFilteredlistOfRestaurants(list1);
   };
@@ -82,7 +84,17 @@ function Body() {
       </div>
       <div className="res-container">
         {FilteredlistOfRestaurants.map((restaurant) => (
-         <Link className="link" key={restaurant?.info.id} to={"/restaurants/" + restaurant?.info.id}> <RestaurantCard resObj={restaurant} /> </Link>
+          <Link
+            className="link"
+            key={restaurant?.info.id}
+            to={"/restaurants/" + restaurant?.info.id}
+          >
+            {restaurant.info.sla.deliveryTime < 30 ? (
+              <RestaurantCardPromoted resObj={restaurant} />
+            ) : (
+              <RestaurantCard resObj={restaurant} />
+            )}
+          </Link>
         ))}
       </div>
     </div>
