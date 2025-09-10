@@ -1,9 +1,9 @@
- 
 /* eslint-disable no-unsafe-optional-chaining */
 /* eslint-disable no-unused-vars */
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router-dom";
 import useRestaurantMenu from "../utils/useRestaurantMenu";
+import RestaurantCategory from "./RestaurantCategory";
 
 const RestaurantMenu = () => {
   // const [resInfo, setResInfo] = useState(null);
@@ -26,27 +26,43 @@ const RestaurantMenu = () => {
   const { itemCards } =
     resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card; //itemCards is missing in some rest.
 
-    // console.log(resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
+  // console.log(resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
 
-        
-
-  const { carousel } =
-    resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
-
-    const categories = resInfo?cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
-      (cat) => cat.card?.card?.["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+  const categories =
+    resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+      (c) =>
+        c.card.card["@type"] ===
+        "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     );
 
+  console.log(resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR);
+
+  //  console.log(categories1);
+
+  // const { carousel } =
+  //   resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
+  //   console.log(carousel);
 
   return (
-    <div className="menu">
-      <h1>{name}</h1>
-      <p>{cuisines.join(" ,")} - {costForTwoMessage}</p><br /><br />
+    <div className="menu text-center">
+      <h1 className="fw-bold">{name}</h1>
+      <p className="fw-bold text-md-center my-0">
+        {cuisines.join(", ")} - {costForTwoMessage}
+      </p>
+      <br />
+      <br />
 
-      <h3>Menu</h3>
-      <ul>
-        {/* <li>{itemCards[0].card.info.name}</li> */}
-        {itemCards?.map((item) => (
+      {categories.map((category) => (
+        <RestaurantCategory
+          key={category?.card?.card?.categoryId}
+          data={category?.card?.card}
+        />
+      ))}
+
+      {/* <h3>Menu</h3> */}
+      {/* <ul> */}
+      {/* <li>{itemCards[0].card.info.name}</li> */}
+      {/* {itemCards?.map((item) => (
           <li key={item?.card?.info?.id}>
             {item?.card?.info?.name} - Rs.{" "}
             {item?.card?.info?.price / 100 || item?.card?.info?.defaultPrice / 100}
@@ -58,8 +74,8 @@ const RestaurantMenu = () => {
             {item?.dish?.info?.price / 100 || item?.dish?.info?.defaultPrice / 100}
           </li>
         ))
-        }
-      </ul>
+        } */}
+      {/* </ul> */}
     </div>
   );
 };
