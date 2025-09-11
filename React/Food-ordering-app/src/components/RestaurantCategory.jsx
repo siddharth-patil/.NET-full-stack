@@ -1,19 +1,20 @@
+/* eslint-disable no-unused-vars */
 import { useState } from "react";
 import ItemList from "./ItemList";
 
-const RestaurantCategory = ({ data }) => {
+const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
   //   console.log(data);
-  const [showItems, setShowItems] = useState(false);
+  // const [showItems, setShowItems] = useState(false);
 
   const handleClick = () =>{
-    setShowItems(!showItems);
+    setShowIndex(!showItems);
   }
 
   return (
     <div className="bg-light mx-auto w-50">
       {/* Header */}
       <div className="mx-auto mb-1 py-1 px-2 shadow-sm border-3 border-bottom border-5 border-black border-opacity-25">
-        <div className="d-flex justify-content-between mb-3" style={{cursor:"pointer"}} onClick={handleClick}>
+        <div className="d-flex justify-content-between mb-3" style={{cursor:"pointer"} } onClick={handleClick}>
           <span className="fw-bold fs-5">
             {data.title} ({data.itemCards.length})
           </span>
