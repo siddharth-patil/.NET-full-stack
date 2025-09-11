@@ -72,7 +72,7 @@ button:focus-visible {
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .link {
@@ -162,6 +162,10 @@ button:focus-visible {
   }
 }
 
+.time-hover {
+  z-index: 1;
+}
+
 .res-card-info {
   display: flex;
   flex-direction: column;
@@ -240,6 +244,6 @@ button:focus-visible {
   }
 }
 
-.about-page{
+.about-page {
   margin: 2rem;
 }

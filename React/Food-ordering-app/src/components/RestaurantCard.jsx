@@ -48,7 +48,7 @@ export const withTimeLabel = () => {
   return (props) => {
     return (
       <div>
-        <label className="position-absolute bg-black m-2 p-1 text-white">{props.resObj.info.sla.deliveryTime} minutes</label>
+        <label className="position-absolute bg-black m-2 p-1 text-white time-hover">{props.resObj.info.sla.deliveryTime} minutes</label>
         <RestaurantCard {...props} />
       </div>
     );

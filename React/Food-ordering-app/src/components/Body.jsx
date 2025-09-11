@@ -54,7 +54,7 @@ function Body() {
   //   return <Shimmer />;
   // }
 
-  return listOfRestaurants.length === 0 ? (
+  return listOfRestaurants.length ===0 ? (
     <Shimmer />
   ) : (
     <div className="body">
