@@ -1,12 +1,17 @@
+/* eslint-disable no-unused-vars */
 import { LOGO_URL } from "../utils/restList";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 function Header() {
   const [btnNameReact, setBtnNameReact] = useState("Login");
 
   const onlineStatus = useOnlineStatus();
+
+  // const data = useContext(UserContext);
+  const {loggedInUser} = useContext(UserContext);
 
   return (
     <>
@@ -35,7 +40,7 @@ function Header() {
             </li>
             <li>Cart</li>
             <button
-              className="login"
+              className="login mx-2"
               onClick={() => {
                 btnNameReact === "Login"
                   ? setBtnNameReact("Logout")
@@ -44,6 +49,8 @@ function Header() {
             >
               {btnNameReact}
             </button>
+
+            <li className="px-2">{loggedInUser}</li>
           </ul>
         </div>
       </div>
