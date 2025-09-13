@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import "./App.css";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -10,28 +9,30 @@ import Error from "./components/Error";
 import RestaurantMenu from "./components/RestaurantMenu";
 import { useEffect, useState } from "react";
 import UserContext from "./utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
 
 function App() {
   // console.log(<Body/>)
 
   const [userName, setUserName] = useState();
 
-  useEffect(()=>{
+  useEffect(() => {
     const data = {
-      name:'Siddharth Patil'
+      name: "Siddharth Patil",
     };
     setUserName(data.name);
-  },[])
-  
+  }, []);
 
   return (
     <>
-    <UserContext.Provider value={{loggedInUser:userName}}>
-      <div className="app">
-        <Header></Header>
-        <Outlet/>
+      <Provider store={appStore}> 
+        <UserContext.Provider value={{ loggedInUser: userName }}>
+          <div className="app">
+            <Header></Header>
+            <Outlet />
 
-        {/* <Header></Header>
+            {/* <Header></Header>
 
         <Routes>
           <Route path="/" element={<Body />}>
@@ -40,8 +41,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes> */}
-      </div>
-      </UserContext.Provider>
+          </div>
+        </UserContext.Provider>
+      </Provider>
     </>
   );
 }

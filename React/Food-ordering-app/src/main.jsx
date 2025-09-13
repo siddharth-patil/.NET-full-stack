@@ -10,6 +10,7 @@ import Header from "./components/Header.jsx";
 import { createBrowserRouter, RouterProvider, Outlet, BrowserRouter } from "react-router-dom";
 import RestaurantMenu from "./components/RestaurantMenu.jsx";
 import Shimmer from "./components/Shimmer.jsx";
+import Cart from "./components/Cart.jsx";
 // import Grocery from "./components/Grocery.jsx";
 
 const Grocery = lazy(()=>
@@ -52,6 +53,10 @@ const appRouter = createBrowserRouter([
       {
         path:"/grocery",
         element:<Suspense fallback={<Shimmer/>}><Grocery/></Suspense>
+      },
+      {
+        path:'/cart',
+        element: <Cart />
       }
     ],
   },

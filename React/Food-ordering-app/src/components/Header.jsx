@@ -4,6 +4,7 @@ import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import { useSelector } from "react-redux";
 
 function Header() {
   const [btnNameReact, setBtnNameReact] = useState("Login");
@@ -12,6 +13,9 @@ function Header() {
 
   // const data = useContext(UserContext);
   const {loggedInUser} = useContext(UserContext);
+
+  //subscribing to the store using selector
+  const cartItems = useSelector((store)=> store.cart.items);
 
   return (
     <>
@@ -38,7 +42,9 @@ function Header() {
               {/* using lazy loading for grocey (routing) */}
               <Link className="link" to="/grocery">Grocery</Link>
             </li>
-            <li>Cart</li>
+            <li className="fw-bold">
+              <Link className="link" to="/cart">  Cart - ({cartItems.length} items)</Link>
+            </li>
             <button
               className="login mx-2"
               onClick={() => {

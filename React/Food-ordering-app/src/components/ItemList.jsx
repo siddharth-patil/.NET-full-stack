@@ -1,8 +1,17 @@
+import { useDispatch } from "react-redux";
 import { CDN_URL } from "../utils/restList";
+import { addItem } from "../utils/cartSlice";
 
 /* eslint-disable no-unused-vars */
 const ItemList = ({ items }) => {
   // console.log(items);
+
+  const dispatch = useDispatch();
+
+  const handleAddItem = (item) =>{
+    //Dispatch an action
+    dispatch(addItem(item));
+  }
 
   return (
     <div>
@@ -23,7 +32,9 @@ const ItemList = ({ items }) => {
             </p>
           </div>
           <div className="w-25">
-            <button className="position-absolute z-1 mx-lg-4 px-2 border-0 rounded bg-opacity-75 bg-info">Add</button>
+            <button className="position-absolute z-1 mx-lg-4 px-2 border-0 rounded bg-opacity-75 bg-info"
+            onClick={()=>handleAddItem(item)}
+            >Add</button>
             <img src={CDN_URL + item.card.info.imageId} className="w-50 my-2 rounded-3 position-relative" />
           </div>
         </div>
