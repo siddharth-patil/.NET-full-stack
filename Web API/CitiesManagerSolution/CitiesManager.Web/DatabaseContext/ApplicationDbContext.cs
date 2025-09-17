@@ -26,5 +26,10 @@ namespace CitiesManager.Web.DatabaseContext
             modelBuilder.Entity<City>().HasData(new City() { CityID = Guid.Parse("55546F87-EB17-4F74-9A2C-FB2954DF6A54"),
                 CityName = "Los Angeles" });
         }
+
+        internal object FindAsync(Guid cityId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

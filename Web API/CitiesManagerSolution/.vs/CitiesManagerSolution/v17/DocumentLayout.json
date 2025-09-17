@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,27 +40,27 @@
               "RelativeDocumentMoniker": "CitiesManager.Web\\Controllers\\CitiesController.cs",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\CitiesController.cs",
               "RelativeToolTip": "CitiesManager.Web\\Controllers\\CitiesController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwF8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T15:55:06.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\DatabaseContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "CitiesManager.Web\\DatabaseContext\\ApplicationDbContext.cs",
               "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\DatabaseContext\\ApplicationDbContext.cs",
               "RelativeToolTip": "CitiesManager.Web\\DatabaseContext\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwBkAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T14:54:02.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "City.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Models\\City.cs",
               "RelativeDocumentMoniker": "CitiesManager.Web\\Models\\City.cs",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TestController.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\TestController.cs",
               "RelativeDocumentMoniker": "CitiesManager.Web\\Controllers\\TestController.cs",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Program.cs",
               "RelativeDocumentMoniker": "CitiesManager.Web\\Program.cs",

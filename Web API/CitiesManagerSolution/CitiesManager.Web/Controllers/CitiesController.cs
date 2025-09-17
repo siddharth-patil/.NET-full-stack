@@ -25,14 +25,16 @@ namespace CitiesManager.Web.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<City>>> GetCities()
         {
-            return await _context.Cities.ToListAsync();
+            var cities = await _context.Cities.OrderBy(temp=>temp.CityName).ToListAsync();
+
+            return cities;
         }
 
         // GET: api/Cities/5
         [HttpGet("{id}")]
         public async Task<ActionResult<City>> GetCity(Guid id)
         {
-            var city = await _context.Cities.FindAsync(id);
+            var city = await _context.Cities.FirstOrDefaultAsync(temp=>temp.CityID == id);
 
             if (city == null)
             {
@@ -44,15 +46,24 @@ namespace CitiesManager.Web.Controllers
 
         // PUT: api/Cities/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCity(Guid id, City city)
+        [HttpPut("{cityId}")]
+        public async Task<IActionResult> PutCity(Guid cityId, [Bind(nameof(City.CityID),
+            nameof(City.CityName))] City city)
         {
-            if (id != city.CityID)
+            if (cityId != city.CityID)
             {
-                return BadRequest();
+                return BadRequest(); //HTTP 400
             }
 
-            _context.Entry(city).State = EntityState.Modified;
+            var existingCity = await _context.Cities.FindAsync(cityId);
+            if (existingCity == null)
+            {
+                return NotFound(); //HTTP 404
+            }
+
+            existingCity.CityName = city.CityName;
+
+            //_context.Entry(city).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +71,7 @@ namespace CitiesManager.Web.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CityExists(id))
+                if (!CityExists(cityId))
                 {
                     return NotFound();
                 }
@@ -76,7 +87,8 @@ namespace CitiesManager.Web.Controllers
         // POST: api/Cities
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<City>> PostCity(City city)
+        public async Task<ActionResult<City>> PostCity([Bind(nameof(City.CityID), 
+            nameof(City.CityName))]City city)
         {
             _context.Cities.Add(city);
             await _context.SaveChangesAsync();

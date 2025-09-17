@@ -47,6 +47,27 @@
   },
   {
     "ContainingType": "CitiesManager.Web.Controllers.CitiesController",
+    "Method": "PutCity",
+    "RelativePath": "api/Cities/{cityId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "city",
+        "Type": "CitiesManager.Web.Models.City",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CitiesManager.Web.Controllers.CitiesController",
     "Method": "GetCity",
     "RelativePath": "api/Cities/{id}",
     "HttpMethod": "GET",
@@ -70,27 +91,6 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "CitiesManager.Web.Controllers.CitiesController",
-    "Method": "PutCity",
-    "RelativePath": "api/Cities/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "city",
-        "Type": "CitiesManager.Web.Models.City",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   },
   {
     "ContainingType": "CitiesManager.Web.Controllers.CitiesController",
