@@ -90,6 +90,15 @@ namespace CitiesManager.Web.Controllers
         public async Task<ActionResult<City>> PostCity([Bind(nameof(City.CityID), 
             nameof(City.CityName))]City city)
         {
+            //if(ModelState.IsValid == false)
+            //{
+            //    return ValidationProblem(ModelState);
+            //}
+
+            if (_context.Cities == null)
+            {
+                return Problem("Entity set 'ApplicationDbContext.Cities'  is null.");
+            }
             _context.Cities.Add(city);
             await _context.SaveChangesAsync();
 

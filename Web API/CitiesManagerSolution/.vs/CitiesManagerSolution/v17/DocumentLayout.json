@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\models\\city.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\models\\city.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\clientapp\\citiesangularapp\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\clientapp\\citiesangularapp\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|e:\\fullstack dotnet dev seed\\web api\\citiesmanagersolution\\citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\cities\\cities.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{E04DA9B3-5E38-43A9-ADFA-03A6551CC217}|CitiesManager.Web\\CitiesManager.Web.csproj|solutionrelative:citiesmanager.web\\clientapp\\citiesangularapp\\src\\app\\cities\\cities.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CitiesController.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\CitiesController.cs",
-              "RelativeDocumentMoniker": "CitiesManager.Web\\Controllers\\CitiesController.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\CitiesController.cs",
-              "RelativeToolTip": "CitiesManager.Web\\Controllers\\CitiesController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwF8AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T15:55:06.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\DatabaseContext\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "CitiesManager.Web\\DatabaseContext\\ApplicationDbContext.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\DatabaseContext\\ApplicationDbContext.cs",
-              "RelativeToolTip": "CitiesManager.Web\\DatabaseContext\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T14:54:02.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "City.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Models\\City.cs",
-              "RelativeDocumentMoniker": "CitiesManager.Web\\Models\\City.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Models\\City.cs",
-              "RelativeToolTip": "CitiesManager.Web\\Models\\City.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T14:48:43.944Z",
+              "Title": "app.ts",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.ts",
+              "RelativeDocumentMoniker": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.ts",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.ts",
+              "RelativeToolTip": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-17T17:25:22.437Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "CitiesManager.Web\\Controllers\\TestController.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\TestController.cs",
-              "RelativeToolTip": "CitiesManager.Web\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T14:39:53.956Z",
+              "DocumentIndex": 0,
+              "Title": "city.ts",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\models\\city.ts",
+              "RelativeDocumentMoniker": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\models\\city.ts",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\models\\city.ts",
+              "RelativeToolTip": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\models\\city.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-18T16:39:46.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Program.cs",
-              "RelativeDocumentMoniker": "CitiesManager.Web\\Program.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Program.cs",
-              "RelativeToolTip": "CitiesManager.Web\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T14:38:30.773Z",
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\tsconfig.json",
+              "RelativeDocumentMoniker": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\tsconfig.json",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\tsconfig.json",
+              "RelativeToolTip": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-18T16:14:28.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cities.ts",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\cities\\cities.ts",
+              "RelativeDocumentMoniker": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\cities\\cities.ts",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\cities\\cities.ts",
+              "RelativeToolTip": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\cities\\cities.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-17T17:28:03.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.html",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.html",
+              "RelativeDocumentMoniker": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.html",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.html",
+              "RelativeToolTip": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.html",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-09-18T15:37:31.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app.routes.ts",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.routes.ts",
+              "RelativeDocumentMoniker": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.routes.ts",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.routes.ts",
+              "RelativeToolTip": "CitiesManager.Web\\ClientApp\\CitiesAngularApp\\src\\app\\app.routes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-09-17T17:25:17.069Z",
               "EditorCaption": ""
             }
           ]
