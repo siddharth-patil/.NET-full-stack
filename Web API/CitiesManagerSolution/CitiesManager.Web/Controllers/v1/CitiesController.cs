@@ -7,12 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CitiesManager.Web.DatabaseContext;
 using CitiesManager.Web.Models;
+using Asp.Versioning;
 
-namespace CitiesManager.Web.Controllers
+namespace CitiesManager.Web.Controllers.v1
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CitiesController : ControllerBase
+    [ApiVersion("1.0")]
+    
+    public class CitiesController : CustomControllerBase
     {
         private readonly ApplicationDbContext _context;
 
@@ -22,7 +23,12 @@ namespace CitiesManager.Web.Controllers
         }
 
         // GET: api/Cities
+        /// <summary>
+        /// To get list of cities (including city ID and city name from 'cities' table)
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
+        [Produces("application/json")]
         public async Task<ActionResult<IEnumerable<City>>> GetCities()
         {
             var cities = await _context.Cities.OrderBy(temp=>temp.CityName).ToListAsync();

@@ -9,10 +9,12 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let city of cities; let i=index">
-        <td>{{i+1}}</td>
-        <td>{{city.cityName}}</td>
+      @for (city of cities; track $index) {
+      <tr>
+        <td>{{ $index + 1 }}</td>
+        <td>{{ city.cityName }}</td>
       </tr>
+      }
     </tbody>
   </table>
 </div>

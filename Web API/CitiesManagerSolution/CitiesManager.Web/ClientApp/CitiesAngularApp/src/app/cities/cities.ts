@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { City } from '../models/city';
 import { CitiesService } from '../services/citiesService';
 import { CommonModule } from '@angular/common';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-cities',
@@ -11,10 +12,15 @@ import { CommonModule } from '@angular/common';
 })
 export class Cities {
   cities: City[] = [];
+  postCityForm : FormGroup;
 
-  constructor(private citiesService: CitiesService) {}
+  constructor(private citiesService: CitiesService) {
+    this.postCityForm = new FormGroup({
+      cityName:new FormControl(null,[Validators.required])
+    })
+  }
 
-  ngOnInit() {
+  loadCities(){
     this.citiesService.getCities().subscribe({
       next: (response: City[]) => {
         this.cities = response;
@@ -24,5 +30,17 @@ export class Cities {
       },
       complete: () => {},
     });
+  }
+
+  ngOnInit() {
+    this.loadCities();
+  }
+
+  get postCity_CityNameControl(): any{
+    return this.postCityForm.controls['cityName'];
+  }
+
+  postCitySubmitted(){
+    
   }
 }
