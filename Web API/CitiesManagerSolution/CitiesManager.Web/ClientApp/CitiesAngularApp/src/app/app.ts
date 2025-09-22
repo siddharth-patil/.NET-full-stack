@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 //import { RouterLink } from '../../node_modules/@angular/router/router_module.d';
 //import { RouterLinkActive } from '../../node_modules/@angular/router/router_module.d';
 import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
+// import { DisableControl } from './directive/disable-control';
 
 
 @Component({

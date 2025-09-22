@@ -18,13 +18,15 @@
             <!-- <td>{{ city.cityName }}</td> -->
              <td [formGroupName]="$index">
                 <input type="text" formControlName="cityName" [ngClass]="{'border-less-textbox':city.cityID!=editCityID, 
-                  'form-input':city.cityID==editCityID,}" [disabled]="city.cityID !=editCityID">
+                  'form-input':city.cityID==editCityID,}" [disableControl]="city.cityID !=editCityID">
              </td>
             <td style="width: 200px;">
               <button class="button button-blue-back" (click)="editClicked(city)"
-              *ngIf="city.cityID!= editCityID">Edit</button>
+              *ngIf="city.cityID!= editCityID" type="button">Edit</button>
               <button class="button button-blue-back" (click)="updateClicked($index)"
-              *ngIf="city.cityID== editCityID">Update</button>
+              *ngIf="city.cityID== editCityID" type="submit">Update</button>
+              <button class="button button-red-back ml" (click)="deleteClicked(city,$index)"
+              *ngIf="city.cityID!= editCityID" type="button">Delete</button>
             </td>
           </tr>
           }

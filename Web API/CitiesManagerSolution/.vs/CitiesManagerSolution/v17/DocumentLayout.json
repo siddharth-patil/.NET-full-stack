@@ -30,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\v1\\CitiesController.cs",
+              "RelativeDocumentMoniker": "CitiesManager.Web\\Controllers\\v1\\CitiesController.cs",
+              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\v1\\CitiesController.cs",
+              "RelativeToolTip": "CitiesManager.Web\\Controllers\\v1\\CitiesController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAowGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T14:38:46.037Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -54,8 +67,7 @@
               "RelativeToolTip": "CitiesManager.Web\\Program.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T15:36:28.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T15:36:28.094Z"
             },
             {
               "$type": "Document",
@@ -68,19 +80,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T10:01:19.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CitiesController.cs",
-              "DocumentMoniker": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\v1\\CitiesController.cs",
-              "RelativeDocumentMoniker": "CitiesManager.Web\\Controllers\\v1\\CitiesController.cs",
-              "ToolTip": "E:\\FullStack dotNET dev Seed\\Web API\\CitiesManagerSolution\\CitiesManager.Web\\Controllers\\v1\\CitiesController.cs",
-              "RelativeToolTip": "CitiesManager.Web\\Controllers\\v1\\CitiesController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAowGcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T14:38:46.037Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
