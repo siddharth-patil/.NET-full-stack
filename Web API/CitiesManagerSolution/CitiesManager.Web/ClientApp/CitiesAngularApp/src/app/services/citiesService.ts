@@ -1,15 +1,13 @@
 import { Injectable } from '@angular/core';
-import {City} from '../models/city';
+import { City } from '../models/city';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-
-const API_BASE_URL = "https://localhost:7252/api/";
+const API_BASE_URL = 'https://localhost:7252/api/';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
-
 export class CitiesService {
   cities: City[] = [];
 
@@ -21,29 +19,36 @@ export class CitiesService {
   //    new City(104, 'Mumbai'),
   //   ];
   // }
-   constructor(private httpClient:HttpClient) {
-
-  }
+  constructor(private httpClient: HttpClient) {}
 
   public getCities(): Observable<City[]> {
     // return this.cities;
 
     let headers = new HttpHeaders();
-    headers = headers.append("Authorization","Bearer mytoken");
+    headers = headers.append('Authorization', 'Bearer mytoken');
 
-    return this.httpClient.get<City[]>(`${API_BASE_URL}v1/cities`,
-      {headers:headers}
-    );
+    return this.httpClient.get<City[]>(`${API_BASE_URL}v1/cities`, {
+      headers: headers,
+    });
   }
 
-  public postCities(city:City): Observable<City> {
+  public postCities(city: City): Observable<City> {
     // return this.cities;
 
     let headers = new HttpHeaders();
-    headers = headers.append("Authorization","Bearer mytoken");
+    headers = headers.append('Authorization', 'Bearer mytoken');
 
-    return this.httpClient.post<City>(`${API_BASE_URL}v1/cities`,
-      city,{headers:headers}
-    );
+    return this.httpClient.post<City>(`${API_BASE_URL}v1/cities`, city, {
+      headers: headers,
+    });
+  }
+
+  public putCity(city: City): Observable<string> {
+    let headers = new HttpHeaders();
+    headers = headers.append('Authorization', 'Bearer mytoken');
+
+    return this.httpClient.put<string>(`${API_BASE_URL}v1/cities`, city, {
+      headers: headers,
+    });
   }
 }
