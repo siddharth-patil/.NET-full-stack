@@ -1,3 +1,4 @@
+using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +13,8 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 }); // Add your DbContext here
+
+builder.Services.AddScoped<IProductRepository, ProductRepository>(); // Add your repository here
 
 var app = builder.Build();
 
