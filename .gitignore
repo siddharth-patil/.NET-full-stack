@@ -488,4 +488,4 @@ FSD .NET Core.pdf
 node_modules
 *.vsidx
 .vs
-/Project/skinet/API/appsettings.json
+appsettings.json
