@@ -10,3 +10,5 @@ E:\FullStack dotNET dev Seed\Project\skinet\Core\obj\Debug\net9.0\Core.dll
 E:\FullStack dotNET dev Seed\Project\skinet\Core\obj\Debug\net9.0\refint\Core.dll
 E:\FullStack dotNET dev Seed\Project\skinet\Core\obj\Debug\net9.0\Core.pdb
 E:\FullStack dotNET dev Seed\Project\skinet\Core\obj\Debug\net9.0\ref\Core.dll
+E:\FullStack dotNET dev Seed\Project\skinet\Core\bin\Debug\net9.0\Core.runtimeconfig.json
+E:\FullStack dotNET dev Seed\Project\skinet\Core\obj\Debug\net9.0\Core.genruntimeconfig.cache

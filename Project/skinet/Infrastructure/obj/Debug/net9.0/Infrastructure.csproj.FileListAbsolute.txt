@@ -14,3 +14,5 @@ E:\FullStack dotNET dev Seed\Project\skinet\Infrastructure\obj\Debug\net9.0\Infr
 E:\FullStack dotNET dev Seed\Project\skinet\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
 E:\FullStack dotNET dev Seed\Project\skinet\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 E:\FullStack dotNET dev Seed\Project\skinet\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+E:\FullStack dotNET dev Seed\Project\skinet\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+E:\FullStack dotNET dev Seed\Project\skinet\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
