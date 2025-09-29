@@ -11,10 +11,11 @@ namespace Core.Interfaces
     {
         Task<IReadOnlyList<Product>> GetProductsAsync();
         Task<Product?> GetProductByIdAsync(int id);
+        //Task<IReadOnlyList<string>>
 
         void AddProduct(Product product);
         void UpdateProduct(Product product);
-        void DeleteProduct(int id);
+        void DeleteProduct(Product product);
         bool ProductExists(int id);
         Task<bool> SaveChangesAsync();
     }

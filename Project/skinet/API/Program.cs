@@ -26,4 +26,18 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+try
+{
+    using var scope = app.Services.CreateScope(); // Create a scope to get scoped services like DbContext
+    var services = scope.ServiceProvider; // Get the service provider
+    var context = services.GetRequiredService<StoreContext>(); // Get your DbContext
+    await context.Database.MigrateAsync(); // Apply any pending migrations
+    await StoreContextSeed.SeedAsync(context); // Seed the database
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex);
+	throw;
+}
+
 app.Run();
