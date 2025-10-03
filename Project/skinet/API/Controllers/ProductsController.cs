@@ -18,10 +18,10 @@ namespace API.Controllers
         //}
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<Product>>> GetProducts(string? brand, string? type, string? sort)
         {
             //return await context.Products.ToListAsync();
-            return Ok(await repo.GetProductsAsync());
+            return Ok(await repo.GetProductsAsync(brand, type, sort));
         }
 
         [HttpGet("{id:int}")] //api/products/2
@@ -74,11 +74,6 @@ namespace API.Controllers
 
         }
 
-        private bool ProductExists(int id)
-        {
-            //return context.Products.Any(x => x.Id == id);
-            return repo.ProductExists(id);
-        }
 
         [HttpDelete("{id:int}")]
         public async Task<ActionResult> DeleteProduct(int id)
@@ -102,6 +97,26 @@ namespace API.Controllers
 
             return BadRequest("Problem in deleting the product!");
 
+        }
+
+        [HttpGet("brands")]
+        public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
+        {
+            //return await context.ProductBrands.ToListAsync();
+            return Ok(await repo.GetBrandsAsync());
+        }
+
+        [HttpGet("types")]
+        public async Task<ActionResult<IReadOnlyList<string>>> GetTypes()
+        {
+            //return await context.ProductBrands.ToListAsync();
+            return Ok(await repo.GetTypesAsync());
+        }
+
+        private bool ProductExists(int id)
+        {
+            //return context.Products.Any(x => x.Id == id);
+            return repo.ProductExists(id);
         }
     }
 }
