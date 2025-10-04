@@ -15,6 +15,7 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 }); // Add your DbContext here
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>(); // Add your repository here
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 
 var app = builder.Build();
 
