@@ -108,8 +108,11 @@ namespace API.Controllers
         public async Task<ActionResult<IReadOnlyList<string>>> GetBrands()
         {
             //return await context.ProductBrands.ToListAsync();
-            //TODO - implement in GenericRepository
-            return Ok();
+            //TODO - implement in GenericRepositoryd
+
+            var spec = new BrandListSpecification();
+
+            return Ok(await repo.ListAsync(spec));
         }
 
         [HttpGet("types")]
@@ -117,7 +120,10 @@ namespace API.Controllers
         {
             //return await context.ProductBrands.ToListAsync();
             //TODO - implement in GenericRepository
-            return Ok();
+
+            var spec = new TypeListSpecification();
+            var types = await repo.ListAsync(spec);
+            return Ok(types);
         }
 
         private bool ProductExists(int id)

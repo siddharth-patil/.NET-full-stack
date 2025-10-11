@@ -27,7 +27,44 @@ namespace Infrastructure.Data
                 query = query.OrderByDescending(spec.OrderByDescinding);
             }
 
+            if (spec.IsDistinct)
+            {
+                query = query.Distinct();
+            }
+
             return query;
+        }
+
+        public static IQueryable<TResult> GetQuery<TSpec, TResult>(IQueryable<T> query, ISpecification<T, TResult> spec)
+        {
+            if (spec.Criteria != null)
+            {
+                query = query.Where(spec.Criteria); // p => p.Brand == brand
+            }
+
+            if (spec.OrderBy != null)
+            {
+                query = query.OrderBy(spec.OrderBy);
+            }
+
+            if (spec.OrderByDescinding != null)
+            {
+                query = query.OrderByDescending(spec.OrderByDescinding);
+            }
+
+            var selectQuery = query as IQueryable<TResult>;
+
+            if (spec.Select != null)
+            {
+                selectQuery = query.Select(spec.Select); // p => new ProductToReturnDto { Id = p.Id, Name = p.Name, Description = p.Description, Price = p.Price, PictureUrl = p.PictureUrl, Brand = p.Brand, Type = p.Type };
+            }
+
+            if (spec.IsDistinct)
+            {
+                    selectQuery = selectQuery?.Distinct();
+            }
+
+            return selectQuery ?? query.Cast<TResult>();
         }
     }
 }
