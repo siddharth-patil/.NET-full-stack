@@ -55,7 +55,7 @@ namespace Infrastructure.Data
             
 
             //return await context.Products.ToListAsync();
-            return await query.ToListAsync();
+            return await query.Skip(5).Take(5).ToListAsync(); // pagination example
         }
 
         public async Task<IReadOnlyList<string>> GetTypesAsync()
