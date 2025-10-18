@@ -17,6 +17,7 @@ builder.Services.AddDbContext<StoreContext>(opt =>
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>(); // Add your repository here
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -26,6 +27,9 @@ var app = builder.Build();
 
 //app.UseAuthorization();
 app.UseMiddleware<ExceptionMiddleware>();
+
+app.UseCors(x=>x.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:4200","https://localhost:4200"));
+
 app.MapControllers();
 
 try

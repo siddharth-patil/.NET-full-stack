@@ -49,7 +49,7 @@
     "Parameters": [
       {
         "Name": "product",
-        "Type": "Core.Entities.Product",
+        "Type": "API.DTOs.CreateProductDto",
         "IsRequired": true
       }
     ],
