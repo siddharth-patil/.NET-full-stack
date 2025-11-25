@@ -14,10 +14,10 @@ export class InitService {
     const cartId = localStorage.getItem('cart_id');
     const cart$ = cartId ? this.cartService.getCart(cartId) : of(null)
 
-    // return cart$;
-    return forkJoin({
-      cart: cart$,
-      user: this.accountService.getUserInfo()
-    })
+    return cart$;
+    // return forkJoin({
+    //   cart: cart$,
+    //   user: this.accountService.getUserInfo()
+    // })
   }
 }
