@@ -489,3 +489,6 @@ node_modules
 *.vsidx
 .vs
 appsettings.json
+bin/
+obj/
+out/
