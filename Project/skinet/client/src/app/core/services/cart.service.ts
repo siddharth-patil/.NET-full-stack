@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { Cart, CartItem } from '../../shared/models/cart';
 import { Product } from '../../shared/models/product';
 import { map } from 'rxjs';
+import { DelivetyMethod } from '../../shared/models/deliveryMethod';
 
 @Injectable({
   providedIn: 'root'
@@ -15,11 +16,13 @@ export class CartService {
   itemCount = computed(()=>{
     return this.cart()?.items.reduce((sum, item) => sum + item.quantity,0)
   });
+  selectedDelivery = signal<DelivetyMethod | null>(null);
   totals = computed(()=>{
     const cart = this.cart();
+    const deliveryMethod = this.selectedDelivery();
     if (!cart) return null;
     const subtotal = cart.items.reduce((sum, item) => sum+item.price * item.quantity, 0);
-    const shipping = 0;
+    const shipping = deliveryMethod ? deliveryMethod.price : 0;
     const discount = 0;
     return{
       subtotal, shipping, discount, total:subtotal+shipping-discount
@@ -38,7 +41,7 @@ export class CartService {
     )
   }
 
-  serCart(cart:Cart){
+  setCart(cart:Cart){
     return this.http.post<Cart>(this.baseUrl + 'cart', cart).subscribe({
       next: cart => this.cart.set(cart)
     })
@@ -50,7 +53,7 @@ export class CartService {
       item = this.mapProductToCartItem(item);     
     }
     cart.items = this.addOrUpdateItem(cart.items, item, quantity);
-    this.serCart(cart);
+    this.setCart(cart);
   }
 
   removeItemFromCart(productId: number, quantity=1){
@@ -66,7 +69,7 @@ export class CartService {
       if (cart.items.length === 0) {
         this.deleteCart();
       } else{
-        this.serCart(cart);
+        this.setCart(cart);
       }
     }
   }
